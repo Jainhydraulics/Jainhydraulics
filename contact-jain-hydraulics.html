@@ -344,7 +344,7 @@ function MM_validateForm() { //v4.0
 								</tr>
 								<tr>
 									<td>
-									<form action="/cgi-sys/FormMail.cgi" id="form1" method="post" name="form1">
+									<form data-netlify="true" id="contact" method="POST" name="contact">
 									<table border="0" cellpadding="4" cellspacing="1" width="93%">
 										<tbody>
 											<tr>
@@ -361,7 +361,7 @@ function MM_validateForm() { //v4.0
 											<tr>
 												<td align="left" class="text" height="35">E-mail Address:</td>
 												<td height="35"></td>
-												<td align="left" height="35"><input class="text" id="e-mail " name="e-mail " size="50" type="text" /></td>
+												<td align="left" height="35"><input class="text" id="e-mail " name="e-mail " size="50" type="email" /></td>
 											</tr>
 											<tr>
 												<td align="left" class="text" height="35">Phone No:</td>
@@ -389,7 +389,7 @@ function MM_validateForm() { //v4.0
 												<td align="left" colspan="3"><textarea class="text" cols="76" id="textarea" name="textarea" rows="6"></textarea></td>
 											</tr>
 											<tr>
-												<td align="left" colspan="3"><input class="text" id="submit" name="submit" type="submit" value="Submit Form" /> &nbsp; <input class="text" id="reset" name="reset" onclick="MM_validateForm('address','','R');return document.MM_returnValue" type="reset" value="Reset" /> &nbsp;&nbsp;&nbsp; &nbsp;<span class="text"> <input id="subject" name="subject" type="hidden" value="Business Enquiry" /> <input id="redirect" name="redirect" type="hidden" value="http://www.jainhydraulics.com/thanks.html" /> <input name="recipient" type="hidden" value="info@jainhydraulics.com, dm@mediacell.in" /> </span></td>
+                                                <td align="left" colspan="3"><button class="text" id="submit" name="submit" type="submit" value="Submit Form" /></td>
 											</tr>
 										</tbody>
 									</table>
