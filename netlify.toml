@@ -3,11 +3,25 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/contact-jain-hydraulics"
+  to = "/contact"
+
+[[redirects]]
+  from = "/about-jain-hydraulics"
+  to = "/about"
+
+[[redirects]]
+  from = "/vision-jain-hydraulics"
+  to = "/about"
+
+[[redirects]]
   from = "/baling-press-continuous*"
   to = "/products/balers/continuous"
+
 [[redirects]]
   from = "/shredder*"
   to = "/products/shredders/"
+  
 [[redirects]]
   from = "/baling-press-super*"
   to = "/products/balers/super jumbo"
