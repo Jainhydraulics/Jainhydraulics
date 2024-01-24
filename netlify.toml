@@ -3,6 +3,14 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/metal-recycling*"
+  to = "/metal recycling"
+
+[[redirects]]
+  from = "/waste-recycling*"
+  to = "/waste recycling"
+
+[[redirects]]
   from = "/contact-jain-hydraulics"
   to = "/contact"
 
