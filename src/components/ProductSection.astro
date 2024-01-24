@@ -1,0 +1,57 @@
+---
+//import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+//import SecondaryNav from "./components/SecondaryNav.astro";
+import productData from "../products.json";
+
+const { products, productNames, productImages, productType, industryType } = Astro.props;
+
+const productKeys = [];
+
+//Convert the names to access object keys, replace space with _, and converts to lowerCase
+productNames.forEach(element => {
+	element = element.toLowerCase().replaceAll(" ", "_");
+	productKeys.push(element);
+});
+
+---
+
+<!-- Card Blog -->
+    <!-- Grid -->
+<div class="grid sm:grid-cols-2 gap-6 lg:gap-18" id={productType}>
+    
+    {
+        
+        productNames.map((item, index) => (
+            
+                products[productKeys[index]].industry && products[productKeys[index]].industry.includes(industryType) === true ?
+                <div class="group flex flex-col bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                    <div class="h-64 flex w-full flex-col justify-center items-center rounded-t-xl py-2">
+                        <Image class="h-full w-auto object-scale-down" src={productImages[index].default} alt={item} />
+                    </div>
+                    <div class="p-4 md:p-6">
+                        <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+                            { products[productKeys[index]].industry }
+                        </span>
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white">
+                            {`${item} ${productType[0].toUpperCase() + productType.slice(1, productType.length - 1)}`}
+                        </h3>
+                        <p class="mt-3 text-gray-500">
+                            { products[productKeys[index]].description }
+                        </p>
+                    </div>
+                    <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
+                        <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/${productType}/${item.toLowerCase()}`}>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            : null
+    
+        ))
+        
+    }
+    
+    
+</div>
+<!-- End Grid -->

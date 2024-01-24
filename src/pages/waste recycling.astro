@@ -1,0 +1,84 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProductSection from "../components/ProductSection.astro";
+import productData from "../products.json";
+
+const balerImages = await Astro.glob("../images/Products/Balers/*");
+const shearImages = await Astro.glob("../images/Products/Shears/*");
+const shredderImages = await Astro.glob("../images/Products/Shredders/*");
+
+const balers = productData.balers;
+const shears = productData.shears;
+const shredders= productData.shredders;
+
+const balerNames = productData.balers.types;
+const shearNames = productData.shears.types;
+const shredderNames = productData.shredders.types;
+
+---
+
+<Layout title="JHR: Waste Recycling Processing" description="Delve into the world of Waste Recycling Explained - your ultimate guide to sustainable waste management. Uncover eco-friendly practices, industry insights, and innovative solutions for responsibly handling and processing various types of waste. Navigate the key principles that redefine waste recycling, promoting environmental consciousness and a greener future.">
+
+    <div class="max-w-[65rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16 prose prose-ul:list-none prose-ul:p-0 prose-h3:m-0 prose-a:no-underline">
+        
+        
+        <h2 class="text-center font-medium">Waste Recycling Solutions by Jain Hydraulics Recycling</h2>
+        
+        <h3>1. Recycling Process Optimization</h3>
+        <p>
+            As the waste recycling industry continues to evolve, Jain Hydraulics Recycling addresses the challenge of
+            efficiently managing waste materials. This positively impacts sustainability and profitability. To achieve this,
+            we introduce advanced processing methods such as sorting, shredding, compacting, and briquetting. These techniques
+            streamline the handling of waste materials, making transportation and storage more efficient. Embracing waste
+            recycling not only contributes to environmental preservation by reducing landfill usage but also offers a
+            sustainable and profitable solution. This venture ensures a constant supply of recyclable materials, promoting
+            job creation and contributing to the establishment of a circular economy.
+        </p>
+        
+        <h3>2. Comprehensive Waste Recycling Product Range</h3>
+        <p>
+            Jain Hydraulics Recycling takes pride in offering a comprehensive lineup of cutting-edge waste recycling
+            machinery, featuring:
+        </p>
+        <ul class="items-center grid gap-y-2">
+            <a class="text-sm p-4 font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#balers"><li>Balers</li></a>
+            <a class="text-sm p-4 font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#shredders"><li>Shredders</li></a>
+            <a class="text-sm p-4 font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#shears"><li>Shears</li></a>
+        </ul>
+        <p>
+            In addition to supplying top-notch machinery, we provide consultancy services aimed at optimizing production in
+            existing waste recycling setups and assisting in the development of new recycling facilities. Our commitment to
+            custom solutions ensures that the unique waste processing requirements of each client are met with precision.
+        </p>
+        
+        <h3>3. Sustainable Waste Processing System</h3>
+        <p>
+            Jain Hydraulics Recycling has developed a holistic and sustainable waste processing system that focuses on
+            efficiency, resource conservation, and environmental responsibility. This system encompasses:
+        </p>
+        <ul>
+            <li><strong>Sorting:</strong> Efficiently separating recyclable materials from mixed waste using advanced sorting
+                systems.</li>
+                <li><strong>Shredding:</strong> Breaking down waste materials into manageable sizes for further processing.</li>
+                <li><strong>Compacting:</strong> Reducing the volume of waste materials through compactors for efficient
+                    storage.</li>
+                    <li><strong>Briquetting:</strong> Transforming waste materials into briquettes for easy handling and
+                        transportation.</li>
+                        <li><strong>Optimization:</strong> Continuous improvement and adaptation to the latest technological
+                            advancements for the most efficient and eco-friendly waste recycling processes.</li>
+                        </ul>
+                        <p>
+                            In essence, Jain Hydraulics Recycling not only provides cutting-edge machinery but also serves as a strategic
+                            partner in advancing sustainable and profitable waste recycling practices in the business landscape.
+                        </p>
+                        
+                        <h4 class="text-center text-2xl md:text-3xl">Products</h4>
+                        <ProductSection productNames={balerNames} productImages={balerImages} productType="balers" products={balers} industryType="Waste Recycling" />
+                        <hr class="h-[1px] bg-black col-span-full border-0 dark:bg-gray-700">
+                        <ProductSection productNames={shredderNames} productImages={shredderImages} productType="shredders" products={shredders} industryType="Waste Recycling" />
+    </div>
+
+
+
+
+</Layout>

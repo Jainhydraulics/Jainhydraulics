@@ -1,0 +1,90 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProductSection from "../components/ProductSection.astro";
+import productData from "../products.json";
+
+const balerImages = await Astro.glob("../images/Products/Balers/*");
+const shearImages = await Astro.glob("../images/Products/Shears/*");
+const shredderImages = await Astro.glob("../images/Products/Shredders/*");
+
+const balers = productData.balers;
+const shears = productData.shears;
+const shredders= productData.shredders;
+
+const balerNames = productData.balers.types;
+const shearNames = productData.shears.types;
+const shredderNames = productData.shredders.types;
+
+---
+
+<Layout title="JHR: Metal Recycling Processing" description="Dive into Metal Recycling Explained, your go-to guide for sustainable practices in handling and processing metal scrap. Discover eco-friendly solutions, industry insights, and key principles reshaping the landscape of responsible metal scrap recycling. Explore the journey towards environmental responsibility and resource conservation in the metal recycling domain.">
+
+    
+    <div class="max-w-[65rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16 prose prose-ul:list-none prose-ul:p-0 prose-h3:m-0 prose-a:no-underline ">
+
+
+        <h2 class="text-center font-medium">Metal Scrap Recycling Solutions by Jain Hydraulics Recycling</h2>
+        
+        <h3>1. Scrap Processing Optimization</h3>
+        <p>
+            As India's scrap processing industry is still evolving, Jain Hydraulics Recycling addresses the challenge of
+            impure metal scrap faced by many dealers. This negatively impacts productivity and profitability. To counter this,
+            we introduce efficient processing methods such as baling, shearing, shredding, and briquetting. These techniques
+            facilitate the compaction of large volumes of metal scrap, easing transportation and storage. This not only
+            contributes to space conservation by reducing landfill usage but also aligns with environmental protection
+            efforts. Embracing scrap processing is a sustainable and lucrative venture, ensuring a constant supply of raw
+            materials. It not only promotes job creation but also contributes to the establishment of a circular economy. This
+            is particularly beneficial for large-scale metal manufacturers, including those in the white goods and automobile
+            sectors, allowing them to enhance profit margins through strategic investments in scrap processing.
+        </p>
+        
+        <h3>2. Comprehensive Metal Recycling Product Range</h3>
+        <p>
+            Jain Hydraulics Recycling prides itself on offering a comprehensive lineup of cutting-edge metal recycling
+            machinery, featuring:
+        </p>
+        <ul class="grid gap-y-2">
+            <a class="text-sm p-4 font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#balers"><li>Balers</li></a>
+            <a class="text-sm p-4 font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#shredders"><li>Shredders</li></a>
+            <a class="text-sm p-4 font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#shears"><li>Shears</li></a>
+        </ul>
+        <p>
+            In addition to supplying top-notch machinery, we offer consultancy services aimed at optimizing production in
+            existing metal recycling setups and assisting in the development of new recycling plants. Our commitment to
+            custom solutions ensures that the unique waste scrap processing requirements of each client are met with precision.
+        </p>
+        
+        <h3>3. Sustainable Metal Scrap Processing System</h3>
+        <p>
+            Jain Hydraulics Recycling has developed a holistic and sustainable metal scrap processing system that focuses on
+            efficiency, resource conservation, and environmental responsibility. This system encompasses:
+        </p>
+        <ul>
+            <li><strong>Sorting:</strong> Distinguishing the required metal scrap from mixed waste materials using methods
+                such as magnetic separation or manual assessment based on material properties, color, or weight.</li>
+                <li><strong>Cleaning:</strong> Eliminating unwanted materials from the metal scrap, such as dust, rust, and
+                    non-metallic components like fabric, to enhance the purity of the waste scrap.</li>
+                    <li><strong>Sizing:</strong> Tailoring the scrap material size to align with furnace specifications. Balers,
+                        shredders, shears, and briquetting machines are employed for sizing and densification.</li>
+                        <li><strong>Optimization:</strong> Continuous improvement and adaptation to the latest technological advancements
+                            to ensure the most efficient and eco-friendly waste scrap processing.</li>
+        </ul>
+                        
+        <p>
+            In essence, Jain Hydraulics Recycling not only provides cutting-edge machinery but also serves as a strategic
+            partner in advancing sustainable and profitable metal scrap recycling practices in the business landscape.
+        </p>
+    
+                        
+        <h4 class="text-center text-2xl md:text-3xl">Products</h4>
+        <ProductSection productNames={balerNames} productImages={balerImages} productType="balers" products={balers} industryType="Metal Recycling" />
+        <hr class="h-[1px] bg-black col-span-full border-0 dark:bg-gray-700">
+        <ProductSection productNames={shearNames} productImages={shearImages} productType="shears" products={shears} industryType="Metal Recycling" />
+        <hr class="h-[1px] bg-black col-span-full border-0 dark:bg-gray-700">
+        <ProductSection productNames={shredderNames} productImages={shredderImages} productType="shredders" products={shredders} industryType="Metal Recycling" />
+    </div>
+
+
+
+
+</Layout>
