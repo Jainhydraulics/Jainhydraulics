@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://jainhydraulics.com/sitemap-index.xml
