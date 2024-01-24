@@ -5,10 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#Content
-Real Phts.zip
-
 #Backup
+./**/*.zip
+**/*.zip
 *.zip
 
 # Runtime data
