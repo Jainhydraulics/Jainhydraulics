@@ -1,0 +1,1775 @@
+{
+	"contact": {
+		"phoneSupport": ["+91 9911574941 ", "+91 9289250015"],
+		"phoneSales": ["+91 9810062523 ", "+91 9911574942"],
+		"address": [
+			"Kh. No. 38/22/2, Ranhola Village, Nangloi, Najafgarh Road, Delhi - 110041",
+			"Gate No. 454, Near Bhairavnath Mandir, Gaware Patil Industrial Estate, Chikhali, Pune - 410501."
+		]
+	},
+	"shears": {
+		"types": ["Alligator", "Box", "Continuous", "Nibbling"],
+		"faq": [
+			{
+				"question": "What are the installation requirements?",
+				"answer": "The installation requirements may vary depending on the product or service. However, common requirements include hydraulic oil, a water-leveled floor, and suitable electrical connections (MCB, starters, etc.). Please refer to the product documentation or contact our support team for more detailed information."
+			},
+			{
+				"question": "Do you offer warranty?",
+				"answer": "Yes, all of the machines are covered by our standard 1-year warranty from the date of purchase. For extended warranty requirements, please contact our support team."
+			},
+			{
+				"question": "How long is the delivery time?",
+				"answer": "The delivery time depends on various factors, including the product or service type and your location. Typically, it ranges from 15 days to a month. For more accurate information, please contact our sales team."
+			}
+		],
+		"alligator": {
+			"videos": ["nNMRc6S8wOc", "sYBF9kNM1ag"],
+			"tableData": [
+				["HEW/2012/AS-150", 40, 9, 40, 24, "7-8", 15],
+				["HEW/2012/AS-250", 60, 13, 50, 24, "7-8", 20],
+				["HEW/2012/AS-400", 110, 16, 80, 30, "7-8", 30]
+			],
+			"tableHeaders": [
+				"Model No",
+				"Shear Force (Tons)",
+				"Jaw Opening (Inches)",
+				"Cutting Capacity (mm)",
+				"Blade Length (Inches)",
+				"No. of Strokes (per minute)",
+				"Power (HP)"
+			],
+			"description": "Efficient scrap shearing solution, capable of handling diverse materials like TMT Bar, Angle Channel, Round & Bar. With a broad shearing jaw, pedal control, and high-quality blades, this machine ensures precision cutting and increased productivity.",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>2 tons/hr</span>",
+						"Pedal control with PLC provided to ease the operations and increase the productivity.",
+						"Craft Your Scrap Output with Precision: Unleash Control Over the Length for a Customized Experience!",
+						"Can sheare material upto 100mm thick round or square ",
+						"Big Shearing jaw to cut wide scrap."
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"Replaceable <span class='font-bold'>HARDOX 500-BHN make shearing balde.</span>",
+						"Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+						"Double Gear system for trouble-free operation.",
+						"Robustic Design.",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals."
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Plate Scrap",
+						"Angle & Channel Scrap",
+						"TMT Scrap",
+						"Round or Sqaure Scrap",
+						"Pipe or Tube Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"box": {
+			"videos": ["https://www.youtube.com/embed/45b6Q8uSwfg"],
+			"tableData": [
+				["HEW-BS-600", 600, "5x2.5", "0.7x0.9", 250, "Ø120:sq110x110", 15],
+				["HEW-BS-800", 800, "6x2.5", "0.8x1", 350, "Ø140:sq125x125", 20],
+				["HEW-BS-1000", 1000, "6x3", "1x1.2", 450, "Ø170:sq150x150", 25],
+				["HEW-BS-1250", 1250, "6.5x3", "1.1x1.4", 600, "Ø190:sq175x175", 35],
+				["HEW-BS-1500", 1500, "7x3", "1.2x1.4", 800, "Ø220:sq220x220", 45]
+			],
+			"tableHeaders": [
+				"Model No",
+				"Shearing Force (Tons)",
+				"Feeding Chamber (Meters)",
+				"Bale Size (Meters)",
+				"Motor (HP)",
+				"Production (Ton/hr)",
+				"Bale Size (mm)"
+			],
+			"description": "High-Performance metal processing solution featuring 3-D compression technology, motion control, and durable components like HARDOX 600-BHN Wear-Resistant Plate. Ideal for versatile applications, this shear ensures efficient processing of light and heavy-duty materials.",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"3-D Compression by two fly door",
+						"Motion Control of the Stamper and Shear Cylinder",
+						"Position locator for all cylinder",
+						"Adjustable guides for the shearing slide",
+						"Hydraulic blade tighting system",
+						"High performance speed - force control pumps"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"HARDOX 600-BHN Wear-Resistant Plate",
+						"Hardened Piston rods for Cylinder",
+						"PARKER Axial Piston Pump",
+						"Reliable cooling System depending on the working climate",
+						"Heavy Duty Structure",
+						"Automatic Lubrication system"
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Light and heavy duty can be processed",
+						"(HMS 1 & 2, Cars, Pipes and etc)",
+						"LMS",
+						"Car Bodies",
+						"SHEET",
+						"PIPE",
+						"SHIPBREAKING SCRAP",
+						"AUTOMOBILES (ELV- End of Life Vehicles)",
+						"MIXED SCRAP"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"TMT (tor Steel) Or Ingot Manufacturing Plants",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"continuous": {
+			"videos": [
+				"https://www.youtube.com/embed/vT804ilERQY",
+				"https://www.youtube.com/embed/BX9g4m6aqdo"
+			],
+			"tableData": [
+				[500, "7x1.5x0.8", 1.5, 200, "⬤:100: ◼90x90", "7-8"],
+				[630, "7x1.8x0.8", 1.8, 250, "⬤:120: ◼110x110", "10-12"],
+				[800, "10x2x1.1", 2, 350, "⬤:140: ◼125x125", "18-20"],
+				[1000, "10x2.5x1.1", 2.5, 450, "⬤:170: ◼150x150", "22-25"],
+				[1250, "10x3x1.2", 3, 600, "⬤:190: ◼175x175", "30-35"],
+				[1500, "10x3x1.4", 3, 800, "⬤:220: ◼220x220", "40-45"]
+			],
+			"tableHeaders": [
+				"Shearing Force (Tons)",
+				"Feeding Chamber (Meters)",
+				"Shear Width (Meters)",
+				"Motor (HP)",
+				"Metal Steel Shearing Capacity (mm)",
+				"Production (Tons/Hr)"
+			],
+			"description": "High-Capacity scrap processing solution, handling mixed and heavy-duty scrap up to 50 tons per hour. No length restrictions, with user-friendly features like cut length adjustment and automatic lubrication. Choose from stationary or semi-mobile options for seamless operation without the need for an operator.",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Capacity up to 50 tons per/hr",
+						"Mixed and heavy duty scrap can be processed (HMS 1 & 2,cars, pipes etc. )",
+						"No scrap length limit",
+						"Cut length adjustment options",
+						"Stationary and semi-mobile options",
+						"No operator needed"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"HARDOX 600-BHN Wear-Resistant Plate",
+						"Hardened Piston rods for Cylinder",
+						"Hydraulic blade tightening system",
+						"PARKER Axial Piston Pump",
+						"Reliable cooling System depending on the working climate",
+						"Heavy Duty Structure",
+						"Automatic Lubrication system"
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Light and heavy duty can be processed",
+						"(HMS 1 & 2, Cars, Pipes and etc)",
+						"LMS",
+						"Car Bodies",
+						"SHEET",
+						"PIPE",
+						"SHIPBREAKING SCRAP",
+						"AUTOMOBILES (ELV- End of Life Vehicles)",
+						"MIXED SCRAP"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"TMT (tor Steel) Or Ingot Manufacturing Plants",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"nibbling": {
+			"videos": ["https://www.youtube.com/embed/bNGufBRwtpc"],
+			"tableData": [[60, 8, 40, 50, "8-9", 20, 200, 2.5]],
+			"tableHeaders": [
+				"Shear Force (Tons)",
+				"Jaw Opening (Inches)",
+				"Blade Thickness (Inches)",
+				"Cutting Capacity (mm)",
+				"Strokes (Per Minute)",
+				"Power (HP)",
+				"Oil Tank Capacity (Ltr)",
+				"Weight (Tons)"
+			],
+			"description": "",
+			"cards": [
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"Shears TMT Bar, Angle Channel, Round & Bar etc",
+						"Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+						"Big Shearing jaw to cut wide scrap.",
+						"PLC Pedal control"
+					]
+				}
+			]
+		}
+	},
+	"balers": {
+		"types": [
+			"Continuous",
+			"High Density",
+			"Horizontal",
+			"Jumbo Manual",
+			"Jumbo PLC",
+			"Manual Mini",
+			"Mini PLC",
+			"Super Jumbo",
+			"Vertical"
+		],
+		"faq": [
+			{
+				"question": "What are the installation requirements?",
+				"answer": "The installation requirements may vary depending on the product or service. However, common requirements include hydraulic oil, a water-leveled floor, and suitable electrical connections (MCB, starters, etc.). Please refer to the product documentation or contact our support team for more detailed information."
+			},
+			{
+				"question": "Do you offer warranty?",
+				"answer": "Yes, all of the machines are covered by our standard 1-year warranty from the date of purchase. For extended warranty requirements, please contact our support team."
+			},
+			{
+				"question": "How long is the delivery time?",
+				"answer": "The delivery time depends on various factors, including the product or service type and your location. Typically, it ranges from 15 days to a month. For more accurate information, please contact our sales team."
+			}
+		],
+		"manual_mini": {
+			"videos": [
+				"https://www.youtube.com/embed/btPmyA1YCgc",
+				"https://www.youtube.com/embed/ZJlV58YpluM"
+			],
+			"tableData": [
+				["6x6", "42x24x20", "10-16 (MS) / 4-6 (Al)", 60, "1-2", "3.4", 20, 4.5],
+				["8x8", "42x24x20", "20-25 (MS) / 8-12 (Al)", 60, "12", "6-7", 20, 4.5],
+				[
+					"8x8",
+					"55x24x18",
+					"25-30 (MS) / 10-12 (Al)",
+					60,
+					"2-3",
+					"7-8",
+					30,
+					6.5
+				],
+				[
+					"9x9",
+					"55x24x20",
+					"30-35 (MS) / 10-14 (Al)",
+					60,
+					"3.5",
+					"7-9",
+					30,
+					6.5
+				],
+				[
+					"10x10",
+					"55x24x20",
+					"35-45 (MS) / 15-20 (Al)",
+					60,
+					"4-5",
+					"8-9",
+					30,
+					6.5
+				],
+				[
+					"12x12",
+					"55x24x20",
+					"50-60 (MS) / 20-25 (Al)",
+					60,
+					"5-6",
+					"10-12",
+					30,
+					6.5
+				],
+				[
+					"12x14",
+					"55x24x20",
+					"60-70 (MS) / 25-30 (Al)",
+					60,
+					"6-7",
+					"12-13",
+					30,
+					6.5
+				]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (Kg)",
+				"Cycle Time (Sec)",
+				"Production (AL) Tons/8hr",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "Our Manual Mini Baler is a compact yet robust solution for small-scale waste compaction.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>2 tons/hr</span>",
+						"Highly Automated with only 2 lever operation",
+						"Two Directional Control valves.",
+						"Blades on the edges of the top lid and chamber are provided for shearing material upto 5mm.",
+						"In-house Designed Valves and Pumps for low cycle time.",
+						"2.5 Ton A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"Superior cylinders with <span class='font-bold'>hardened, and chrome-coated piston rods</span>.",
+						"Honed pipes for superior durability.",
+						"Double Gear system for trouble-free operation.",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+						"In-house designed valves for extended service life."
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"double_action": {
+			"videos": [],
+			"tableData": [
+				[
+					"HEW-1073/1",
+					"52x18x20",
+					"18x12xT",
+					"5",
+					"3",
+					"20",
+					"60",
+					"3.5",
+					"400",
+					"FRONT DOOR"
+				],
+				[
+					"HEW-1073/11",
+					"52x24x20",
+					"24x12xT",
+					"7",
+					"5",
+					"20",
+					"65",
+					"4.5",
+					"500",
+					"TOP EJECTION"
+				],
+				[
+					"HEW-1073/111",
+					"52x24x20",
+					"24x10xT",
+					"7",
+					"5",
+					"20",
+					"65",
+					"4.8",
+					"500",
+					"SLIDING DOOR"
+				]
+			],
+			"tableHeaders": [
+				"Model No.",
+				"Chamber Size (Inches)",
+				"Bale Size (Inches)",
+				"Production/Shift (Tons/8hr)",
+				"Production/Shift (Tons/hr)",
+				"Motor (HP)",
+				"Cycle Time (Sec)",
+				"Machine Weight (Tons)",
+				"Tank Size (L)",
+				"Operation Type"
+			],
+			"description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>1 tons/hr</span>",
+						"Highly Automated with only 2 lever operation & Also available in PLC Controlled",
+						"A Spring-controlled lock, locks the lid plate",
+						"Suitable for Small quantites",
+						"Two Directional Control valves.",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 5mm.",
+						"In-house Designed Valves and Pumps for low cycle time.",
+						"2.5 Ton A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+						"Double Gear system for trouble-free operation.",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+						"In-house designed valves for extended service life."
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"Manufacturing Plants",
+						"For Pipe Manufacturing Mills",
+						"For small Scrap Yards",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				},
+				{
+					"title": "Operation in different Models",
+					"keyPoints": [
+						"<span class='font-bold'>Front Door</span> - Two Direction control valves, one for Lid cylinder and other to press the scrap.",
+						"<span class='font-bold'>Sliding Door</span> - Three Direction control valves, one for Lid cylinder, other to press the Scrap & third for operating the Sliding door.",
+						"<span class='font-bold'>Top Ejection</span> - Three Directional control valves, one for Lid and lock, other to press the scrap and third for ejecting the Bale out of the chamber.",
+						"Also available in PLC Controlled options"
+					]
+				}
+			]
+		},
+		"mini_plc": {
+			"videos": [
+				"https://www.youtube.com/embed/WuCLOQC_Sis",
+				"https://www.youtube.com/embed/2AE6gI3q2_Y"
+			],
+			"tableData": [
+				[
+					"6x6",
+					"42x24x20",
+					"10-16 (MS) / 4-6 (Al)",
+					"36-42",
+					"2-3",
+					"4-6",
+					20,
+					55
+				],
+				[
+					"8x8",
+					"55x30x18",
+					"25-30 (MS) / 10-12 (Al)",
+					"36-42",
+					"4-5",
+					"9-11",
+					"30/40",
+					8
+				],
+				[
+					"9x9",
+					"55x30x20",
+					"30-35 (MS) / 10-14 (Al)",
+					"36-42",
+					"5-6",
+					"10-12",
+					"30/40",
+					8.5
+				],
+				[
+					"10x10",
+					"55x30x20",
+					"35-45 (MS) / 15-20 (Al)",
+					"36-42",
+					"6-7",
+					"13-16",
+					"30/40",
+					8.5
+				],
+				[
+					"12x12",
+					"55x30x20",
+					"50-60 (MS) / 20-25 (Al)",
+					"36-42",
+					"7-9",
+					"18-21",
+					"30/40",
+					8.5
+				],
+				[
+					"12x14",
+					"55x30x20",
+					"60-70 (MS) / 25-30 (Al)",
+					"36-42(max)",
+					"9-11",
+					"21-25",
+					"30/40",
+					8.5
+				]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (MS)",
+				"Cycle Time (Sec)",
+				"Production (AL) Tons/8hr",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "Compact yet powerful, the Mini PLC Baler offers automated control and efficient compaction for smaller-scale waste processing needs, providing a reliable solution with a reduced footprint.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>3tons/hr </span>",
+						"India’s fastest Balers, Bale <span class='font-bold'>is ejected in less than 45 sec </span>",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 5mm.",
+						"Bale Size from 6 x 6 up to 12 x 14",
+						"Machine is operated by single button or remotely",
+						"Low cycle times through high efficiency hydraulic design",
+						"Separate manifolds for each cylinders.",
+						"Desktop panel with touch screen display.",
+						"Better Designed Cylinders for ease of maintenance",
+						"2.5 Ton A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+						"High quality hydraulic and electronic components",
+						"Double Gear for trouble-free operation.",
+						"Special oil filtration system for trouble free operation",
+						"Anti Clogging alarm system",
+						"Remote diagnostic system",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals."
+					]
+				},
+				{
+					"title": "Material Processing Capabilities",
+					"keyPoints": [
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"TMT (tor Steel) Or Ingot Manufacturing Plants",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"jumbo_manual": {
+			"videos": ["https://www.youtube.com/embed/pgHV177zd-A"],
+			"tableData": [
+				[
+					"12x12",
+					"60x36x24",
+					"50-60 (MS) / 20-25 (Al)",
+					60,
+					"7-8",
+					"12-14",
+					"30/40",
+					"9-9.5"
+				],
+				[
+					"14x14",
+					"60x36x24",
+					"70-80 (MS) / 35-40 (Al)",
+					60,
+					"8-9",
+					"16-19",
+					40,
+					"9-9.5"
+				],
+				[
+					"14x14",
+					"72x36x30",
+					"70-80 (MS) / 35-40 (Al)",
+					60,
+					"10-11",
+					"17-20",
+					40,
+					"11-12"
+				],
+				[
+					"14x14",
+					"72x36x30",
+					"90-100 (MS) / 40-50 (Al)",
+					60,
+					"12-13",
+					"20-24",
+					40,
+					"11-12"
+				],
+				[
+					"15x15",
+					"72x36x30",
+					"100-120 (MS) / 50-60 (Al)",
+					60,
+					"12-13",
+					"24-28",
+					40,
+					"11-12"
+				],
+				[
+					"16x16",
+					"72x40x30",
+					"100-120 (MS) / 50-60 (Al)",
+					60,
+					"13-14",
+					"24-28",
+					"40/50",
+					"12-13"
+				],
+				[
+					"16x16",
+					"72x40x30",
+					"120-150 (MS)",
+					60,
+					"Sl",
+					"28-36",
+					"40/50",
+					"12-13"
+				]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (Kg)",
+				"Cycle Time (Sec)",
+				"Production (AL) Tons/8hr",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "The Manual Jumbo Baler is designed for high-capacity waste processing in a manual format. With multiple levers for user control and no reliance on PLC technology, this machine delivers powerful compaction, making it an ideal choice for businesses seeking manual, yet efficient, waste management solutions for large volumes of recyclable materials.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>4tons/hr </span>",
+						"Bale Size from 12 x 12 up to 18 x 18",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 10mm.",
+						"India's fastest bale ejection time: <span class='font-bold'><65sec</span>",
+						"Highly Automated with only 2 lever operation",
+						"Two Directional Control valves.",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 5mm.",
+						"In-house Designed Valves and Pumps for low cycle time.",
+						"2.5 Ton A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+						"Double Gear for trouble-free operation.",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+						"In-house designed valves for extended service life."
+					]
+				},
+				{
+					"title": "Material Processing Capabilities",
+					"keyPoints": [
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"Plate Scrap",
+						"Car Body Scrap",
+						"Tin Sheet Scrap",
+						"Oversized Metal Scrap",
+						"Drum Scrap",
+						"Cardboard Scrap",
+						"Paper Scrap",
+						"Light Scrap",
+						"Utensiles Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"Manufacturing Plants",
+						"Tmt & Ingot Plants",
+						"Small & Medium Scrap Trader",
+						"HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"high_density": {
+			"videos": [
+				"https://www.youtube.com/embed/LRHLnlj-K-k",
+				"https://www.youtube.com/embed/yPdiXwVC9QA",
+				"https://www.youtube.com/embed/hp9a1JbKw1U"
+			],
+			"tableData": [
+				[
+					"8x8",
+					"55x30x18",
+					"30-35 (MS) / 13-15 (Al)",
+					"45-55",
+					"12",
+					"30/40/50",
+					"12-12.5"
+				],
+				[
+					"10x10",
+					"55x30x20",
+					"60-70 (MS) / 20-25 (Al)",
+					"45-55",
+					"23",
+					"30/40/50",
+					"12-12.5"
+				],
+				[
+					"14x14",
+					"60x36x30",
+					"100-110 (MS) / 50-55 (Al)",
+					"50-55",
+					"45",
+					"60/80",
+					"13-13.5"
+				],
+				[
+					"16x16",
+					"72x36x30",
+					"120-140 (MS) / 60-70 (Al)",
+					"50-55",
+					"5.6",
+					"60/80",
+					"13-13.5"
+				],
+				[
+					"22x22",
+					"84x44x38",
+					"350-400 (MS)",
+					"80-85",
+					"8-10",
+					"80/100",
+					"22-24"
+				],
+				[
+					"24x24",
+					"84x60x40",
+					"550-600 (MS)",
+					"80-85",
+					"13-15",
+					"80/100/120",
+					"30-32"
+				],
+				[
+					"28x28",
+					"105x60x50",
+					"800-1000 (MS)",
+					"90-100",
+					"16-20",
+					"80/100/120",
+					"33-35"
+				]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (Kg)",
+				"Cycle Time (Sec)",
+				"Production (AL) Tons/8hr",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "Engineered for maximum compaction force, the High Density Baler efficiently reduces the volume of recyclable materials, offering a robust and durable solution for industries focused on space optimization and resource conservation.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"India’s First to Indrotuce Axial Piston Pums Operated Machines and Fstest in Segment ",
+						"Production capability of up to <span class='font-bold'>2 - 50tons/hr</span>",
+						"Bale Size from 6 x 6 up to 35 x 35",
+						"Separate manifolds for each cylinders.",
+						"Increases efficiency in the melting process, and increased yield of furnaces",
+						"Bale of thick TMT Bar 32-40mm, also process uneven scraps likepipes, TMT Bar, Angle etc",
+						"Bales of Aluminium with loading of 28 tons in one 20' container",
+						"Low cycle times through <span class='font-bold'>PARKER AXIAL PISTON PUMP</span>",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 15mm.",
+						"Bale size up to 35\" 35\" for steel",
+						"Cylinder force up to 450 Tons",
+						"Reduces storage, transportation cost and easy to handle",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+						"<span class='font-bold'>Parker Double gear pump or Axial piston pump trouble-free operation..</span>",
+						"Better Designed Cylinders for ease of maintenance",
+						"High quality hydraulic and electronic components",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+						"Anti Clogging Alarm & Remote Diagnostic  system ."
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"20mm Thick Hr and Cr Sheet Scrap",
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"Bazar Scrap",
+						"Oversized Scrap",
+						"TMT (tor Steel) Scrap",
+						"Light Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"Car Body Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"TMT (tor Steel) Or Ingot Manufacturing Plants",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"horizontal": {
+			"videos": [],
+			"tableData": [
+				[
+					"HEW-1073/1",
+					"52x18x20",
+					"18x12xT",
+					"5",
+					"3",
+					"20",
+					"60",
+					"3.5",
+					"400",
+					"FRONT DOOR"
+				],
+				[
+					"HEW-1073/11",
+					"52x24x20",
+					"24x12xT",
+					"7",
+					"5",
+					"20",
+					"65",
+					"4.5",
+					"500",
+					"TOP EJECTION"
+				],
+				[
+					"HEW-1073/111",
+					"52x24x20",
+					"24x10xT",
+					"7",
+					"5",
+					"20",
+					"65",
+					"4.8",
+					"500",
+					"SLIDING DOOR"
+				]
+			],
+			"tableHeaders": [
+				"Model No.",
+				"Chamber Size (Inches)",
+				"Bale Size (Inches)",
+				"Production/Shift (Tons/8hr)",
+				"Production/Shift (Tons/hr)",
+				"Motor (HP)",
+				"Cycle Time (Sec)",
+				"Machine Weight (Tons)",
+				"Tank Size (L)",
+				"Operation Type"
+			],
+			"description": "The Horizontal Baler provides a versatile and space-efficient waste management solution, horizontally compressing various materials into compact bales, optimizing storage and transportation.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>400tons/hr </span>",
+						"High Compression Efficiency: Ensuring efficient bundling of paper materials.",
+						"<span class='font-bold'>Variable Bale Sizes</span>: Versatility of the baler in creating variable bale sizes, catering to different operational needs.",
+						"Bale size length is adjustable and can be easily programmed and controlled according to specific requirements.",
+						"Integration of the baler with conveyor systems, streamlining the waste processing workflow.",
+						"<span class='font-bold'>Energy-Efficient Design</span>: Reduced operational costs.",
+						"Effectively minimizes costs of storage and transportation.",
+						"Significantly lowers the cost/tonne.",
+						"A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency."
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+						"Double Gear for trouble-free operation.",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>Heavy-Duty Bearings and Seals:</span>  Equipped with heavy-duty bearings and seals to withstand high pressures, ensuring longevity and minimizing maintenance requirements."
+					]
+				},
+				{
+					"title": "Material Processing Capabilities",
+					"keyPoints": [
+						"Non Ferrous Scrap",
+						"Cardboard Scrap",
+						"Courugated Box Scrap",
+						"Leather Scrap",
+						"Paper Scrap",
+						"Pet Bottel Scrap",
+						"MSW Scrap",
+						"Cotten Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Foam Scrap ",
+						"Agricultural, Herbal leaves, Roots, Stems, Shrubs Scrap",
+						"Plastic Scrap",
+						"NewspaperScrap",
+						"Waste Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Waste Recycling Facilities",
+						"MSW Recycling Facilities",
+						"Pet bottel & Textile Recycling Facilities",
+						"Paper & OCC Recycling Facilities",
+						"Paper Mills",
+						"Packging Industries",
+						"Packging & Printing Plants",
+						"For Medium & Large Scrap Trader",
+						"Scrap Yards",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"vertical": {
+			"videos": [],
+			"tableData": [
+				[
+					"72x45x42",
+					"42x42x42",
+					"20-30",
+					"8.5",
+					"25",
+					"70-80",
+					"14-16",
+					"400",
+					"Electrical control"
+				],
+				[
+					"60x33x27",
+					"33x27x27",
+					"30-40",
+					"2.2",
+					"10",
+					"70-80",
+					"5-5.5",
+					"150",
+					"Hydraulic Hand Lever"
+				],
+				[
+					"52x27x33",
+					"27x23x23",
+					"50-70",
+					"1.6",
+					"10",
+					"70-80",
+					"4-4.5",
+					"150",
+					"Hydraulic Hand Lever"
+				]
+			],
+			"tableHeaders": [
+				"Chamber Size (Inches)",
+				"Bale Size (Inches)",
+				"Bale Weight (MS) (kg)",
+				"Machine Weight (Tons)",
+				"Motor (HP)",
+				"Cycle Time (Sec)",
+				"Production Shift(8 hr) (Tons)",
+				"Tank Size (Ltr)",
+				"Operation Type"
+			],
+			"description": "The Vertical Baler offers a space-saving and user-friendly solution for baling recyclable materials in an upright position, making it an ideal choice for businesses seeking efficiency in vertical waste compaction.",
+			"industry": "Waste Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>20tons/hr </span>",
+						"Machine is operated by single button or remotely",
+						"Electrically operated, Automated closing and opening ofthe pressing Plate for one stoke.",
+						"PLC Controlled and can be operated by single button",
+						"No Civil Foundation is required. ",
+						"Low cycle times through high efficiency hydraulic design",
+						"Better Designed Cylinders for ease of maintenance",
+						"2.5 Ton A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency."
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+						"High quality hydraulic and electronic components",
+						"Double Gear for trouble-free operation.",
+						"Special oil filtration system for trouble free operation",
+						"Anti Clogging alarm system",
+						"Remote diagnostic system",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+						"In-house designed valves for extended service life."
+					]
+				},
+				{
+					"title": "Material Processing Capabilities",
+					"keyPoints": [
+						"Non Ferrous & Waste Scrap",
+						"Leather Scrap",
+						"Paper Scrap",
+						"Pet Bottel Scrap",
+						"Cardboard Scrap",
+						"Courugated Box Scrap",
+						"Cotten Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Foam Scrap ",
+						"Agricultural, Herbal leaves, Roots, Stems, Shrubs Scrap",
+						"Plastic Scrap",
+						"NewspaperScrap",
+						"Waste Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Waste Recycling Facilities",
+						"MSW Recycling Facilities",
+						"Pet bottel & Textile Recycling Facilities",
+						"Paper & OCC Recycling Facilities",
+						"Paper Mills",
+						"Packging Industries",
+						"Packging & Printing Plants",
+						"Small & Medium Scrap Trader",
+						"Scrap Yards",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"continuous": {
+			"videos": [
+				"https://www.youtube.com/embed/8CEVW4wntqU",
+				"https://www.youtube.com/embed/gImL6tR1Sfc"
+			],
+			"tableData": [
+				["60x30x20", "10x10", "20-30", "10-20", 30, "40-45", "70-80", 1000],
+				[
+					"60x30x20",
+					"10x10",
+					"30-40",
+					"15-20",
+					"30-40",
+					"40-45",
+					"70-80",
+					1200
+				],
+				["62x48x32", "12x12", "50-70", "21-24", "40-50", "45-50", "70-80", 120]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (Kg)",
+				"Cycle Time (Sec)",
+				"Production (AL) Tons/8hr",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "A state-of-the-art solution for uninterrupted waste processing, the Continuous Baler ensures seamless operation, effectively compacting materials for sustained efficiency in waste management systems.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"India’s fastest Production Time: <span class='font-bold'>100-120 bales/hr </span>",
+						"India’s fastest Cycle Time: <span class='font-bold'><35secs </span>",
+						"Automatic operation with remote control",
+						"Special design that eliminates the scrap feeding time",
+						"Production capability of up to <span class='font-bold'> 4-80tons/hr </span>",
+						"Bale Size from 10 x 10 up to 18 x 18",
+						"Feeding can be done by grabber or conveyer",
+						"Low cycle times through high efficiency hydraulic design",
+						"Low overall operating cost",
+						"Automatic operation with remote control",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+						"<span class='font-bold'>Parker Double gear/Axial piston pump</span> for trouble-free operation",
+						"Special oil filtration system of Parker for trouble free operation",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals."
+					]
+				},
+				{
+					"title": "Material Processing Capabilities",
+					"keyPoints": [
+						"Turning Scrap",
+						"Aluminum Scrap",
+						" Tin Sheet Scrap",
+						"Drum Scrap",
+						"Cardboard Scrap",
+						"Paper Scrap",
+						"Utensiles Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"Manufacturing Plants",
+						"Tmt & Ingot Plants",
+						"HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Otomotive Factories",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"jumbo_plc": {
+			"videos": [
+				"https://www.youtube.com/embed/BQjhgYiP0s0",
+				"https://www.youtube.com/embed/kB5g_XI4hcg",
+				"https://www.youtube.com/embed/gWv-l8aOSvg"
+			],
+			"tableData": [
+				[
+					"12x12",
+					"60x36x24",
+					"50-60 (MS) / 20-25 (Al)",
+					"50-55",
+					"15-18",
+					"67",
+					"40",
+					"12-12.5"
+				],
+				[
+					"14x14",
+					"60x36x24",
+					"70-80 (MS) / 35-40 (Al)",
+					"50-55",
+					"19-22",
+					"11-12",
+					"40/60",
+					"12-12.5"
+				],
+				[
+					"14x14",
+					"72x36x30",
+					"80-90 (MS) / 35-40 (Al)",
+					"50-55",
+					"20-24",
+					"12-13",
+					"40/60/80",
+					"13-13.5"
+				],
+				[
+					"14x14",
+					"72x36x30",
+					"90-100 (MS) / 40-50 (Al)",
+					"50-55",
+					"25-30",
+					"13-14",
+					"40/60/80",
+					"13-13.5"
+				],
+				[
+					"15x15",
+					"72x36x30",
+					"100-120 (MS) / 50-60 (Al)",
+					"50-55",
+					"30-35",
+					"15-16",
+					"40/60/80",
+					"13-13.5"
+				],
+				[
+					"16x16",
+					"72x40x30",
+					"100-120 (MS) / 50-60 (Al)",
+					"50-55",
+					"30-35",
+					"16-18",
+					"40/60/80",
+					"13.5-14"
+				],
+				[
+					"16x16",
+					"72x40x30",
+					"120-150 (MS)",
+					"50-55",
+					"35-40",
+					"18-20",
+					"40/60/80",
+					"13.5-14"
+				]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (Kg)",
+				"Cycle Time (Sec)",
+				"Production (AL) Tons/8hr",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "The Jumbo PLC Baler combines cutting-edge technology with a large processing capacity, featuring programmable logic control for precision and efficiency in handling and baling recyclable materials.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>4tons/hr </span>",
+						"Bale Size from 12x12 to 18x18",
+						"India’s fastest Balers, Bale <span class='font-bold'>is ejected in less than 50 sec </span>",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 15mm.",
+						"Machine is operated by single button or remotely",
+						"Low cycle times through high efficiency hydraulic design",
+						"Separate manifolds for each cylinders.",
+						"Desktop panel with touch screen display.",
+						"Better Designed Cylinders for ease of maintenance",
+						"5 Ton A.C or Heat Exchanger for longer running life.",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+						"High quality hydraulic and electronic components",
+						"Double Gear for trouble-free operation.",
+						"Special oil filtration system for trouble free operation",
+						"Anti Clogging alarm system",
+						"Remote diagnostic system",
+						"Fabricated body with quality plates.",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals."
+					]
+				},
+				{
+					"title": "Material Processing Capabilities",
+					"keyPoints": [
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"Plate Scrap",
+						"Car Body Scrap",
+						" Tin Sheet Scrap",
+						"Oversized Metal Scrap",
+						"Drum Scrap",
+						"Cardboard Scrap",
+						"Paper Scrap",
+						"Light Scrap",
+						"Utensiles Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"OCC (Old Corrugated Containers) Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"Manufacturing Plants",
+						"Tmt & Ingot Plants",
+						"Small & Medium Scrap Trader",
+						"HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"super_jumbo": {
+			"videos": [
+				"https://www.youtube.com/embed/FurQZQOu-ME",
+				"https://www.youtube.com/embed/ZEW22xOKfnQ",
+				"https://www.youtube.com/embed/8qx5f8JQ8P0",
+				"https://www.youtube.com/embed/HtoAp4uU9jo"
+			],
+			"tableData": [
+				[
+					"20x20",
+					"84x44x38",
+					"200-250 (MS)",
+					"80-85",
+					"24-30",
+					"80/100",
+					"22-24"
+				],
+				[
+					"22x22",
+					"84x44x38",
+					"250-300 (MS)",
+					"80-85",
+					"30-35",
+					"80/100",
+					"22-24"
+				],
+				[
+					"24x24",
+					"84x44x38",
+					"350-450 (MS)",
+					"80-85",
+					"40-45",
+					"80/100",
+					"22-24"
+				],
+				[
+					"24x24",
+					"84x60x40",
+					"400-500 (MS)",
+					"80-85",
+					"45-50",
+					"80/100/120",
+					"30-32"
+				],
+				[
+					"28x28",
+					"105x50x50",
+					"600-650 (MS)",
+					"90-100",
+					"60-70",
+					"80/100/120",
+					"33-35"
+				],
+				[
+					"30x30",
+					"105x50x50",
+					"700-800 (MS)",
+					"90-100",
+					"60-70",
+					"80/100/120",
+					"33-35"
+				],
+				[
+					"30x30",
+					"105x60x50",
+					"700-800 (MS)",
+					"90-100",
+					"62-72",
+					"80/100/120",
+					"36-37"
+				]
+			],
+			"tableHeaders": [
+				"Bale Size",
+				"Chamber Size",
+				"Bale Weight (Kg)",
+				"Cycle Time (Sec)",
+				"Production (MS/SS/Cu) Tons/8hr",
+				"Motor HP",
+				"Machine Weight (Tons)"
+			],
+			"description": "India's fastest PLC-controlled machine, crafting bales in under 75 seconds, with a production capability of 2 to 10 tons per hour, versatile shearing abilities, and a powerful cylinder force of up to 300 tons for efficient, cost-effective metal recycling.",
+			"industry": "Metal Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						" India’s fastest PLC controlled machine, Bale is made in less than 75 sec.",
+						"Production capability of up to <span class='font-bold'>2-10tons/hr</span>",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 20mm.",
+						"Bale Size from 20 x 20 up to 35 x 35",
+						"Separate manifolds for each cylinder",
+						"Bale of thick TMT Bar 5-10mm, also process uneven scraps",
+						"Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 15mm.",
+						"Bale size up to 35\" 35\" for steel",
+						"Cylinder force up to 300 Tons",
+						"Reduces storage, transportation cost and easy to handle",
+						"Replaceable Liners plate for enhanced maintenance efficiency.",
+						"Bale and Chamber size can be modified as per requirement"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+						"Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+						"<span class='font-bold'>Parker Double gear pump trouble-free operation..</span>",
+						"Better Designed Cylinders for ease of maintenance",
+						"High quality hydraulic and electronic components",
+						"<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+						"Anti Clogging Alarm & Remote Diagnostic  system ."
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"20mm Thick Hr and Cr Sheet Scrap",
+						"Turning Scrap",
+						"Aluminum Scrap",
+						"Bazar Scrap",
+						"Oversized Scrap",
+						"TMT (tor Steel) Scrap",
+						"Light Scrap",
+						"CRC (Cold Rolled Coil) Scrap",
+						"Car Body Scrap",
+						"Tin Scrap",
+						"Copper Scrap",
+						"Steel Scrap",
+						"Stainless Steel Scrap",
+						"Lead Scrap",
+						"Versatility in handling a wide range of scrap materials"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"TMT (tor Steel) Or Ingot Manufacturing Plants",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		}
+	},
+	"shredders": {
+		"faq": [
+			{
+				"question": "What are the installation requirements?",
+				"answer": "The installation requirements may vary depending on the product or service. However, common requirements include hydraulic oil, a water-leveled floor, and suitable electrical connections (MCB, starters, etc.). Please refer to the product documentation or contact our support team for more detailed information."
+			},
+			{
+				"question": "Do you offer warranty?",
+				"answer": "Yes, all of the machines are covered by our standard 1-year warranty from the date of purchase. For extended warranty requirements, please contact our support team."
+			},
+			{
+				"question": "How long is the delivery time?",
+				"answer": "The delivery time depends on various factors, including the product or service type and your location. Typically, it ranges from 15 days to a month. For more accurate information, please contact our sales team."
+			}
+		],
+		"types": ["Hammer Mill", "Twin Shaft"],
+		"hammer_mill": {
+			"videos": ["https://www.youtube.com/embed/QRfWCHsqj3I"],
+			"tableData": [
+				["Housing (Inch)", 30, 36, 42, 60],
+				["Power (HP)", 100, 150, 250, 500],
+				["Mesh Size (Inch)", "3x4", "4x5", "6x7", "7-10"],
+				["Production/hr (Approx) Tons", "1-2", "2-3", "3-4", "7-9"],
+				["Machine Weight (Approx) Tons", "11-12", "14-15", "22-23", "40-42"]
+			],
+			"tableHeaders": ["Description", "HM/100", "HM/150", "HM/250", "HM/500"],
+			"description": "A Hammer Mill is a powerful machine designed to break large scraps into smaller, denser portions, eliminating rust, dust, and color impurities. Specially engineered hammers apply high-torque impacts, beating, shredding, and shearing the scrap until it reaches the desired size at the machine's bottom structure. The hammers, crafted from special alloy steel, ensure durability and resistance to impacts for an extended lifespan",
+			"industry": "Metal Recycling | Waste Recycling",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production capability of up to <span class='font-bold'>30 tons/hr</span>",
+						"Single line / Double Line / Hybrid systems.",
+						"Entire Process can be controlled by PLC",
+						"Flame-proof design in case of any damage from explosion during the shredding process ",
+						"The operator can increase / decrease the torque as required to process bulky scrap."
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>Cutter - HARDOX 600-BHN or Spl Forging Alloys</span>",
+						"Phosphor Bronze Bushes",
+						"Fabricated out of the thick cold rolled mild steel plates reinforced with heavy ribs & stiffeners",
+						"Electric operated",
+						"Two Stage / Three Stage Plantary Gear Box",
+						"Automatic Lubrication system"
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Light and heavy duty can be processed",
+						"(HMS 1 & 2, Cars, Pipes and etc)",
+						"Cars, whether intact with or without engines, or in a flattened condition.",
+						"Turning Scrap",
+						"Paper Scrap",
+						"Bike & Cycle Scrap",
+						"Typer Wire",
+						"Courugated  Core",
+						"AUTOMOBILES (ELV- End of Life Vehicles)",
+						"MIXED SCRAP"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers",
+						"Metal Recycling Facilities",
+						"TMT (tor Steel) Or Ingot Manufacturing Plants",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		},
+		"twin_shaft": {
+			"videos": [
+				"https://www.youtube.com/embed/eDIeRWw67Ek",
+				"https://www.youtube.com/embed/LcV6XArJpGk",
+				"https://www.youtube.com/embed/4O8U83-cBtk"
+			],
+			"tableData": [
+				["1200 x 810", "40x2", "58 - 60", "Hydraulic", "Aluminium Casting"],
+				["1020 x 1500", "60x2", "58 - 60", "Hydraulic", "Aluminium Casting"],
+				["1020 x 1500", "50 x2", "58 - 60", "Electric", "Tyre Wire"],
+				["1200 x 1800", "75x2", "58 - 60", "Electric", "Tyre Wire"]
+			],
+			"tableHeaders": [
+				"Housing (mm)",
+				"Power (HP)",
+				"Cutter (HRC)",
+				"Drive",
+				"Scrap"
+			],
+			"industry": "Metal Recycling | Waste Recycling",
+			"description": "Designed for efficient size reduction of various materials. It has two parallel shafts with interlocking cutting blades or knives that rotate in opposite directions. The dual-shaft design enhances the shredding capability and reduces the risk of material jams. Twin shaft shredders are versatile can process a wide range of scrap like, including plastics,  rubber, metal, paper, and more. The Shredding action break down materials into smaller, more manageable pieces, making them suitable for recycling.",
+			"cards": [
+				{
+					"title": "Efficiency / Operation",
+					"keyPoints": [
+						"Production upto 50 tons/hr",
+						"Cars, whether intact with or without engines, or in a flattened condition.",
+						"Any Iron and steel scrap up to 10 mm thick",
+						"Easy & continuous charging of scrap via input conveyer or a grabber",
+						"High Torque for Seamless cutting",
+						"50 - 60 Hrc Cutter for smooth Operation",
+						"Plc Controlled",
+						"Housing as per material specifiction can be modified"
+					]
+				},
+				{
+					"title": "Durability",
+					"keyPoints": [
+						"<span class='font-bold'>Cutter - HARDOX 600-BHN or Spl Forging Alloys</span>",
+						"Phosphor Bronze Bushes",
+						"Parker Hydraulic Motor",
+						"Electric & Hydraulic operated",
+						"Two Stage / Three Stage Plantary Gear Box",
+						"Automatic Lubrication system"
+					]
+				},
+				{
+					"title": "Supported Materials",
+					"keyPoints": [
+						"Light and heavy duty can be processed",
+						"(HMS 1 & 2, Cars, Pipes and etc)",
+						"Cars, whether intact with or without engines, or in a flattened condition.",
+						"Turning Scrap",
+						"Paper Scrap",
+						"Bike & Cycle Scrap",
+						"Typer Wire",
+						"Courugated  Core",
+						"Car Bodies",
+						"SHEET",
+						"PIPE",
+						"AUTOMOBILES (ELV- End of Life Vehicles)",
+						"MIXED SCRAP"
+					]
+				},
+				{
+					"title": "Suitable Industries",
+					"keyPoints": [
+						"Metal Recycling Facilities",
+						"TMT Plants",
+						"ELV Recycling Facilities",
+						"Tyre Recycling Plants (",
+						"Manufacturing Plants",
+						"Scrap Yards",
+						"Casting Plants",
+						"Iron Steel Facilities",
+						"Scrap Processing Centers"
+					]
+				}
+			]
+		}
+	}
+}

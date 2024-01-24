@@ -1,0 +1,325 @@
+---
+import { Image } from "astro:assets";
+import Layout from '../layouts/Layout.astro';
+import highDensity from '../images/Products/Balers/High Density.png'
+import shredder from '../images/Products/Shredders/Shredder copy.png'
+import boxShear from '../images/Products/Shears/Box Shear copy.png'
+import towerCrane from '../images/Products/Revolving Tower Crane.png'
+import grabber from '../images/Products/Grabber.png'
+
+import Clients from "../components/Clients.astro";
+import Contact from "../components/ContactsForm.astro";
+
+import BlogSectionParent from "../components/BlogSectionParent.astro";
+import Carousel from "../components/Carousel.astro";
+
+---
+
+<Layout title="JHR: Metal, and Waste Proccessing Redefined", description="India's Top Manufacturer in Scrap Metal, and Waste Processing Machines. Experience the difference with our superior balers, shears, and shredders – meticulously crafted to outshine and outperform competitors in every aspect.">
+
+	<!-- Hero -->
+	<div class="relative overflow-hidden">
+		<!-- Gradients -->
+		<div aria-hidden="true" class="flex absolute -top-96 start-1/2 transform -translate-x-1/2">
+			<div class="bg-gradient-to-r from-violet-300/50 to-purple-100 blur-3xl w-[25rem] h-[44rem] rotate-[-60deg] transform -translate-x-[10rem] dark:from-violet-900/50 dark:to-purple-900"></div>
+			<div class="bg-gradient-to-tl from-blue-50 via-blue-100 to-blue-50 blur-3xl w-[90rem] h-[50rem] rounded-fulls origin-top-left -rotate-12 -translate-x-[15rem] dark:from-indigo-900/70 dark:via-indigo-900/70 dark:to-blue-900/70"></div>
+		</div>
+		<!-- End Gradients -->
+		
+		<div class="relative z-10">
+			<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+				<div class="max-w-2xl text-center mx-auto">
+					<p class="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
+						JHR: Metal, and Waste Proccessing Redefined
+					</p>
+					
+					<!-- Title -->
+					<div class="mt-5 max-w-2xl">
+						<h1 class="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
+							Excellence in Every Machine
+						</h1>
+					</div>
+					<!-- End Title -->
+					
+					<div class="mt-5 max-w-3xl">
+						<p class="text-lg text-gray-600 dark:text-gray-400">India's Top Manufacturer in Scrap Metal, and Waste Processing Machines. Experience the difference with our superior balers, shears, and shredders – meticulously crafted to outshine and outperform competitors in every aspect.</p>
+					</div>
+					
+					<!-- Buttons -->
+					<div class="mt-8 gap-3 flex justify-center">
+						<a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#form-quote">
+							Get a Quote
+							<svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+						</a>
+					</div>
+					<!-- End Buttons -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Hero -->
+
+	<div class="grid gap-y-12 px-4 sm:my-4">
+		<Clients text="Powering Success Across Industries"/>
+
+		<div class="grid grid-cols-12 sm:flex sm:justify-center gap-4 sm:gap-x-12 lg:gap-x-24">
+			<div class="col-span-6 md:cold-span-3 text-center">
+				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+					50+
+				</h4>
+				<h4 class="text-md text-gray-600 dark:text-gray-400">
+					Years of Expertise 
+				</h4>
+			</div>
+			<!-- End Col -->
+			
+			<div class="col-span-6 md:cold-span-3 text-center">
+				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+					10000+
+				</h4>
+				<h4 class="text-md text-gray-600 dark:text-gray-400">
+					Machines Installed
+				</h4>
+			</div>
+			<!-- End Col -->
+			
+			<div class="col-span-6 md:cold-span-3 text-center">
+				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+					200+
+				</h4>
+				<h4 class="text-md text-gray-600 dark:text-gray-400">
+					Turnkey Projects
+				</h4>
+			</div>
+			<!-- End Col -->
+			
+			<div class="col-span-6 md:cold-span-3 text-center">
+				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+					100+
+				</h4>
+				<h4 class="text-md text-gray-600 dark:text-gray-400">
+					Countries
+				</h4>
+			</div>
+			<!-- End Col -->
+		</div>
+	</div>
+	
+	<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+		
+		<div class="grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+
+			<Image class="sm:order-1 md:order-2 rounded-xl" src={highDensity} alt="High Density Baler" />
+			<div class="sm:order-2 md:order-1 mt-5 sm:mt-10 lg:mt-0">
+				<div class="space-y-6 sm:space-y-8">
+					<!-- Title -->
+					<div class="space-y-2 md:space-y-4">
+						<h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
+							Precision. Power. Performance.
+						</h2>
+						<p class="text-gray-500">
+							From small-scale operations to large-scale industrial applications, our balers stand as a symbol of reliability and sustainability, streamlining recycling processes and empowering businesses to achieve optimal efficiency while contributing to a greener future.
+						</p>
+					</div>
+					<!-- End Title -->
+					
+					<!-- List -->
+					<ul role="list" class="space-y-2 sm:space-y-4">
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">HARDOXX 500-BHN</span> Plate
+							</span>
+						</li>
+						
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">{'<75s'}</span> Cycle Time
+							</span>
+						</li>
+						
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">Hardened</span> Piston Rods
+							</span>
+						</li>
+					</ul>
+					<a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/products/balers">
+						Explore All Balers
+						<svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+					</a>
+					<!-- End List -->
+				</div>
+			</div>
+		
+
+			<Image class="mt-14 md:mt-0 sm:order-3 rounded-xl" src={shredder} alt="Super Jumbo Baler" />		
+			<div class="sm:order-4 mt-5 sm:mt-10 lg:mt-0 ">
+				<div class="space-y-6 sm:space-y-8">
+					<!-- Title -->
+					<div class="space-y-2 md:space-y-4">
+						<h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
+							Shred. Transform. Innovate.
+						</h2>
+						<p class="text-gray-500">
+							Elevate your metal processing capabilities with our cutting-edge shredders, adept at handling a myriad of applications. From efficient steel drum shredding to processing electronic waste, these machines stand out for their robustness and versatility. 
+						</p>
+					</div>
+					<!-- End Title -->
+					
+					<!-- List -->
+					<ul role="list" class="space-y-2 sm:space-y-4">
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">HARDOX 600-BHN</span> Plate
+							</span>
+						</li>
+						
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">60 HRC</span> Cutter
+							</span>
+						</li>
+						
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">Parker</span> Hydraulic Motor
+							</span>
+						</li>
+					</ul>
+					<a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/products/shredders">
+						Explore All Shredders
+						<svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+					</a>
+					<!-- End List -->
+				</div>
+			</div>
+		
+		
+			<Image class="mt-14 md:mt-0 order-5 md:order-6 rounded-xl " src={boxShear} alt="Super Jumbo Baler" />
+			<div class="order-6 mt-5 md:order-5 sm:mt-10 lg:mt-0">
+				<div class="space-y-6 sm:space-y-8">
+					<!-- Title -->
+					<div class="space-y-2 md:space-y-4">
+						<h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
+							Efficiency. Shear Force. Quality.
+						</h2>
+						<p class="text-gray-500">
+							Experience unparalleled strength and precision with our Box Shears. Engineered for durability, each cut embodies reliability and performance, making these shears the epitome of efficiency in metal processing.
+						</p>
+					</div>
+					<!-- End Title -->
+					
+					<!-- List -->
+					<ul role="list" class="space-y-2 sm:space-y-4">
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">Parker</span> Axial Piston Pump
+							</span>
+						</li>
+						
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">3-D Compression</span> by Two Fly Door
+							</span>
+						</li>
+						
+						<li class="flex space-x-3">
+							<span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+								<svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+							</span>
+							
+							<span class="text-sm sm:text-base text-gray-500">
+								<span class="font-bold">HARDOXX 600-BHN</span> Plate
+							</span>
+						</li>
+					</ul>
+					<a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/products/shears">
+						Explore All Shears
+						<svg class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+					</a>
+					<!-- End List -->
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+	<div class="grid md:grid-cols-2 gap-2 max-w-[85rem] mx-auto px-4">
+		<div class="flex flex-col gap-2 md:gap-y-4 p-10 bg-gray-50">
+			<h2 class=" text-center font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
+				Revolving Tower Cranes
+			</h2>
+			<p class="text-center text-gray-500">
+				The Revolving Tower Crane is a pinnacle of construction site efficiency, featuring a rotating tower for 360-degree coverage. 
+			</p>
+			<div class="h-80">
+				<Image class="mx-auto rounded-xl w-full h-full object-scale-down" src={towerCrane} alt="Revolving Tower Cranes" />
+			</div>
+			
+		</div>
+		
+		<div class="flex flex-col gap-2 gap-y-4 p-10 bg-gray-50">
+			<h2 class=" text-center font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
+				Grabbers
+			</h2>
+			<p class="text-center text-gray-500">
+				Our Grabber is a versatile and efficient material handling attachment designed for heavy-duty applications.
+			</p>
+			<div class="h-80">
+				<Image class="mx-auto rounded-xl w-full h-full object-scale-down" src={grabber} alt="Grabber"  />
+			</div>
+		</div>
+	</div>
+	
+{/*
+	<div class="my-10">
+		<Carousel />
+	</div>
+
+
+
+ */}
+
+	<div class="my-12 px-4">
+		<Contact text="Let's Find Your Perfect Machine!"/>
+	</div>
+
+	<div class="mt-12 mb-2 bg-gray-50 p-10">
+		<BlogSectionParent />
+	</div>
+
+
+</Layout>

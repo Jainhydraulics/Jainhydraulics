@@ -1,0 +1,61 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/baling-press-continuous*"
+  to = "/products/balers/continuous"
+[[redirects]]
+  from = "/shredder*"
+  to = "/products/shredders/"
+[[redirects]]
+  from = "/baling-press-super*"
+  to = "/products/balers/super jumbo"
+
+[[redirects]]
+  from = "/baling-press-horizontal*"
+  to = "/products/balers/horizontal/"
+
+[[redirects]]
+  from = "/baling-press-jumbo-automatic*"
+  to = "/products/balers/jumbo-automatic/"
+
+[[redirects]]
+  from = "/baling-press-jumbo-plc*"
+  to = "/products/balers/jumbo-plc/"
+
+[[redirects]]
+  from = "/baling-press-mini-automatic*"
+  to = "/products/balers/mini-automatic/"
+
+[[redirects]]
+  from = "/baling-press-mini-plc*"
+  to = "/products/balers/mini-plc/"
+
+[[redirects]]
+  from = "/baling-press-super*"
+  to = "/products/balers/super-jumbo/"
+
+[[redirects]]
+  from = "/baler-double*"
+  to = "/products/balers/double-action/"
+
+[[redirects]]
+  from = "/baler-vertical*"
+  to = "/products/balers/vertical"
+
+[[redirects]]
+  from = "/baling-press-double*"
+  to = "/products/balers/double-action/"
+
+[[redirects]]
+  from = "/sheraing-machine-alligator*"
+  to = "/products/shears/alligator"
+
+[[redirects]]
+  from = "/nibbler*"
+  to = "/products/shears/nibbling"
+
+[[redirects]]
+  from = "/box*"
+  to = "/products/shears/box"

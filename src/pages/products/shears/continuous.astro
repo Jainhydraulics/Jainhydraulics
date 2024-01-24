@@ -1,0 +1,17 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import SecondaryNav from "../../../components/SecondaryNav.astro";
+import Product from "../../../components/Product.astro";
+import productData from "../../../products.json";
+
+
+const shearNames = productData.shears.types;
+
+const shears = await Astro.glob("../../../images/Products/Shears/*");
+
+---
+
+<Layout title="Continuous Shear" description={productData.shears["continuous"].description}>
+    <Product faq={productData.shears.faq} type="Shear" productData={ productData.shears["continuous"] } image={ [ shears[2], `${shearNames[2]}` ] } />
+</Layout>

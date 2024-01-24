@@ -1,0 +1,17 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import SecondaryNav from "../../../components/SecondaryNav.astro";
+import Product from "../../../components/Product.astro";
+
+import productData from "../../../products.json";
+
+const balerNames = productData.balers.types;
+
+const balers = await Astro.glob("../../../images/Products/Balers/*");
+
+---
+
+<Layout title="Vertical Baler" description={productData.balers["vertical"].description}>
+	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["vertical"]} image={[balers[8], balerNames[8]]} />
+</Layout>

@@ -1,0 +1,19 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import SecondaryNav from "../../../components/SecondaryNav.astro";
+import Product from "../../../components/Product.astro";
+
+import productData from "../../../products.json";
+
+const balerNames = productData.balers.types;
+
+const balers = await Astro.glob("../../../images/Products/Balers/*");
+const realPhotos = await Astro.glob("../../../images/Real Photos/High Density/*");
+---
+
+<Layout title="High Density Baler" description={productData.balers["high_density"].description}>
+	
+	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["high_density"]} image={[balers[1], balerNames[1]]}
+	realPhotos={realPhotos} />
+</Layout>

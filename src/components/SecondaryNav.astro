@@ -1,0 +1,107 @@
+---
+const { names, wireframe, images, product } = Astro.props;
+import { Image } from 'astro:assets';
+
+---    
+<div class="relative bg-gray-100 h-32 px-12 touch-pan-x" >    
+
+    <div id="scrolling-container" class="snap-mandatory scroll-smooth overflow-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="left-button" class="hidden absolute left-0 top-0 bottom-0 m-auto w-auto max-h-9 text-gray-600 cursor-pointer rounded-full bg-gray-200 hover:opacity-70 p-2 ml-1">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="right-button" class="hidden absolute right-0 top-0 bottom-0 m-auto w-auto max-h-9 text-gray-600 cursor-pointer rounded-full bg-gray-200 hover:opacity-70 p-2 mr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+        <div class="flex h-32 gap-x-20">          
+            {
+                images.map((item, index) => (
+                    <div class="flex items-center h-32 mx-auto">            
+                        <a class="hover:underline hover:opacity-90 text-center" href={`/products/${product}/${names[index].toLowerCase()}`} id={`/products/${product}/${names[index]}`} >
+                            <Image class="max-w-[200px] h-auto w-auto mx-auto snap-proximity max-h-16" src={item.default} alt={names[index]} />
+                            <p class="pt-1 text-sm"> {names[index]} </p>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</div>
+
+{/*
+
+<div class="relative bg-gray-100 h-32 px-12 touch-pan-x">    
+
+    <div id="scrolling-container" class="snap-mandatory scroll-smooth overflow-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="left-button" class="hidden absolute left-0 top-0 bottom-0 m-auto w-auto max-h-9 text-gray-600 cursor-pointer rounded-full bg-gray-200 hover:opacity-70 p-2 ml-1">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="right-button" class="hidden absolute right-0 top-0 bottom-0 m-auto w-auto max-h-9 text-gray-600 cursor-pointer rounded-full bg-gray-200 hover:opacity-70 p-2 mr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+        <div class="flex h-32 w-[500%] justify-around sm:w-[250%] md:w-[150%]">          
+            {
+                images.map((item, index) => (
+                    <div class="flex items-center h-32 mx-auto">            
+                        <a class="hover:underline hover:opacity-90 text-center" href={`/products/${product}/${names[index].toLowerCase()}`} id={`/products/${product}/${names[index]}`} >
+                            <Image class="max-w-[200px] h-auto w-auto mx-auto snap-proximity max-h-16" src={item.default} alt={names[index]} />
+                            <p class="pt-1 text-sm"> {names[index]} </p>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
+*/}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+        const scrollingContainer = document.getElementById("scrolling-container");
+
+        // Get reference to the left and right buttons
+        const leftButton = document.getElementById("left-button");
+        const rightButton = document.getElementById("right-button");
+        
+        function updateButtonVisibility() {
+            if (scrollingContainer.scrollLeft > 0) {
+                leftButton.classList.remove('hidden');
+            } else {
+                leftButton.classList.add('hidden');
+            }
+            
+            // Check if content can be scrolled to the right
+            if (scrollingContainer.scrollLeft < (scrollingContainer.scrollWidth - scrollingContainer.clientWidth - 50)) {
+                rightButton.classList.remove('hidden');
+            } else {
+                rightButton.classList.add('hidden');
+            }
+        }
+        
+        function scrollLeft() {
+            scrollingContainer.scrollLeft -= scrollingContainer.clientWidth;
+        }
+        
+        function scrollRight() {
+            scrollingContainer.scrollLeft += scrollingContainer.clientWidth;
+        }
+        
+        // Initial check on page load
+        updateButtonVisibility();
+        
+        // Update button visibility on window resize
+        window.addEventListener('resize', updateButtonVisibility);
+        
+        // Update button visibility on content scroll
+        scrollingContainer.addEventListener('scroll', updateButtonVisibility);
+        
+        // Add click event listeners to the left and right buttons
+        leftButton.addEventListener('click', scrollLeft);
+        rightButton.addEventListener('click', scrollRight);
+
+    });
+</script>

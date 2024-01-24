@@ -1,0 +1,53 @@
+---
+
+import { Image } from "astro:assets";
+const clients = await Astro.glob("../images/clients/*");
+const { text } = Astro.props;
+
+---
+<div class="mx-auto text-center">
+    <h2 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl font-bold md:text-3xl md:leading-tight">{text}</h2>
+</div>
+<div class="flex overflow-hidden">
+    <div class="animate-marquee flex justify-around md:min-w-[400%] xl:min-w-[250%] min-w-[790%]">
+        {
+            clients.map((item, index) => (
+                index < 100 ? <Image class="w-auto h-8 md:h-10 mx-6" src={item.default} alt={(item.default.src.match(/\/([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)/) || [])[1]} /> : null
+            ))
+        }
+    </div>
+    
+    <div class="animate-marquee flex justify-around md:min-w-[400%] xl:min-w-[250%] min-w-[790%]">
+        {
+            clients.map((item, index) => (
+                index < 100 ? <Image class="w-auto h-8 md:h-10 mx-6" src={item.default} alt={(item.default.src.match(/\/([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)/) || [])[1]} /> : null
+            ))
+        }
+    </div>
+    
+</div>
+{/*
+
+
+<div class="mt-16 flex overflow-hidden">
+    <div class="animate-[marquee_linear_30s_reverse_infinite] delay-300 flex justify-around xl:min-w-[200%] min-w-[300%]">
+        {
+            clients.map((item, index) => (
+            index > 10 ? <Image class="w-auto h-8 md:h-10 mx-6" src={item.default} alt="Client Photo" /> : null
+            
+            ))
+        }
+    </div>
+    
+    <div class="animate-[marquee_linear_30s_reverse_infinite] delay-300 flex justify-around xl:min-w-[200%] min-w-[300%]">
+        {
+            clients.map((item, index) => (
+            index > 10 ? <Image class="w-auto h-8 md:h-10 mx-6" src={item.default} alt="Client Photo" /> : null
+            ))
+        }
+    </div>
+</div>
+ 
+
+ */}
+

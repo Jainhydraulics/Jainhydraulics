@@ -1,0 +1,967 @@
+{
+    "shears": {
+        "types": ["Alligator", "Box", "Continuous", "Nibbling"],
+        "alligator": {
+            "tableData": [
+                ["HEW/2012/AS-150", 40, 9, 40, 24, "7-8", 15],
+                ["HEW/2012/AS-250", 60, 13, 50, 24, "7-8", 20],
+                ["HEW/2012/AS-400", 110, 16, 80, 30, "7-8", 30]
+            ],
+            "tableHeaders": [
+                "Model No",
+                "Shear Force (Tons)",
+                "Jaw Opening (Inches)",
+                "Cutting Capacity (mm)",
+                "Blade Length (Inches)",
+                "No. of Strokes (per minute)",
+                "Power (HP)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Alligator Shear",
+                    "keyPoints": [
+                        "Shears TMT Bar, Angle Channel, Round & Bar etc",
+                        "Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+                        "Big Shearing jaw to cut wide scrap.",
+                        "PLC Pedal control"
+                    ]
+                }
+            ]
+        },
+        "box": {
+            "tableData": [
+                ["HEW-BS-600", 600, "5x2.5", "0.7x0.9", 250, "Ø120:sq110x110", 15],
+                ["HEW-BS-800", 800, "6x2.5", "0.8x1", 350, "Ø140:sq125x125", 20],
+                ["HEW-BS-1000", 1000, "6x3", "1x1.2", 450, "Ø170:sq150x150", 25],
+                ["HEW-BS-1250", 1250, "6.5x3", "1.1x1.4", 600, "Ø190:sq175x175", 35],
+                ["HEW-BS-1500", 1500, "7x3", "1.2x1.4", 800, "Ø220:sq220x220", 45]
+            ],
+            "tableHeaders": [
+                "Model No",
+                "Shearing Force (Tons)",
+                "Feeding Chamber (Meters)",
+                "Bale Size (Meters)",
+                "Motor (HP)",
+                "Production (Ton/hr)",
+                "Bale Size (mm)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "Shears TMT Bar, Angle Channel, Round & Bar etc",
+                        "Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+                        "Big Shearing jaw to cut wide scrap.",
+                        "PLC Pedal control"
+                    ]
+                }
+            ]
+        },
+        "continuous": {
+            "tableData": [
+                [500, "7x1.5x0.8", 1.5, 200, "⬤:100: ◼90x90", "7-8"],
+                [630, "7x1.8x0.8", 1.8, 250, "⬤:120: ◼110x110", "10-12"],
+                [800, "10x2x1.1", 2, 350, "⬤:140: ◼125x125", "18-20"],
+                [1000, "10x2.5x1.1", 2.5, 450, "⬤:170: ◼150x150", "22-25"],
+                [1250, "10x3x1.2", 3, 600, "⬤:190: ◼175x175", "30-35"],
+                [1500, "10x3x1.4", 3, 800, "⬤:220: ◼220x220", "40-45"]
+            ],
+            "tableHeaders": [
+                "Shearing Force (Tons)",
+                "Feeding Chamber (Meters)",
+                "Shear Width (Meters)",
+                "Motor (HP)",
+                "Metal Steel Shearing Capacity (mm)",
+                "Production (Tons/Hr)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "Shears TMT Bar, Angle Channel, Round & Bar etc",
+                        "Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+                        "Big Shearing jaw to cut wide scrap.",
+                        "PLC Pedal control"
+                    ]
+                }
+            ]
+        },
+        "nibbling": {
+            "tableData": [
+                [60, 8, 40, 50, "8-9", 20, 200, 2.5]
+            ],
+            "tableHeaders": [
+                "Shear Force (Tons)",
+                "Jaw Opening (Inches)",
+                "Blade Thickness (Inches)",
+                "Cutting Capacity (mm)",
+                "Strokes (Per Minute)",
+                "Power (HP)",
+                "Oil Tank Capacity (Ltr)",
+                "Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "Shears TMT Bar, Angle Channel, Round & Bar etc",
+                        "Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+                        "Big Shearing jaw to cut wide scrap.",
+                        "PLC Pedal control"
+                    ]
+                }
+            ]
+        }
+    },
+    "balers": {
+        "types": ["Continuous","High Density","Horizontal Baler","Jumbo Automatic","Jumbo PLC","Super Jumbo","Mini Automatic","Mini PLC","Vertical"],
+        "mini_automatic": {
+            "tableData": [
+                ["6x6", "8x8", "8x8", "9x9", "10x10", "12x12", "12x14"],
+                ["42x24x20", "42x24x20", "55x24x18", "55x24x20", "55x24x20", "55x24x20", "55x24x20"],
+                ["10-16", "20-25", "25-30", "30-35", "35-45", "50-60", "60-70"],
+                ["4-6", "8-12", "10-12", "10-14", "15-20", "20-25", "25-30"],
+                ["60", "60", "60", "60", "60", "60", "60"],
+                ["1-2", "1-2", "2-3", "3-5", "4-5", "5-6", "6-7"],
+                ["3-4", "6-7", "7-8", "7-9", "8-9", "10-12", "12-13"],
+                ["20", "20", "30", "30", "30", "30", "30"],
+                ["4.5", "4.5", "6.5", "6.5", "6.5", "6.5", "6.5"]
+            ],
+            "tableHeaders": [
+                "Bale Size",
+                "Chamber Size",
+                "Bale Weight (MS)",
+                "Bale Weight (Al)",
+                "Cyclo Time (Sec)",
+                "Production (AL) Tons/8hr",
+                "Production (MS/SS/Cu) Tons/8hr",
+                "Motor HP",
+                "Machine Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Production capability of up to <span class='font-bold'>2 tons/hr</span>",
+                        "Highly Automated with only 2 lever operation",
+                        "Two Directional Control valves.",
+                        "Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 5mm.",
+                        "In-house Designed Valves and Pumps for low cycle time.",
+                        "2.5 Ton A.C or Heat Exchanger for longer running life.",
+                        "Replaceable Liners plate for enhanced maintenance efficiency."
+                        
+                    ]
+                },           
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+                        "Double Gear system for trouble-free operation.",
+                        "Robustic Design.",
+                        "Fabricated body with quality plates.",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+                        "In-house designed valves for extended service life."
+                    ]
+                },
+                {
+                    "title": "Supported Materials",
+                    "keyPoints": [
+                        "Turning Scrap",
+                        "Aluminum Scrap",
+                        "CRC (Cold Rolled Coil) Scrap",
+                        "OCC (Old Corrugated Containers) Scrap",
+                        "Tin Scrap",
+                        "Copper Scrap",
+                        "Steel Scrap",
+                        "Stainless Steel Scrap",
+                        "Lead Scrap",
+                        "Versatility in handling a wide range of scrap materials"
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "Manufacturing Plants",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Scrap Processing Centers"
+                    ]
+                }
+            ]
+        },
+        "double_action": {
+            "tableData": [
+                ["HEW-1073/1", "52x18x20", "18x12xT", "5", "3", "20", "60", "3.5", "400", "FRONT DOOR"],
+                ["HEW-1073/11", "52x24x20", "24x12xT", "7", "5", "20", "65", "4.5", "500", "TOP EJECTION"],
+                ["HEW-1073/111", "52x24x20", "24x10xT", "7", "5", "20", "65", "4.8", "500", "SLIDING DOOR"]
+            ],
+            "tableHeaders": [
+                "Model No.",
+                "Chamber Size (Inches)",
+                "Bale Size (Inches)",
+                "Production/Shift (Tons/8hr)",
+                "Production/Shift (Tons/hr)",
+                "Motor (HP)",
+                "Cycle Time (Sec)",
+                "Machine Weight (Tons)",
+                "Tank Size (L)",
+                "Operation Type"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "",
+                    "keyPoints": [
+                        "Shears TMT Bar, Angle Channel, Round & Bar etc",
+                        "Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+                        "Big Shearing jaw to cut wide scrap.",
+                        "PLC Pedal control"
+                    ]
+                }
+            ]
+        },
+        "mini_plc": {
+            "tableData": [
+                ["6x6", "8x8", "8x8", "9x9", "10x10", "12x12", "12x14"],
+                ["42x24x20", "42x24x20", "55x24x18", "55x24x20", "55x24x20", "55x24x20", "55x24x20"],
+                ["10-16", "20-25", "25-30", "30-35", "35-45", "50-60", "60-70"],
+                ["4-6", "8-12", "10-12", "10-14", "15-20", "20-25", "25-30"],
+                ["60", "60", "60", "60", "60", "60", "60"],
+                ["1-2", "1-2", "2-3", "3-5", "4-5", "5-6", "6-7"],
+                ["3-4", "6-7", "7-8", "7-9", "8-9", "10-12", "12-13"],
+                ["20", "20", "30", "30", "30", "30", "30"],
+                ["4.5", "4.5", "6.5", "6.5", "6.5", "6.5", "6.5"]
+            ],
+            "tableHeaders": [
+                "Bale Size",
+                "Chamber Size",
+                "Bale Weight (MS)",
+                "Bale Weight (Al)",
+                "Cyclo Time (Sec)",
+                "Production (AL) Tons/8hr",
+                "Production (MS/SS/Cu) Tons/8hr",
+                "Motor HP",
+                "Machine Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Production capability of up to <span class='font-bold'>3tons/hr </span>",
+                        "India’s fastest Bale ejection system <span class='font-bold'>(<40s)</span>",
+                        "Machine is operated by single button or remotely",
+                        "Low cycle times through high efficiency hydraulic design",
+                        "Separate manifolds for each cylinders.",
+                        "Desktop panel with touch screen display.",
+                        "Better Designed Cylinders for ease of maintenance",
+                        "2.5 Ton A.C or Heat Exchanger for longer running life.",
+                        "Replaceable Liners plate for enhanced maintenance efficiency."
+                        
+                    ]
+                },
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+                        "High quality hydraulic and electronic components",
+                        "Double Gear for trouble-free operation.",
+                        "Special oil filtration system for trouble free operation",
+                        "Anti Clogging alarm system",
+                        "Remote diagnostic system",
+                        "Robustic Design.",
+                        "Fabricated body with quality plates.",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals."
+                        
+                    ]
+                },
+                {
+                    "title": "Material Processing Capabilities",
+                    "keyPoints": [
+                        "<span class='font-bold'>Turning Scrap</span>",
+                        "<span class='font-bold'>Aluminum Scrap</span>",
+                        "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                        "<span class='font-bold'>OCC (Old Corrugated Containers) Scrap</span>",
+                        "<span class='font-bold'>Tin Scrap</span>",
+                        "<span class='font-bold'>Copper Scrap</span>",
+                        "<span class='font-bold'>Steel Scrap</span>",
+                        "<span class='font-bold'>Stainless Steel Scrap</span>",
+                        "<span class='font-bold'>Lead Scrap</span>",
+                        "Versatility in handling a wide range of scrap materials"
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "TMT (tor Steel) Or Ingot Manufacturing Plants",
+                        "Manufacturing Plants",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Scrap Processing Centers"
+                    ]
+                }
+            ]
+        },
+        "Jumbo Automatic": {
+            "tableData": [
+                ["12x12", "14x14", "14x14", "15x15", "16x16", "16x16", "18x18"],
+                ["60x36x24", "60x36x24", "72x36x30", "72x36x30", "72x36x30", "72x40x30", "72x40x30"],
+                ["50x60", "70x80", "70x80", "90x100", "100x120", "100x120", "120x150"],
+                ["20x25", "35x40", "35x40", "40x50", "50x60", "50x60", "60x70"],
+                ["60", "60", "60", "60", "60", "60", "60"],
+                ["4-5", "7-8", "8-9", "10-11", "12-13", "12-13", "13-14"],
+                ["12-14", "16-19", "17-20", "20-24", "24-28", "24-28", "28-36"],
+                ["30/40", "40", "40", "40", "40", "40/50", "40/50"],
+                ["9-9.5", "9-9.5", "11-12", "11-12", "11-12", "12-13", "12-13"]
+            ],
+            "tableHeaders": [
+                "Bale Size",
+                "Chamber Size",
+                "Bale Weight (MS)",
+                "Bale Weight (Al)",
+                "Cyclo Time (Sec)",
+                "Production (AL) Tons/8hr",
+                "Production (MS/SS/Cu) Tons/8hr",
+                "Motor HP",
+                "Machine Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Production capability of up to <span class='font-bold'>4tons/hr </span>",
+                        "Bale Size from 12 x 12 up to 18 x 18",
+                        "India's fastest Balers, Bale <span class='font-bold'>is ejected in less than 65sec </span>",
+                        "Highly Automated with only 2 lever operation",
+                        "Two Directional Control valves.",
+                        "Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 5mm.",
+                        "In-house Designed Valves and Pumps for low cycle time.",
+                        "2.5 Ton A.C or Heat Exchanger for longer running life.",
+                        "Replaceable Liners plate for enhanced maintenance efficiency."
+                        
+                    ]
+                },
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+                        "Double Gear for trouble-free operation.",
+                        "Robustic Design.",
+                        "Fabricated body with quality plates.",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+                        "In-house designed valves for extended service life."
+                    ]
+                },
+                {
+                    "title": "Material Processing Capabilities",
+                    "keyPoints": [
+                        "<span class='font-bold'>Turning Scrap</span>",
+                        
+                        "<span class='font-bold'>Aluminum Scrap</span>",
+                        "<span class='font-bold'>Plate Scrap</span>",
+                        "<span class='font-bold'>Car Body Scrap</span>",
+                        "<span class='font-bold'> Tin Sheet Scrap</span>",
+                        "<span class='font-bold'>Oversized Metal Scrap</span>",
+                        "<span class='font-bold'>Drum Scrap</span>",
+                        "<span class='font-bold'>Cardboard Scrap</span>",
+                        "<span class='font-bold'>Paper Scrap</span>",
+                        "<span class='font-bold'>Light Scrap</span>",
+                        "<span class='font-bold'>Utensiles Scrap</span>",
+                        "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                        "<span class='font-bold'>OCC (Old Corrugated Containers) Scrap</span>",
+                        "<span class='font-bold'>Tin Scrap</span>",
+                        "<span class='font-bold'>Copper Scrap</span>",
+                        "<span class='font-bold'>Steel Scrap</span>",
+                        "<span class='font-bold'>Stainless Steel Scrap</span>",
+                        "<span class='font-bold'>Lead Scrap</span>",
+                        "Versatility in handling a wide range of scrap materials"
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "Manufacturing Plants",
+                        "Tmt & Ingot Plants",
+                        "Small & Medium Scrap Trader",
+                        "HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Scrap Processing Centers"
+                    ]
+                }
+            ]
+        },
+        "high_density": {
+            "tableData": [
+                ["6x6", "8x8", "8x8", "9x9", "10x10", "12x12", "12x14"],
+                ["42x24x20", "42x24x20", "55x24x18", "55x24x20", "55x24x20", "55x24x20", "55x24x20"],
+                ["10-16", "20-25", "25-30", "30-35", "35-45", "50-60", "60-70"],
+                ["4-6", "8-12", "10-12", "10-14", "15-20", "20-25", "25-30"],
+                ["60", "60", "60", "60", "60", "60", "60"],
+                ["1-2", "1-2", "2-3", "3-5", "4-5", "5-6", "6-7"],
+                ["3-4", "6-7", "7-8", "7-9", "8-9", "10-12", "12-13"],
+                ["20", "20", "30", "30", "30", "30", "30"],
+                ["4.5", "4.5", "6.5", "6.5", "6.5", "6.5", "6.5"]
+            ],
+            "tableHeaders": [
+                "Bale Size",
+                "Chamber Size",
+                "Bale Weight (MS)",
+                "Bale Weight (Al)",
+                "Cyclo Time (Sec)",
+                "Production (AL) Tons/8hr",
+                "Production (MS/SS/Cu) Tons/8hr",
+                "Motor HP",
+                "Machine Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "India’s First to Indrotuce Axial Piston Pums Operated Machines and Fstest in Segment ",
+                        "Production capability of up to <span class='font-bold'>2 - 50tons/hr</span>",
+                        "Bale Size from 8 x 8 up to 35 x 35",
+                        "Production capability of up to <span class='font-bold'> Separate manifolds for each cylinders./hr</span>",
+                        "High density bales increase efficiency in the melting process, increasethe yield of furnaces",
+                        "Bale of thick TMT Bar 32-40mm, also process uneven scraps likepipes, TMT Bar, Angle etc",
+                        "Bales of Aluminium with loading of 28 tons in one 20' container",
+                        "Low cycle times through <span class='font-bold'>PARKER AXIAL PISTON PUMP</span>",
+                        "Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 15mm.",
+                        "Bale size up to 35' 35' for steel",
+                        "Cylinder force up to 450 Tons",
+                        "Reduces storage, transportation cost and easy to handle",
+                        "Replaceable Liners plate for enhanced maintenance efficiency."
+                        
+                    ]
+                },           
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+                        "<span class='font-bold'>Parker Double gear pump or Axial piston pump trouble-free operation..</span>",
+                        "Better Designed Cylinders for ease of maintenance",
+                        "High quality hydraulic and electronic components",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+                        "Anti Clogging Alarm & Remote Diagnostic  system ."
+                    ]
+                },
+                {
+                    "title": "Supported Materials",
+                    "keyPoints": [
+                        
+                        [
+                            "<span class='font-bold'>20mm Thick Hr and Cr Sheet Scrap</span>",
+                            "<span class='font-bold'>Turning Scrap</span>",
+                            "<span class='font-bold'>Aluminum Scrap</span>",
+                            "<span class='font-bold'>Bazar Scrap</span>",
+                            "<span class='font-bold'>Oversized Scrap</span>",
+                            "<span class='font-bold'>TMT (tor Steel) Scrap</span>",
+                            "<span class='font-bold'>Light Scrap</span>",
+                            "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                            "<span class='font-bold'>Car Body Scrap</span>",
+                            "<span class='font-bold'>Tin Scrap</span>",
+                            "<span class='font-bold'>Copper Scrap</span>",
+                            "<span class='font-bold'>Steel Scrap</span>",
+                            "<span class='font-bold'>Stainless Steel Scrap</span>",
+                            "<span class='font-bold'>Lead Scrap</span>",
+                            "<span class='font-bold'>Versatility in handling a wide range of scrap materials</span>"
+                        ]
+                        
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "TMT (tor Steel) Or Ingot Manufacturing Plants",
+                        "Manufacturing Plants",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Scrap Processing Centers"
+                    ]
+                }
+            ]
+        },
+        "horizontal": {
+            "tableData": [
+                ["HEW-1073/1", "52x18x20", "18x12xT", "5", "3", "20", "60", "3.5", "400", "FRONT DOOR"],
+                ["HEW-1073/11", "52x24x20", "24x12xT", "7", "5", "20", "65", "4.5", "500", "TOP EJECTION"],
+                ["HEW-1073/111", "52x24x20", "24x10xT", "7", "5", "20", "65", "4.8", "500", "SLIDING DOOR"]
+            ],
+            "tableHeaders": [
+                "Model No.",
+                "Chamber Size (Inches)",
+                "Bale Size (Inches)",
+                "Production/Shift (Tons/8hr)",
+                "Production/Shift (Tons/hr)",
+                "Motor (HP)",
+                "Cycle Time (Sec)",
+                "Machine Weight (Tons)",
+                "Tank Size (L)",
+                "Operation Type"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Production capability of up to <span class='font-bold'>4tons/hr </span>",
+                        "Bale Size from 12 x 12 up to 18 x 18",
+                        "India's fastest Balers, Bale <span class='font-bold'>is ejected in less than 65sec </span>",
+                        "Highly Automated with only 2 lever operation",
+                        "Two Directional Control valves.",
+                        "Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 5mm.",
+                        "In-house Designed Valves and Pumps for low cycle time.",
+                        "2.5 Ton A.C or Heat Exchanger for longer running life.",
+                        "Replaceable Liners plate for enhanced maintenance efficiency."
+                        
+                    ]
+                },
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+                        "Double Gear for trouble-free operation.",
+                        "Robustic Design.",
+                        "Fabricated body with quality plates.",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+                        "In-house designed valves for extended service life."
+                    ]
+                },
+                {
+                    "title": "Material Processing Capabilities",
+                    "keyPoints": [
+                        "<span class='font-bold'>Turning Scrap</span>",
+                        
+                        "<span class='font-bold'>Aluminum Scrap</span>",
+                        "<span class='font-bold'>Plate Scrap</span>",
+                        "<span class='font-bold'>Car Body Scrap</span>",
+                        "<span class='font-bold'> Tin Sheet Scrap</span>",
+                        "<span class='font-bold'>Oversized Metal Scrap</span>",
+                        "<span class='font-bold'>Drum Scrap</span>",
+                        "<span class='font-bold'>Cardboard Scrap</span>",
+                        "<span class='font-bold'>Paper Scrap</span>",
+                        "<span class='font-bold'>Light Scrap</span>",
+                        "<span class='font-bold'>Utensiles Scrap</span>",
+                        "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                        "<span class='font-bold'>OCC (Old Corrugated Containers) Scrap</span>",
+                        "<span class='font-bold'>Tin Scrap</span>",
+                        "<span class='font-bold'>Copper Scrap</span>",
+                        "<span class='font-bold'>Steel Scrap</span>",
+                        "<span class='font-bold'>Stainless Steel Scrap</span>",
+                        "<span class='font-bold'>Lead Scrap</span>",
+                        "Versatility in handling a wide range of scrap materials"
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "Manufacturing Plants",
+                        "Tmt & Ingot Plants",
+                        "Small & Medium Scrap Trader",
+                        "HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Scrap Processing Centers"
+                    ]
+                },
+                {
+                    "title": "",
+                    "keyPoints": [
+                        "Shears TMT Bar, Angle Channel, Round & Bar etc",
+                        "Shear up to <span class='font-bold'>62 mm to 80 mm </span> thick Round.",
+                        "Big Shearing jaw to cut wide scrap.",
+                        "PLC Pedal control"
+                    ]
+                }
+            ]
+        },
+        "vertical": {
+            "tableData": [
+                ["6x6", "8x8", "8x8", "9x9", "10x10", "12x12", "12x14"],
+                ["42x24x20", "42x24x20", "55x24x18", "55x24x20", "55x24x20", "55x24x20", "55x24x20"],
+                ["10-16", "20-25", "25-30", "30-35", "35-45", "50-60", "60-70"],
+                ["4-6", "8-12", "10-12", "10-14", "15-20", "20-25", "25-30"],
+                ["60", "60", "60", "60", "60", "60", "60"],
+                ["1-2", "1-2", "2-3", "3-5", "4-5", "5-6", "6-7"],
+                ["3-4", "6-7", "7-8", "7-9", "8-9", "10-12", "12-13"],
+                ["20", "20", "30", "30", "30", "30", "30"],
+                ["4.5", "4.5", "6.5", "6.5", "6.5", "6.5", "6.5"]
+            ],
+            "tableHeaders": [
+                "Bale Size",
+                "Chamber Size",
+                "Bale Weight (MS)",
+                "Bale Weight (Al)",
+                "Cyclo Time (Sec)",
+                "Production (AL) Tons/8hr",
+                "Production (MS/SS/Cu) Tons/8hr",
+                "Motor HP",
+                "Machine Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Production capability of up to <span class='font-bold'>3tons/hr </span>",
+                        "India’s fastest Balers, Bale <span class='font-bold'>is ejected in less than 45 sec </span>",
+                        "Machine is operated by single button or remotely",
+                        "Low cycle times through high efficiency hydraulic design",
+                        "Separate manifolds for each cylinders.",
+                        "Desktop panel with touch screen display.",
+                        "Better Designed Cylinders for ease of maintenance",
+                        "2.5 Ton A.C or Heat Exchanger for longer running life.",
+                        "Replaceable Liners plate for enhanced maintenance efficiency."
+                        
+                    ]
+                },
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+                        "High quality hydraulic and electronic components",
+                        "Double Gear for trouble-free operation.",
+                        "Special oil filtration system for trouble free operation",
+                        "Anti Clogging alarm system",
+                        "Remote diagnostic system",
+                        "Robustic Design.",
+                        "Fabricated body with quality plates.",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+                        "In-house designed valves for extended service life."
+                        
+                    ]
+                },
+                {
+                    "title": "Material Processing Capabilities",
+                    "keyPoints": [
+                        "<span class='font-bold'>Turning Scrap</span>",
+                        "<span class='font-bold'>Aluminum Scrap</span>",
+                        "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                        "<span class='font-bold'>OCC (Old Corrugated Containers) Scrap</span>",
+                        "<span class='font-bold'>Tin Scrap</span>",
+                        "<span class='font-bold'>Copper Scrap</span>",
+                        "<span class='font-bold'>Steel Scrap</span>",
+                        "<span class='font-bold'>Stainless Steel Scrap</span>",
+                        "<span class='font-bold'>Lead Scrap</span>",
+                        "Versatility in handling a wide range of scrap materials"
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "TMT (tor Steel) Or Ingot Manufacturing Plants",
+                        "Manufacturing Plants",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Scrap Processing Centers"
+                    ]
+                }
+            ]
+        },
+        "continuous": {
+            "tableData": [
+                ["12x12", "14x14", "14x14", "15x15", "16x16", "16x16", "18x18"],
+                ["60x36x24", "60x36x24", "72x36x30", "72x36x30", "72x36x30", "72x40x30", "72x40x30"],
+                ["50x60", "70x80", "70x80", "90x100", "100x120", "100x120", "120x150"],
+                ["20x25", "35x40", "35x40", "40x50", "50x60", "50x60", "60x70"],
+                ["60", "60", "60", "60", "60", "60", "60"],
+                ["4-5", "7-8", "8-9", "10-11", "12-13", "12-13", "13-14"],
+                ["12-14", "16-19", "17-20", "20-24", "24-28", "24-28", "28-36"],
+                ["30/40", "40", "40", "40", "40", "40/50", "40/50"],
+                ["9-9.5", "9-9.5", "11-12", "11-12", "11-12", "12-13", "12-13"]
+            ],
+            "tableHeaders": [
+                "Bale Size",
+                "Chamber Size",
+                "Bale Weight (MS)",
+                "Bale Weight (Al)",
+                "Cyclo Time (Sec)",
+                "Production (AL) Tons/8hr",
+                "Production (MS/SS/Cu) Tons/8hr",
+                "Motor HP",
+                "Machine Weight (Tons)"
+            ],
+            "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "<span class='font-bold'>India’s fastest Continuous baler,100-120 bales/hr </span>",
+                        "<span class='font-bold'>India’s fastest Continuous baler Cycle Time less than 35secs </span>",
+                        "Automatic operation with remote control",
+                        "Special design that eliminates the scrap feeding time",
+                        "Production capability of up to <span class='font-bold'>4 - 80tons/hr </span>",
+                        "Bale Size from 10 x 10 up to 18 x 18",
+                        "Feeding can be done by grabber or conveyer",
+                        "Low cycle times through high efficiency hydraulic design",
+                        "Low overall operating cost",
+                        "Automatic operation with remote control"
+                        
+                    ]
+                },
+                {
+                    "title": "Durability",
+                    "keyPoints": [
+                        "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                        "<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+                        "<span class='font-bold'>Parker Double gear pump or Axial piston pump trouble-free operation..</span>",
+                        "Robustic Design.",
+                        "Special oil filtration system of Parker for trouble free operation",
+                        "<span class='font-bold'>High-quality</span> PU and PTFE seals."
+                        
+                    ]
+                },
+                {
+                    "title": "Material Processing Capabilities",
+                    "keyPoints": [
+                        "<span class='font-bold'>Turning Scrap</span>",
+                        "<span class='font-bold'>Aluminum Scrap</span>",
+                        "<span class='font-bold'> Tin Sheet Scrap</span>",
+                        "<span class='font-bold'>Drum Scrap</span>",
+                        "<span class='font-bold'>Cardboard Scrap</span>",
+                        "<span class='font-bold'>Paper Scrap</span>",
+                        "<span class='font-bold'>Utensiles Scrap</span>",
+                        "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                        "<span class='font-bold'>OCC (Old Corrugated Containers) Scrap</span>",
+                        "<span class='font-bold'>Tin Scrap</span>",
+                        "<span class='font-bold'>Copper Scrap</span>",
+                        "<span class='font-bold'>Steel Scrap</span>",
+                        "<span class='font-bold'>Stainless Steel Scrap</span>",
+                        "<span class='font-bold'>Lead Scrap</span>",
+                        "Versatility in handling a wide range of scrap materials"
+                    ]
+                },
+                {
+                    "title": "Suitable Industries",
+                    "keyPoints": [
+                        "Metal Recycling Facilities",
+                        "Manufacturing Plants",
+                        "Tmt & Ingot Plants",
+                        "HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+                        "Scrap Yards",
+                        "Casting Plants",
+                        "Iron Steel Facilities",
+                        "Otomotive Factories",
+                        "Scrap Processing Centers"
+                    ]
+                }
+            ]
+        }
+    },
+    "Jumbo PLC": {
+        "tableData": [
+            ["12x12", "14x14", "14x14", "15x15", "16x16", "16x16", "18x18"],
+            ["60x36x24", "60x36x24", "72x36x30", "72x36x30", "72x36x30", "72x40x30", "72x40x30"],
+            ["50x60", "70x80", "70x80", "90x100", "100x120", "100x120", "120x150"],
+            ["20x25", "35x40", "35x40", "40x50", "50x60", "50x60", "60x70"],
+            ["60", "60", "60", "60", "60", "60", "60"],
+            ["4-5", "7-8", "8-9", "10-11", "12-13", "12-13", "13-14"],
+            ["12-14", "16-19", "17-20", "20-24", "24-28", "24-28", "28-36"],
+            ["30/40", "40", "40", "40", "40", "40/50", "40/50"],
+            ["9-9.5", "9-9.5", "11-12", "11-12", "11-12", "12-13", "12-13"]
+        ],
+        "tableHeaders": [
+            "Bale Size",
+            "Chamber Size",
+            "Bale Weight (MS)",
+            "Bale Weight (Al)",
+            "Cyclo Time (Sec)",
+            "Production (AL) Tons/8hr",
+            "Production (MS/SS/Cu) Tons/8hr",
+            "Motor HP",
+            "Machine Weight (Tons)"
+        ],
+        "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        "cards": [
+            {
+                "title": "Efficiency / Operation",
+                "keyPoints": [
+                    "Production capability of up to <span class='font-bold'>4tons/hr </span>",
+                    "Bale Size from 12x12 to 18x18",
+                    "India’s fastest Balers, Bale <span class='font-bold'>is ejected in less than 50 sec </span>",
+                    "Machine is operated by single button or remotely",
+                    "Low cycle times through high efficiency hydraulic design",
+                    "Separate manifolds for each cylinders.",
+                    "Desktop panel with touch screen display.",
+                    "Better Designed Cylinders for ease of maintenance",
+                    "5 Ton A.C or Heat Exchanger for longer running life.",
+                    "Replaceable Liners plate for enhanced maintenance efficiency."
+                    
+                    
+                ]
+            },
+            {
+                "title": "Durability",
+                "keyPoints": [
+                    "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                    "<span class='font-bold'>High-quality</span> cylinders with hardened and chrome-coated piston rods, accompanied by honed pipes for superior durability.",
+                    "High quality hydraulic and electronic components",
+                    "Double Gear for trouble-free operation.",
+                    "Special oil filtration system for trouble free operation",
+                    "Anti Clogging alarm system",
+                    "Remote diagnostic system",
+                    "Robustic Design.",
+                    "Fabricated body with quality plates.",
+                    "<span class='font-bold'>High-quality</span> PU and PTFE seals."
+                    
+                ]
+            },
+            {
+                "title": "Material Processing Capabilities",
+                "keyPoints": [
+                    "<span class='font-bold'>Turning Scrap</span>",
+                    "<span class='font-bold'>Aluminum Scrap</span>",
+                    "<span class='font-bold'>Plate Scrap</span>",
+                    "<span class='font-bold'>Car Body Scrap</span>",
+                    "<span class='font-bold'> Tin Sheet Scrap</span>",
+                    "<span class='font-bold'>Oversized Metal Scrap</span>",
+                    "<span class='font-bold'>Drum Scrap</span>",
+                    "<span class='font-bold'>Cardboard Scrap</span>",
+                    "<span class='font-bold'>Paper Scrap</span>",
+                    "<span class='font-bold'>Light Scrap</span>",
+                    "<span class='font-bold'>Utensiles Scrap</span>",
+                    "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                    "<span class='font-bold'>OCC (Old Corrugated Containers) Scrap</span>",
+                    "<span class='font-bold'>Tin Scrap</span>",
+                    "<span class='font-bold'>Copper Scrap</span>",
+                    "<span class='font-bold'>Steel Scrap</span>",
+                    "<span class='font-bold'>Stainless Steel Scrap</span>",
+                    "<span class='font-bold'>Lead Scrap</span>",
+                    "Versatility in handling a wide range of scrap materials"
+                ]
+            },
+            {
+                "title": "Suitable Industries",
+                "keyPoints": [
+                    "Metal Recycling Facilities",
+                    "Manufacturing Plants",
+                    "Tmt & Ingot Plants",
+                    "Small & Medium Scrap Trader",
+                    "HRC (Hot Rolled Coil) & CRC (Cold Rolled Coil) Scrap Trader",
+                    "Scrap Yards",
+                    "Casting Plants",
+                    "Iron Steel Facilities",
+                    "Scrap Processing Centers"
+                ]
+            }
+        ]
+    },
+    "Super Jumbo": {
+        "tableData": [
+            ["6x6", "8x8", "8x8", "9x9", "10x10", "12x12", "12x14"],
+            ["42x24x20", "42x24x20", "55x24x18", "55x24x20", "55x24x20", "55x24x20", "55x24x20"],
+            ["10-16", "20-25", "25-30", "30-35", "35-45", "50-60", "60-70"],
+            ["4-6", "8-12", "10-12", "10-14", "15-20", "20-25", "25-30"],
+            ["60", "60", "60", "60", "60", "60", "60"],
+            ["1-2", "1-2", "2-3", "3-5", "4-5", "5-6", "6-7"],
+            ["3-4", "6-7", "7-8", "7-9", "8-9", "10-12", "12-13"],
+            ["20", "20", "30", "30", "30", "30", "30"],
+            ["4.5", "4.5", "6.5", "6.5", "6.5", "6.5", "6.5"]
+        ],
+        "tableHeaders": [
+            "Bale Size",
+            "Chamber Size",
+            "Bale Weight (MS)",
+            "Bale Weight (Al)",
+            "Cyclo Time (Sec)",
+            "Production (AL) Tons/8hr",
+            "Production (MS/SS/Cu) Tons/8hr",
+            "Motor HP",
+            "Machine Weight (Tons)"
+        ],
+        "description": "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        "cards": [
+            {
+                "title": "Efficiency / Operation",
+                "keyPoints": [
+                    " Indias fastest PLC controlled machine, Bale is made in less than 75 sec.",
+                    "Production capability of up to <span class='font-bold'>2 - 10tons/hr</span>",
+                    "Bale Size from 20 x 20 up to 35 x 35",
+                    "Production capability of up to <span class='font-bold'> Separate manifolds for each cylinders./hr</span>",
+                    "Bale of thick TMT Bar 5-10mm, also process uneven scraps",
+                    "Shearing blades on the edges of the top lid and chamber are provided for shearing oversized material upto 15mm.",
+                    "Bale size up to 35 35 for steel",
+                    "Cylinder force up to 250 Tons",
+                    "Reduces storage, transportation cost and easy to handle",
+                    "Replaceable Liners plate for enhanced maintenance efficiency."
+                    
+                ]
+            },
+            {
+                "title": "Durability",
+                "keyPoints": [
+                    "<span class='font-bold'>HARDOX 500-BHN Wear-Resistant Plate.</span>",
+                    "Superior cylinders with <span class='font-bold'>hardened, chrome-coated piston rods</span>, and honed pipes for superior durability.",
+                    "<span class='font-bold'>Parker Double gear pump trouble-free operation..</span>",
+                    "Better Designed Cylinders for ease of maintenance",
+                    "High quality hydraulic and electronic components",
+                    "<span class='font-bold'>High-quality</span> PU and PTFE seals.",
+                    "Anti Clogging Alarm & Remote Diagnostic  system ."
+                ]
+            },
+            {
+                "title": "Supported Materials",
+                "keyPoints": [
+                    
+                    [
+                        "<span class='font-bold'>20mm Thick Hr and Cr Sheet Scrap</span>",
+                        "<span class='font-bold'>Turning Scrap</span>",
+                        "<span class='font-bold'>Aluminum Scrap</span>",
+                        "<span class='font-bold'>Bazar Scrap</span>",
+                        "<span class='font-bold'>Oversized Scrap</span>",
+                        "<span class='font-bold'>TMT (tor Steel) Scrap</span>",
+                        "<span class='font-bold'>Light Scrap</span>",
+                        "<span class='font-bold'>CRC (Cold Rolled Coil) Scrap</span>",
+                        "<span class='font-bold'>Car Body Scrap</span>",
+                        "<span class='font-bold'>Tin Scrap</span>",
+                        "<span class='font-bold'>Copper Scrap</span>",
+                        "<span class='font-bold'>Steel Scrap</span>",
+                        "<span class='font-bold'>Stainless Steel Scrap</span>",
+                        "<span class='font-bold'>Lead Scrap</span>",
+                        "<span class='font-bold'>Versatility in handling a wide range of scrap materials</span>"
+                    ]
+                    
+                ]
+            },
+            {
+                "title": "Suitable Industries",
+                "keyPoints": [
+                    "Metal Recycling Facilities",
+                    "TMT (tor Steel) Or Ingot Manufacturing Plants",
+                    "Manufacturing Plants",
+                    "Scrap Yards",
+                    "Casting Plants",
+                    "Iron Steel Facilities",
+                    "Scrap Processing Centers"
+                ]
+            }
+        ]
+    }
+}
+    
+    

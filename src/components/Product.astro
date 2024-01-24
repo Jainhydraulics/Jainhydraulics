@@ -1,0 +1,242 @@
+---
+
+import { Image } from 'astro:assets';
+
+import Table from './Table.astro';
+
+import ContactsForm from './ContactsForm.astro';
+import { slide } from 'astro:transitions';
+
+const { image, productData, faq, type, realPhotos } = Astro.props;
+
+const description = productData.description;
+const tableHeaders = productData.tableHeaders;
+const tableData = productData.tableData;
+const wasteTableHeaders = productData.wasteTableHeaders;
+const wasteTableData = productData.wasteTableData;
+const cards = productData.cards;
+const industry = productData.industry;
+const title = image[1];
+const videos = productData.videos;
+
+---
+
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Grid -->
+    <div class="text-center items-center gap-10">
+
+            <Image class="rounded-xl mx-auto max-h-[600px] object-scale-down mb-8" src={image[0].default} alt={title} />
+            <!-- End Col -->
+            
+            <div class="mt-5 sm:mt-10 lg:mt-0">
+                <div class="space-y-6 sm:space-y-8">
+                    <!-- Title -->
+                    <div class="space-y-2">
+                        <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">{title + " " + type}</h2>
+                        <span class="block text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+                            { industry }
+                        </span>           
+                    </div>
+                    <!-- End Title -->
+                    
+                </div>
+            </div>
+            <!-- End Col -->
+            {/* 
+            <div class="grid grid-cols-2 gap-8">
+                {
+                    cards ? cards.map(item => (
+                    <div class="items-center bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                        <div class="w-full">
+                            <h3 class="py-4 border-b-4 text-2xl font-bold text-gray-800 dark:text-white mb-4">
+                                {item.title}
+                            </h3>
+                        </div>
+                        <!-- List -->
+                        <ul role="list" class="pb-4 px-4 md:px-7 md:pb-7 space-y-2 sm:space-y-4 grid">
+                            {
+                                item["keyPoints"] !== undefined ? item["keyPoints"].map(data => (
+                                <li class="flex">
+                                    <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                                        <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                    </span>
+                                    
+                                    <span class="pl-2 text-left text-sm sm:text-base text-gray-500">
+                                        <Fragment set:html={data}/>
+                                    </span>
+                                </li>
+                                )) : null
+                            }
+                        </ul>
+                        <!-- End List -->
+                    </div>
+                    )) : null
+                } 
+            
+            </div>
+            */}
+    </div>
+
+    <div class="grid gap-1 mt-2 md:max-w-[50%] mx-auto gap-y-2">
+
+        <a class="max-w-fit mx-auto py-3 px-4 inline-flex items-center text-xs font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#form-quote">
+            Book Now
+            <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+
+    </div>
+
+    <!-- Description -->
+    <div class="grid md:grid-cols-5 gap-2 md:gap-10 mt-6 md:mt-14">
+
+        <!-- Title -->
+        <div class="md:col-span-2">
+            <div class="max-w-xs">
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Description</h2>
+                <p class="text-sm text-gray-500"></p>
+            </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="md:col-span-3">
+            
+            <div>
+                <p class="text-gray-500 font-serif md:text-xl"> { description }</p>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Features -->
+    <div class="grid md:grid-cols-5 gap-2 md:gap-10 mt-6 md:mt-14 ">
+
+        <!-- Title -->
+        <div class="md:col-span-2">
+            <div class="max-w-xs">
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Features</h2>
+                <p class="text-sm text-gray-500"></p>
+            </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="md:col-span-3">
+
+            <div class="hs-accordion-group divide-y divide-gray-200 dark:divide-gray-700">
+                {
+                    cards ? cards.map((item, index) => (
+                        <div class={index === 0 ? "hs-accordion active" : "hs-accordion"} id={index}>
+                            <button class="hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls={index}>
+                                { item.title }
+                                <svg class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                                <svg class="hs-accordion-active:block hidden flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+                            </button>
+                            <div id={index} class={index === 0 ? "hs-accordion-content w-full overflow-hidden transition-[height] duration-300" : "hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" } aria-labelledby={index}>
+                                <ul>                   
+                                    {
+                                        
+                                        item["keyPoints"] !== undefined ? item["keyPoints"].map(data => (
+                                            <li class="flex pl-1">
+                                                <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                                                    <svg class="flex-shrink-0 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                                </span>
+                                                
+                                                <p class="pl-2 pb-3 text-left text-sm sm:text-base text-gray-500">
+                                                    <Fragment set:html={data}/>
+                                                </p>
+                                            </li>
+                                        )) : null
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    )) : null
+                }
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FAQ-->
+    <div class="grid md:grid-cols-5 gap-2 md:gap-10 mt-6 md:mt-14">
+
+        <!-- Title -->
+        <div class="md:col-span-2">
+            <div class="max-w-xs">
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Frequently Asked Questions</h2>
+                <p class="text-sm text-gray-500"></p>
+            </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="md:col-span-3">
+
+            <div class="hs-accordion-group divide-y divide-gray-200 dark:divide-gray-700">
+                {
+                    faq ? faq.map((item, index) => (
+                        <div class={index === 0 ? "hs-accordion active" : "hs-accordion"} id={index}>
+                            <button class="hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls={index}>
+                                { item["question"] }
+                                <svg class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                                <svg class="hs-accordion-active:block hidden flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+                            </button>
+                            <div id={index} class={index === 0 ? "hs-accordion-content w-full overflow-hidden transition-[height] duration-300" : "hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" } aria-labelledby={index}>
+                                <ul>                   
+                                    {
+                                        
+                                        item["answer"] !== undefined ? 
+                                            <li>
+                                                
+                                                <p class="pl-1 pb-3 text-left text-sm sm:text-base text-gray-500">
+                                                    <Fragment set:html={item["answer"]}/>
+                                                </p>
+                                            </li>
+                                        : null
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    )) : null
+                }
+            </div>
+        </div>
+    </div>
+    
+    <Table tableData={tableData} tableHeaders={tableHeaders} wasteTableData={wasteTableData} wasteTableHeaders={wasteTableHeaders} />
+</div>
+
+{
+
+    realPhotos || videos.length >= 1 ?
+        <div class={`grid ${realPhotos && realPhotos.length > 1 || videos.length > 1 ? 'md:grid-cols-2' : 'grid-cols-1'} gap-4 p-8 mx-auto bg-slate-900 items-center md:gap-8 md:p-20 mb-2`}>
+            {
+                realPhotos ?
+                    realPhotos.map((item) => (
+                        <div class="w-full h-full">
+                            <Image class="w-auto h-full object-cover mx-auto" src={item.default} alt="machinePhoto" />
+                        </div>
+                    ))
+                : null
+            }
+            {
+                videos ?
+                    videos.map((item,index) => (
+                        
+                        <div class="w-full h-full max-w-[1000px] mx-auto overflow-hidden aspect-video pointer-events-auto">
+                            <iframe class="w-full h-full" id="ytplayer" src={`https://www.youtube.com/embed/${item}`} frameborder="0"></iframe>
+                        </div>
+                    ))
+                : null
+            }
+
+        </div> : null
+
+}
+
+
+{/* <astro-greet data-message={videos} id={`muteYouTubeVideoPlayer${index}`} /> */}
+
+<div class="my-2 bg-teal-900 p-4 md:p-8" id="form-quote">
+    <h4 class="text-center font-bold text-xl md:text-2xl xl:text-3xl text-gray-200 ">Book your <span class="underline underline-offset-4 uppercase text-white">{`${title + " " + type}`}</span>{` Today!`}</h4>
+    <ContactsForm textColor="text-white" innerTextColor="text-gray-300" />
+</div>
