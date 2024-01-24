@@ -6,11 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 #Backup
-./**/*.zip
-**/*.zip
 *.zip
-./src/*.zip
-./src/images/*.zip
+ 
 # Runtime data
 pids
 *.pid
