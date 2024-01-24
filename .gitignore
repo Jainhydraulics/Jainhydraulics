@@ -9,7 +9,8 @@ yarn-error.log*
 ./**/*.zip
 **/*.zip
 *.zip
-
+./src/*.zip
+./src/images/*.zip
 # Runtime data
 pids
 *.pid
