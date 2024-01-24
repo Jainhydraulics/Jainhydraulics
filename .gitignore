@@ -8,6 +8,9 @@ yarn-error.log*
 #Content
 Real Phts.zip
 
+#Backup
+*.zip
+
 # Runtime data
 pids
 *.pid
