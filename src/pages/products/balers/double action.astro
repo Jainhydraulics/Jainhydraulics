@@ -29,7 +29,7 @@ const type = "Baler";
 ---
 
 
-<Layout title="Double Action Baler" description={productData.balers["double_action"].description} >
+<Layout title="Double Action Baler: Scrap Metal, and Waste Processing" description={productData.balers["double_action"].description} >
 
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Grid -->
@@ -173,13 +173,13 @@ const type = "Baler";
                     <div class="hs-accordion-group divide-y divide-gray-200 dark:divide-gray-700">
                         {
                             cards ? cards.map((item, index) => (
-                                <div class={index === 0 ? "hs-accordion active" : "hs-accordion"} id={index}>
-                                    <button class="hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls={index}>
+                                <div class={index === 0 ? "hs-accordion active" : "hs-accordion"}>
+                                    <button class="hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                                         { item.title }
                                         <svg class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                                         <svg class="hs-accordion-active:block hidden flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
                                     </button>
-                                    <div id={index} class={index === 0 ? "hs-accordion-content w-full overflow-hidden transition-[height] duration-300" : "hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" } aria-labelledby={index}>
+                                    <div class={index === 0 ? "hs-accordion-content w-full overflow-hidden transition-[height] duration-300" : "hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" } >
                                         <ul>                   
                                             {
                                                 
@@ -222,13 +222,13 @@ const type = "Baler";
                     <div class="hs-accordion-group divide-y divide-gray-200 dark:divide-gray-700">
                         {
                             faq ? faq.map((item, index) => (
-                            <div class={index === 0 ? "hs-accordion active" : "hs-accordion"} id={index}>
-                                <button class="hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls={index}>
+                            <div class={index === 0 ? "hs-accordion active" : "hs-accordion"} >
+                                <button class="hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" >
                                     { item["question"] }
                                     <svg class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                                     <svg class="hs-accordion-active:block hidden flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
                                 </button>
-                                <div id={index} class={index === 0 ? "hs-accordion-content w-full overflow-hidden transition-[height] duration-300" : "hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" } aria-labelledby={index}>
+                                <div  class={index === 0 ? "hs-accordion-content w-full overflow-hidden transition-[height] duration-300" : "hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" } >
                                     <ul>                   
                                         {
                                             

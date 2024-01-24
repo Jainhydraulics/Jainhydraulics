@@ -11,7 +11,7 @@ const balerNames = productData.balers.types;
 const balers = await Astro.glob("../../../images/Products/Balers/*");
 ---
 
-<Layout title="Horizontal Baler" description={productData.balers["horizontal"].description}>
+<Layout title="Horizontal Baler: Scrap Metal, and Waste Processing" description={productData.balers["horizontal"].description}>
 	
 	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["horizontal"]} image={[balers[2], balerNames[2]]} />
 </Layout>

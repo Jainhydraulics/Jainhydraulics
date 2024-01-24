@@ -13,7 +13,7 @@ const balers = await Astro.glob("../../../images/Products/Balers/*");
 const realPhotos = await Astro.glob("../../../images/Real Photos/Mini PLC/*");
 ---
 
-<Layout title="Mini PLC Baler" description={productData.balers["mini_plc"].description}>
+<Layout title="Mini PLC Baler: Scrap Metal, and Waste Processing" description={productData.balers["mini_plc"].description}>
 	
 	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["mini_plc"]} image={[balers[6], balerNames[6]]}
 	realPhotos={realPhotos} />
