@@ -15,7 +15,10 @@ export default {
 			},
 			animation: {
 				marquee: "marquee 25s linear infinite",
-				marqueeSlow: "marquee 100s linear infinite"
+				marqueeSlow: "marquee 100s linear infinite",
+			},
+			fontFamily: {
+				customHead: ["'Montserrat'"],
 			},
 		},
 	},

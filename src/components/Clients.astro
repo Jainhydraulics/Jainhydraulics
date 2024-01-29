@@ -2,11 +2,11 @@
 
 import { Image } from "astro:assets";
 const clients = await Astro.glob("../images/clients/*");
-const { text } = Astro.props;
+const { text, titleColor } = Astro.props;
 
 ---
 <div class="mx-auto text-center">
-    <h2 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl font-bold md:text-3xl md:leading-tight">{text}</h2>
+    <h2 class=`${titleColor ? titleColor : "bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent"} text-2xl font-bold md:text-4xl md:leading-tight`>{text}</h2>
 </div>
 <div class="flex overflow-hidden">
     <div class="animate-marquee flex justify-around md:min-w-[400%] xl:min-w-[250%] min-w-[790%]">

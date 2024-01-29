@@ -11,7 +11,7 @@ const allPosts = await Astro.glob("../pages/posts/*.mdx");
 <!-- End Title -->
 
 <!-- Grid -->
-<div class="grid md:grid-cols-3 gap-10 md:max-w-[60%] mx-auto">
+<div class="grid md:grid-cols-3 gap-10 lg:max-w-[60%] mx-auto">
     {
         allPosts.map((post) => (
             <BlogSection url={post.url} imagePath={post.frontmatter.imagePath} title={post.frontmatter.title} intro={post.frontmatter.intro} />

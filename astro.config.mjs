@@ -10,7 +10,7 @@ import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), mdx(), sitemap(), compress()],
+  integrations: [tailwind({ applyBaseStyles: false, }), mdx(), sitemap(), compress({ Path: ["./src", "./dist"]  })],
   output: "static",
   prefetch: {
     defaultStrategy: "viewport",
