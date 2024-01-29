@@ -31,12 +31,12 @@ const { text, innerText, textColor, innerTextColor, labelColor } = Astro.props;
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                     <div>
                         <label for="firstname" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>First Name<span class="text-red-300"> *</span></label>
-                        <input type="text" required name="firstname" id="firstname" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
+                        <input type="text" placeholder="John" required name="firstname" id="firstname" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
                     </div>
                     
                     <div>
                         <label for="lastname" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>Last Name<span class="text-red-300"> *</span></label>
-                        <input type="text" required name="lastname" id="lastname" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
+                        <input type="text" placeholder="Smith" required name="lastname" id="lastname" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
                     </div>
                     <p class="hidden">
                         <label>
@@ -50,19 +50,19 @@ const { text, innerText, textColor, innerTextColor, labelColor } = Astro.props;
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                     <div>
                         <label for="email" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>Email<span class="text-red-300"> *</span></label>
-                        <input type="email" required name="email" id="email" autocomplete="email" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
+                        <input type="email" required name="email" id="email" placeholder="sam@gmail.com" autocomplete="email" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
                     </div>
                     
                     <div>
                         <label for="phone" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>Phone Number<span class="text-red-300"> *</span></label>
-                        <input name="phone" required type="tel" id="phone" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
+                        <input name="phone" placeholder="Phone" required type="tel" id="phone" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
                     </div>
                 </div>
                 <!-- End Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                     <div>
                         <label for="company name" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>Company<span class="text-red-300"> *</span></label>
-                        <input type="text" required name="company name" id="company name" autocomplete="email" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
+                        <input type="text" placeholder="Company" required name="company name" id="company name" autocomplete="email" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`>
                     </div>
                     <div>
                         <label for="country" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>Country<span class="text-red-300"> *</span></label>
@@ -75,7 +75,7 @@ const { text, innerText, textColor, innerTextColor, labelColor } = Astro.props;
                 </div> 
                 <div>
                     <label for="details" class=`block mb-2 text-sm ${textColor ? textColor :  "text-gray-700"} font-medium dark:text-white`>Details</label>
-                    <textarea id="details" name="details" rows="4" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`></textarea>
+                    <textarea placeholder="Hey, Please send us a quote for the twin shaft shredder" id="details" name="details" rows="4" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`></textarea>
                 </div>
             </div>
             <!-- End Grid -->
