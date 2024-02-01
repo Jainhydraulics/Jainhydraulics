@@ -1,0 +1,18 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import SecondaryNav from "../../../components/SecondaryNav.astro";
+import Product from "../../../components/Product.astro";
+
+import productData from "../../../products.json";
+
+const grabberNames = productData.chipProcessing.types;
+
+const grabber = await Astro.glob("../../../images/Products/Grabber/*");
+//const realPhotos = await Astro.glob("../../../images/Real Photos/Grabber/*");
+---
+
+<Layout title="Grabber: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.chipProcessing["grabber"].description}>
+	
+	<Product faq={productData.chipProcessing.faq} type="Cranes and Chip Processing" productData={productData.chipProcessing["grabber"]} image={[grabber[0], grabberNames[2]]} />
+</Layout>

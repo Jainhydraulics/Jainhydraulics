@@ -4,28 +4,93 @@ import Layout from '../layouts/Layout.astro';
 import highDensity from '../images/Products/Balers/High Density.png'
 import shredder from '../images/Products/Shredders/Shredder copy.png'
 import boxShear from '../images/Products/Shears/Box Shear copy.png'
-import towerCrane from '../images/Products/Revolving Tower Crane.png'
-import grabber from '../images/Products/Grabber.png'
+import towerCrane from '../images/Products/Cranes/Revolving Tower Crane.png'
+import grabber from '../images/Products/Grabber/Grabber.png'
 
 import Clients from "../components/Clients.astro";
 import ContactsForm from "../components/ContactsForm.astro";
+
+
+import productsData from '../products.json';
+
+
+const contactInfo = productsData.contact;
 
 import BlogSectionParent from "../components/BlogSectionParent.astro";
 import Carousel from "../components/Carousel.astro";
 
 ---
 
-<Layout title="Jain Hydraulics Recycling: Metal, Metal scrap, and Waste Proccessing Redefined", description="India's Top Manufacturer in Scrap Metal, and Waste Processing Machines. Experience the difference with our superior balers, shears, and shredders – meticulously crafted to outshine and outperform competitors in every aspect.">
+<Layout title="Jain Hydraulics Recycling: Manufacturers of Hydraulic Balers, Shears, and Shredders for Metal Scrap, and Waste Processing Industries", description="India's Top Manufacturer in Scrap Metal, and Waste Processing Machines. Experience the difference with our superior balers, shears, and shredders – meticulously crafted to outshine and outperform competitors in every aspect.">
 	
+
+	<div class="bg-gradient-to-br from-blue-900 via-zinc-800 to-blue-400 p-4 md:p-20 mb-2">
+
+		<div class="grid gap-y-8 py-8 mx-auto md:max-w-[1200px] items-center text-center rounded p-4 md:p-20 bg-opacity-20 shadow-2xl bg-black">
+			<p class="text-xs md:text-sm bg-clip-text bg-gradient-to-l dark:from-blue-100 dark:to-violet-200 font-medium uppercase from-blue-600 inline-block text-transparent to-violet-500 ">
+				JHR: Metal, and Waste Proccessing Redefined
+			</p>
+			<h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white">Hydraulic Machines Perfected</h2>
+			<p class="md:text-lg lg:text-xl text-gray-50">
+				India's Top Manufacturer of Hydraulic Balers, Shears, and Shredders.
+			</p>
+			<p class="md:text-lg lg:text-xl text-gray-50">
+				Experience the difference with our superior balers, shears, and shredders – meticulously crafted to outshine and outperform competitors in every aspect.
+			</p>
+			<div class="grid grid-cols-12 sm:flex sm:justify-center gap-4 sm:gap-x-12 lg:gap-x-24">
+				<div class="col-span-6 md:cold-span-3 text-center">
+					<h4 class="bg-gradient-to-b from-gray-50 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+						50+
+					</h4>
+					<h4 class="md:text-md lg:text-lg text-gray-300 dark:text-gray-400">
+						Years of Expertise 
+					</h4>
+				</div>
+				<!-- End Col -->
+				
+				<div class="col-span-6 md:cold-span-3 text-center">
+					<h4 class="bg-gradient-to-b from-gray-50 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+						10000+
+					</h4>
+					<h4 class="md:text-md lg:text-lg text-gray-300 dark:text-gray-400">
+						Machines Installed
+					</h4>
+				</div>
+				<!-- End Col -->
+				
+				<div class="col-span-6 md:cold-span-3 text-center">
+					<h4 class="bg-gradient-to-b from-gray-50 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+						200+
+					</h4>
+					<h4 class="md:text-md lg:text-lg text-gray-300 dark:text-gray-400">
+						Turnkey Projects
+					</h4>
+				</div>
+				<!-- End Col -->
+				
+				<div class="col-span-6 md:cold-span-3 text-center">
+					<h4 class="bg-gradient-to-b from-gray-50 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
+						100+
+					</h4>
+					<h4 class="md:text-md lg:text-lg text-gray-300 dark:text-gray-400">
+						Countries
+					</h4>
+				</div>
+				<!-- End Col -->
+			</div>
+			<div><a class="text-sm rounded-lg items-center bg-blue-600 border border-transparent dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 disabled:opacity-50 disabled:pointer-events-none font-semibold gap-x-2 hover:bg-blue-700 inline-flex px-4 py-3 text-white" href="#lead">Get a Quote <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 h-4 w-4" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24"><path d="m9 18 6-6-6-6"></path></svg></a></div>
+		</div>
+	</div>
+
 	<div class="grid gap-y-2">
-		<div class="p-4 md:p-8  bg-slate-900">
+		<div class="p-4 py-10 md:p-8 bg-slate-900">
 			<div class="mx-auto max-w-[85rem] col-span-full grid md:gap-x-12 xl:gap-x-32 ">
-				<div class="items-center mx-auto grid text-center gap-y-2 md:gap-y-4">
+				<div class="items-center mx-auto grid text-center gap-y-4">
 					<h2 class="font-bold text-2xl lg:text-5xl text-gray-100 dark:text-gray-200">
 						Precision. Power. Performance.
 					</h2>
 					<p class="md:max-w-[50%] text-gray-300 mx-auto">
-						From small-scale operations to large-scale industrial applications, our balers stand as a symbol of reliability and sustainability, streamlining recycling processes and empowering businesses to achieve optimal efficiency while contributing to a greener future.
+						From small-scale operations to large-scale industrial applications, our Hydraulic Balers stand as a symbol of reliability and sustainability, streamlining recycling processes and empowering businesses to achieve optimal efficiency while contributing to a greener future.
 					</p>
 					
 					<div>
@@ -35,19 +100,19 @@ import Carousel from "../components/Carousel.astro";
 						</a>
 					</div>
 				</div>
-				<Image class="md:max-w-[60%] h-auto mt-8 mx-auto" src={highDensity} alt="High Density Baler" />
+				<Image class="md:max-w-[70%] h-auto mt-8 mx-auto" src={highDensity} alt="High Density Baler" />
 			</div>
 		</div>
 		
 		
-		<div class="p-4 md:p-8 col-span-full grid grid-cols-2 md:gap-x-12 xl:gap-x-32 bg-slate-100">
+		<div class="p-4 py-10 md:p-8 col-span-full grid grid-cols-2 md:gap-x-12 xl:gap-x-32 bg-slate-100">
 			<div class="mx-auto max-w-[85rem] col-span-full grid md:gap-x-12 xl:gap-x-32">			
-				<div class="items-center mx-auto grid text-center gap-y-2 md:gap-y-4">
+				<div class="items-center mx-auto grid text-center gap-y-4">
 					<h2 class="font-bold text-2xl md:text-4xl lg:text-5xl text-gray-800 dark:text-gray-200">
 						Shred. Transform. Innovate.
 					</h2>
 					<p class="md:max-w-[50%] mx-auto text-gray-500">
-						Elevate your metal processing capabilities with our cutting-edge shredders, adept at handling a myriad of applications. From efficient steel drum shredding to processing electronic waste, these machines stand out for their robustness and versatility. 
+						Elevate your metal processing capabilities with our cutting-edge Hydraulic, and Electric Shredders, adept at handling a myriad of applications. From efficient steel drum shredding to processing electronic waste, these machines stand out for their robustness and versatility. 
 					</p>
 					
 					
@@ -58,19 +123,19 @@ import Carousel from "../components/Carousel.astro";
 						</a>
 					</div>
 				</div>
-				<Image class="md:max-w-[60%] h-auto mx-auto mt-8" src={shredder} alt="Twin Shaft Shredder" />
+				<Image class="md:max-w-[70%] h-auto mx-auto mt-8" src={shredder} alt="Twin Shaft Shredder" />
 			</div>
 		</div>
 		
 		
-		<div class="p-4 md:p-8 col-span-full grid grid-cols-2 md:gap-x-12 xl:gap-x-32 bg-slate-900">
+		<div class="p-4 py-10 md:p-8 col-span-full grid grid-cols-2 md:gap-x-12 xl:gap-x-32 bg-slate-900">
 			<div class="mx-auto max-w-[85rem] col-span-full grid md:gap-x-12 xl:gap-x-32">
-				<div class="items-center mx-auto grid text-center gap-y-2 md:gap-y-4">
+				<div class="items-center mx-auto grid text-center gap-y-4">
 					<h2 class="font-bold text-2xl md:text-4xl lg:text-5xl text-gray-100 dark:text-gray-200">
 						Efficiency. Shear Force. Quality.
 					</h2>
 					<p class=" md:max-w-[50%] mx-auto text-gray-300">
-						Experience unparalleled strength and precision with our Box Shears. Engineered for durability, each cut embodies reliability and performance, making these shears the epitome of efficiency in metal processing.
+						Experience unparalleled strength and precision with our Hydraulics Shears. Engineered for durability, each cut embodies reliability and performance, making these shears the epitome of efficiency in metal processing.
 					</p>
 					<div>
 						<a class="inline-flex items-center gap-x-2 font-semibold disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 hover:underline text-blue-600 dark:focus:ring-gray-600" href="/products/shears">
@@ -79,7 +144,7 @@ import Carousel from "../components/Carousel.astro";
 						</a>
 					</div>
 				</div>
-				<Image class="md:max-w-[60%] h-auto mx-auto mt-8" src={boxShear} alt="Box Shear" />
+				<Image class="md:max-w-[70%] h-auto mx-auto mt-8" src={boxShear} alt="Box Shear" />
 			</div>
 		</div>
 	</div>
@@ -90,7 +155,7 @@ import Carousel from "../components/Carousel.astro";
 			<h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
 				Grabbers
 			</h2>
-			<p class="md:max-w-[60%] mx-auto text-gray-500">
+			<p class="md:max-w-[70%] mx-auto text-gray-500">
 				Our Grabber is a versatile and efficient material handling attachment designed for heavy-duty applications.
 			</p>
 			<div class="mt-2">
@@ -102,7 +167,7 @@ import Carousel from "../components/Carousel.astro";
 			<h2 class="font-bold text-3xl md:text-4xl lg:text-4xl text-white dark:text-gray-200">
 				Revolving Tower Cranes
 			</h2>
-			<p class="md:max-w-[60%] text-gray-200 mx-auto">
+			<p class="md:max-w-[70%] text-gray-200 mx-auto">
 				The Revolving Tower Crane is a pinnacle of construction site efficiency, featuring a rotating tower for 360-degree coverage. 
 			</p>
 			<div class="mt-2">
@@ -113,66 +178,79 @@ import Carousel from "../components/Carousel.astro";
 	</div>
 	
 
-
-	<div class="grid gap-y-10 md:gap-y-16 p-4 my-2 md:py-12 bg-slate-50">
-		<Clients text="Powering Success Across Industries" />
-
-		<div class="grid grid-cols-12 sm:flex sm:justify-center gap-4 sm:gap-x-12 lg:gap-x-24">
-			<div class="col-span-6 md:cold-span-3 text-center">
-				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
-					50+
-				</h4>
-				<h4 class="text-md text-gray-500 dark:text-gray-400">
-					Years of Expertise 
-				</h4>
+	<div class="px-2 lg:px-8 py-10 lg:py-12 bg-gray-800 mt-2" id="lead">
+		<div class="max-w-[85rem] mx-auto grid md:grid-cols-2 gap-8 ">
+			<div class="order-3">
+				<div class="grid gap-y-8">
+					<div class="gap-2 flex flex-col border p-8 rounded-lg border-gray-200">
+						<h3 class="font-semibold text-xl text-white dark:text-gray-200">Address</h3>
+						<address class="font-medium not-italic gap-2 text-gray-200 flex flex-col">
+							{
+								contactInfo.address.map((item, index) => (
+								
+								<p class="text-gray-100 dark:text-gray-200 inline-flex flex-wrap gap-x-2  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+									<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" > <g id="SVGRepo_bgCarrier" stroke-width="0"></g> <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" ></g> <g id="SVGRepo_iconCarrier">
+										<path ill-rule="evenodd"clip-rule="evenodd"d="M2 2V22H22V2H2ZM4 4H20V20H4V4ZM10 6H14V18H10V6ZM6 8H8V16H6V8ZM16 8H18V16H16V8ZM6 18V20H8V18H6ZM10 18V20H14V18H10ZM16 18V20H18V18H16Z"fill="currentColor"></path>
+									</g>
+								</svg>
+								{ index === 1 ?
+									<span>Service Center:</span> : <span>Headquaters:</span> }
+									{item}
+									
+								</p>
+								))
+							}
+						</address>
+						
+					</div>
+					<div class="gap-2 flex flex-col border p-8 rounded-lg border-gray-200">
+						<h3 class="font-semibold text-xl text-white dark:text-gray-200">Phone Numbers</h3>
+						<p class="font-medium inline-flex gap-x-2 flex-wrap text-gray-200">
+							<svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.344 12.168-1.4-1.4a1.98 1.98 0 0 0-2.8 0l-.7.7a1.98 1.98 0 0 1-2.8 0l-2.1-2.1a1.98 1.98 0 0 1 0-2.8l.7-.7a1.981 1.981 0 0 0 0-2.8l-1.4-1.4a1.828 1.828 0 0 0-2.8 0C-.638 5.323 1.1 9.542 4.78 13.22c3.68 3.678 7.9 5.418 11.564 1.752a1.828 1.828 0 0 0 0-2.804Z"/>
+							</svg>
+							Sales:
+							{
+								contactInfo.phoneSales.map((item) => (
+								<a class="text-gray-100 hover:text-gray-500 dark:text-gray-700 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 " href={`tel:${item}`}> {item} </a>   
+								))
+							}
+						</p>
+						<p class="font-medium inline-flex gap-x-2 flex-wrap text-gray-200">
+							<svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.344 12.168-1.4-1.4a1.98 1.98 0 0 0-2.8 0l-.7.7a1.98 1.98 0 0 1-2.8 0l-2.1-2.1a1.98 1.98 0 0 1 0-2.8l.7-.7a1.981 1.981 0 0 0 0-2.8l-1.4-1.4a1.828 1.828 0 0 0-2.8 0C-.638 5.323 1.1 9.542 4.78 13.22c3.68 3.678 7.9 5.418 11.564 1.752a1.828 1.828 0 0 0 0-2.804Z"/>
+							</svg>
+							Support:
+							{
+								contactInfo.phoneSupport.map((item) => (
+								<a class=" text-gray-100 hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`tel:${item}`}> {item} </a>   
+								))
+							}
+						</p>
+						<p class="font-medium inline-flex flex-wrap gap-x-2 text-gray-200">
+							<svg class="w-5 h-5" fill="#ffffff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve">
+								<g id="XMLID_468_">
+									<path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156   c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687   c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887   c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153   c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348   c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802   c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922   c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0   c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458   C233.168,179.508,230.845,178.393,227.904,176.981z"/>
+									<path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716   c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396   c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z    M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188   l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677   c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867   C276.546,215.678,222.799,268.994,156.734,268.994z"/>
+								</g>
+							</svg>
+							Whatsapp:
+							<a class=" text-gray-100 hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="https://wa.me/919911574941">919911574941</a>   
+						</p>
+					</div>
+				</div>
 			</div>
-			<!-- End Col -->
-			
-			<div class="col-span-6 md:cold-span-3 text-center">
-				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
-					10000+
-				</h4>
-				<h4 class="text-md text-gray-500 dark:text-gray-400">
-					Machines Installed
-				</h4>
+			<div class="order-2">
+				<ContactsForm border="border" textColor="text-gray-100" />
 			</div>
-			<!-- End Col -->
-			
-			<div class="col-span-6 md:cold-span-3 text-center">
-				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
-					200+
-				</h4>
-				<h4 class="text-md text-gray-500 dark:text-gray-400">
-					Turnkey Projects
-				</h4>
+			<div class="grid gap-y-8 md:gap-y-8 col-span-full order-1 border-b pb-10">
+				<Clients text="Let's Find Your Perfect Machine!" titleColor="text-gray-100" />
 			</div>
-			<!-- End Col -->
-			
-			<div class="col-span-6 md:cold-span-3 text-center">
-				<h4 class="bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent text-2xl md:text-5xl font-bold">
-					100+
-				</h4>
-				<h4 class="text-md text-gray-500 dark:text-gray-400">
-					Countries
-				</h4>
-			</div>
-			<!-- End Col -->
 		</div>
 	</div>
 
-
-{/*
-	<div class="my-10">
-		<Carousel />
-	</div>
-
-
-
- */}
-
-	<div class="mt-2 py-8 px-6 bg-teal-900 ">
-		<h4 class="text-center font-bold text-2xl md:text-3xl xl:text-4xl text-white">Let's Find Your Perfect Machine!</h4>
-		<ContactsForm textColor="text-white"/>
+	<div class="">
+		
 	</div>
 
 	<div class="mt-2 mb-2 bg-slate-100 p-10">

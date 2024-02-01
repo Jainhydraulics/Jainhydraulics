@@ -258,7 +258,7 @@
         }
     },
     "balers": {
-        "types": ["Continuous","High Density","Horizontal","Jumbo Manual","Jumbo PLC","Manual Mini","Mini PLC","Super Jumbo","Vertical","Double Action"],
+        "types": ["Continuous","High Density","Horizontal","Jumbo Manual","Jumbo PLC","Manual Mini","Mini PLC","Super Jumbo","Triple Action","Vertical","Double Action"],
         "faq": [
             {
                 "question": "What are the installation requirements?",
@@ -273,6 +273,42 @@
                 "answer": "The delivery time depends on various factors, including the product or service type and your location. Typically, it ranges from 15 days to a month. For more accurate information, please contact our sales team."
             }
         ],
+        "triple_action": {
+            "videos": [],
+            "tableData": [
+                ["HEW/1073/CPB-IV", "14x14", "55x24x20", "60", "60-65", "6.5", "600", "30","Semi-Automatic"],
+                ["HEW/1073/CPB-V", "12x14", "72x36x30", "45-50", "12-19", "11", "1200", "40","Semi-Automatic"],
+                ["HEW/1073/CPB-VI", "12x14", "55x30x20", "40-45", "9.5-11", "13-14.5", "1000", "30","PLC"],
+                ["HEW/1073/CPB-VII", "14x14", "72x36x30", "45-50", "12-19", "11", "1200", "40","PLC"]
+            ],
+            "tableHeaders": [
+                "Model No",
+                "Bale Size (inches)",
+                "Chamber Size (inches)",
+                "Production (8hr)",
+                "Cycle Time (sec)",
+                "Weight (Tons)",
+                "Tank Size (Ltr)",
+                "Motor (HP)",
+                "Operation Type"
+            ],
+            "description": "Introducing our Triple Action Baler, a revolutionary waste processing solution. This baler combines compressing, baling, and ejecting actions for efficient waste management. With a high-capacity compression chamber, it handles diverse materials like cardboard, paper, and plastics. Reduce waste volume, optimize storage, and enhance operational efficiency with this user-friendly baler.",
+            "industry": "Waste Recycling",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "State-of-the-art Triple Action Baler",
+                        "Revolutionary in waste processing technology",
+                        "Combines compressing, baling, and ejecting actions",
+                        "High-capacity compression chamber for efficiency",
+                        "Designed for diverse waste materials – cardboard, paper, plastics, and more",
+                        "Reduces waste volume, optimizing storage and transportation",
+                        "User-friendly interface for easy operation"
+                    ]
+                }
+            ]
+        },
         "manual_mini": {
             "videos": ["btPmyA1YCgc", "ZJlV58YpluM"],
             "tableData": [
@@ -1364,7 +1400,108 @@
                 }
             ]
         }
-    }
+    },
+    "chipProcessing": {
+        "types": ["Briquetting", "Rotating Tower Crane", "Grabber"],
+        "faq": [
+            {
+                "question": "What are the installation requirements?",
+                "answer": "The installation requirements may vary depending on the product or service. However, common requirements include hydraulic oil, a water-leveled floor, and suitable electrical connections (MCB, starters, etc.). Please refer to the product documentation or contact our support team for more detailed information."
+            },
+            {
+                "question": "Do you offer warranty?",
+                "answer": "Yes, all of the machines are covered by our standard 1-year warranty from the date of purchase. For extended warranty requirements, please contact our support team."
+            },
+            {
+                "question": "How long is the delivery time?",
+                "answer": "The delivery time depends on various factors, including the product or service type and your location. Typically, it ranges from 15 days to a month. For more accurate information, please contact our sales team."
+            }
+        ],
+        "briquetting": {
+            "videos": [],
+            "tableData": [
+                ["90mm", "40", "3-5", "0.54-1.2"],
+                ["125mm", "40", "5-7", "0.9-1.68"],
+                ["150mm", "40", "7-10", "1.26-2.4"]
+            ],
+            "tableHeaders": [
+                "Diameter",
+                "Electric Motor",
+                "Bqt. Wt. (MS)",
+                "Production/hr (MS) "
+            ],
+            "description": "Discover our high-density briquettes, a revolutionary solution for optimizing production efficiency. Our continuous system ensures consistently higher production rates, making it an ideal choice for briquetting a variety of materials, including metal shavings/chips, fodder, husk, wood, and more. With a focus on high compression, our briquettes exhibit a remarkable compression force of up to 5000 kg/sq cm, resulting in uniform briquette length.<br>This exceptional compression capability minimizes losses during smelting, providing a sustainable and efficient solution for various applications. Experience the benefits of our advanced briquetting technology, delivering superior performance and reliability.",
+            "industry": "Metal Recycling | Waste Recycling",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Briquettes of high density",
+                        "Continuous system for maintaining higher production rates",
+                        "Used for briquetting shavings/chips of metal, fodder, husk, wood, etc.",
+                        "High Compression",
+                        "Uniform Briquette Length ",
+                        "Compression force up to 5000 kg/sq cm",
+                        "Minimal losses during smelting"
+                    ]
+                }
+            ]
+        },
+        "crane": {
+            "videos": [],
+            "tableData": [
+                ["200-3500Kg","7.5Mtr","180"]
+            ],
+            "tableHeaders": [
+                "Lifting Capacity",
+                "Boom Length",
+                "Revolving Angle"
+            ],
+            "description": "Experience unparalleled construction efficiency with our cutting-edge Revolving Tower Crane. Engineered for heavy lifting and equipped with a 360-degree rotation feature, this crane ensures flexibility and precision in every task. Its robust design prioritizes stability and safety, making it an ideal choice for handling various construction materials. Streamline your vertical and horizontal lifting tasks with this state-of-the-art crane.",
+            "industry": "Metal Recycling | Waste Recycling",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Cutting-edge Revolving Tower Crane",
+                        "Ideal for heavy lifting and construction",
+                        "360-degree rotation for enhanced flexibility",
+                        "Robust design for stability and safety",
+                        "Efficient in handling construction materials"
+                    ]
+                }
+            ]
+        },
+        "grabber": {
+            "videos": [],
+            "tableData": [
+                ["4-6", "150-250Kg"],
+                ["4-6", "300Kg"],
+                ["4-6", "500Kg"],
+                ["4-6","1000Kg"],
+                ["4-6","2500Kg"]
+            ],
+            "tableHeaders": [
+                "No of Arms",
+                "Lifting Capacity"
+            ],
+            "description": "Discover the versatility of our Grabber, equipped with 4-6 arms for lifting and handling tasks. Capable of picking up loads ranging from 50kg to 2500kg, this grabber is an efficient solution for material handling at construction sites. Its design ensures enhanced precision and control, making it a reliable choice for a variety of lifting applications. Built with durability in mind, our grabber delivers long-lasting performance.",
+            "industry": "Metal Recycling | Waste Recycling",
+            "cards": [
+                {
+                    "title": "Efficiency / Operation",
+                    "keyPoints": [
+                        "Versatile Grabber with 4-6 arms",
+                        "Ideal for lifting and handling tasks",
+                        "Capable of picking up 50kg to 2500kg loads",
+                        "Efficient in material handling at construction sites",
+                        "Designed for enhanced precision and control",
+                        "Durable construction for long-lasting performance"
+                    ]
+                }
+            ]
+        }
+		}
 }
 
 

@@ -1,0 +1,19 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import SecondaryNav from "../../../components/SecondaryNav.astro";
+import Product from "../../../components/Product.astro";
+
+import productData from "../../../products.json";
+
+const briqNames = productData.chipProcessing.types;
+
+const briq = await Astro.glob("../../../images/Products/Briquetting/*");
+const realPhotos = await Astro.glob("../../../images/Real Photos/Briquetting Machine/*");
+---
+
+<Layout title="Briquetting Machine: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.chipProcessing["briquetting"].description}>
+	
+	<Product faq={productData.chipProcessing.faq} type="Cranes and Chip Processing" productData={productData.chipProcessing["briquetting"]} image={[briq[0], briqNames[0]]}
+	realPhotos={realPhotos} />
+</Layout>

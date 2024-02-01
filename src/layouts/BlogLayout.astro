@@ -29,8 +29,8 @@ if (!images[frontmatter.imagePath]) throw new Error(`"${frontmatter.imagePath}" 
 
         <div class="max-w-2xl">
             <!-- Content -->
-            <div class="space-y-5 md:space-y-8 prose prose-slate">
-                <Image src={images[frontmatter.imagePath]()} alt="sdfsdf" />
+            <div class="space-y-5 md:space-y-8 prose prose-slate prose-a:text-blue-600 prose-a:inline-flex fprose-a:ont-medium prose-a:hover:text-blue-400 prose-a:disabled:opacity-50 prose-a:disabled:pointer-events-none prose-a:no-underline">
+                <Image src={images[frontmatter.imagePath]()} alt="ai generated" />
                     
                 <slot />
                 <div>

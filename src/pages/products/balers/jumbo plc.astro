@@ -12,7 +12,7 @@ const balers = await Astro.glob("../../../images/Products/Balers/*");
 const realPhotos = await Astro.glob("../../../images/Real Photos/Jumbo PLC/*");
 ---
 
-<Layout title="Jumbo PLC Hydraulic Baler: Scrap Metal, and Waste Processing" description={productData.balers["jumbo_plc"].description}>
+<Layout title="Jumbo PLC Hydraulic Baler: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.balers["jumbo_plc"].description}>
 	
 	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["jumbo_plc"]} image={[balers[4], balerNames[4]]}
 	realPhotos={realPhotos} />
