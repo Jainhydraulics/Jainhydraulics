@@ -81,3 +81,11 @@
 [[redirects]]
   from = "/box*"
   to = "/products/shears/box"
+
+[[redirects]]
+  from = "/jhpl*"
+  to = "/"
+
+[[redirects]]
+  from = "/briquette*"
+  to = "/cranes and chip processing/briquetting"
