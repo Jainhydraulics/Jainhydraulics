@@ -60,7 +60,7 @@ const videos = productData.videos;
                 <div class="space-y-6 sm:space-y-8">
                     <!-- Title -->
                     <div class="space-y-2">
-                        <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">{title + " "} { type === "Cranes and Chip Processing" ? "" : type }</h2>
+                        <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200 tracking-tighter ">{title + " "} { type === "Cranes and Chip Processing" ? "" : type }</h2>
                         <span class="block text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
                             { industry === "Metal Recycling" ? ( <a class="hover:opacity-60" href="/metal recycling">{industry}</a> ) : industry }
                         </span>           
@@ -120,7 +120,7 @@ const videos = productData.videos;
         <!-- Title -->
         <div class="md:col-span-2">
             <div class="max-w-xs">
-                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Description</h2>
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white tracking-tighter ">Description</h2>
                 <p class="text-sm text-gray-500"></p>
             </div>
         </div>
@@ -142,7 +142,7 @@ const videos = productData.videos;
         <!-- Title -->
         <div class="md:col-span-2">
             <div class="max-w-xs">
-                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Features</h2>
+                <h2 class="text-2xl tracking-tighter  font-bold md:text-4xl md:leading-tight dark:text-white ">Features</h2>
                 <p class="text-sm text-gray-500"></p>
             </div>
         </div>
@@ -154,7 +154,7 @@ const videos = productData.videos;
                 {
                     cards ? cards.map((item, index) => (
                         <div class={index === 0 ? "hs-accordion active" : "hs-accordion"} id={index}>
-                            <button class="uppercase  hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls={index}>
+                            <button class="uppercase tracking-tighter  hs-accordion-toggle group pt-3 pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-xl font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls={index}>
                                 { item.title }
                                 <svg class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                                 <svg class="hs-accordion-active:block hidden flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
@@ -191,7 +191,7 @@ const videos = productData.videos;
         <!-- Title -->
         <div class="md:col-span-2">
             <div class="max-w-xs">
-                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Frequently Asked Questions</h2>
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white tracking-tighter ">Frequently Asked Questions</h2>
                 <p class="text-sm text-gray-500"></p>
             </div>
         </div>
