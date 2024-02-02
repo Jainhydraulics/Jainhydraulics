@@ -4,15 +4,12 @@ import ProductSection from "../components/ProductSection.astro";
 import productData from "../products.json";
 
 const balerImages = await Astro.glob("../images/Products/Balers/*");
-const shearImages = await Astro.glob("../images/Products/Shears/*");
 const shredderImages = await Astro.glob("../images/Products/Shredders/*");
 
 const balers = productData.balers;
-const shears = productData.shears;
 const shredders= productData.shredders;
 
 const balerNames = productData.balers.types;
-const shearNames = productData.shears.types;
 const shredderNames = productData.shredders.types;
 
 ---
