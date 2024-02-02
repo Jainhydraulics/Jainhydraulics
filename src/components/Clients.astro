@@ -5,8 +5,8 @@ const clients = await Astro.glob("../images/clients/*");
 const { text, titleColor } = Astro.props;
 
 ---
-<div class="mx-auto text-center h-fit">
-    <h2 class=`${titleColor ? titleColor : "bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent"} text-3xl md:text-4xl font-bold lg:text-5xl`>{text}</h2>
+<div class="mx-auto text-center h-fit tracking-tighter">
+    <h2 class=`${titleColor ? titleColor : "bg-gradient-to-b from-gray-900 to-gray-400 bg-clip-text text-transparent"} text-lg uppercase md:text-xl font-bold lg:text-2xl`>{text}</h2>
 </div>
 <div class="flex overflow-hidden h-fit">
     <div class="animate-marquee flex justify-around md:min-w-[400%] xl:min-w-[250%] min-w-[790%] h-fit">

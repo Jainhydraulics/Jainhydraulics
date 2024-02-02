@@ -4,7 +4,7 @@
 const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro.props;
 
 ---
-
+{/* 
 <div class="max-w-4x mx-auto" id="form-quote">
     <div class="text-center">
         <h1 class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-800 to-indigo-500">
@@ -20,7 +20,7 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
         }
     </div>
 </div>
-
+*/}
 <div class="mx-auto max-w-xl" >
     <!-- Card -->
     <div class=`flex flex-col ${border ? border : ""} rounded-xl p-4 sm:p-6 dark:border-gray-700`>
@@ -80,7 +80,7 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
             
             <div class="mt-3 text-center">
                 <p class=`text-sm ${textColor ? textColor : "text-gray-500"}`>
-                    We'll get back to you in 1-2 business days.
+                    Our representative will get back to you by today
                 </p>
             </div>
 
@@ -165,7 +165,7 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: new URLSearchParams(formData).toString(),
         })
-        .then(() => window.alert("Thank you for your submission"))
+        .then(() => window.alert("Our representative will be in touch with you."))
         .catch((error) => window.alert(error));    
     };
     
