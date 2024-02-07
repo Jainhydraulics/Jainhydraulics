@@ -22,7 +22,7 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
         <p class="mt-2 text-gray-800 dark:text-gray-200">
             {intro}
         </p>
-        <a href={url} class="group dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 group-hover:text-gray-600 mt-2 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
+        <a href={url} aria-label={intro} class="group dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 group-hover:text-gray-600 mt-2 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
             Read more
             <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         </a>
