@@ -7,7 +7,6 @@ import Table from './Table.astro';
 import productJSON from '../products.json';
 
 import ContactsForm from './ContactsForm.astro';
-import { slide } from 'astro:transitions';
 
 import Clients from './Clients.astro';
 
@@ -62,7 +61,7 @@ const videos = productData.videos;
                     <div class="space-y-2">
                         <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200 tracking-tighter ">{title + " "} { type === "Cranes and Chip Processing" ? "" : type }</h2>
                         <span class="block text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
-                            { industry === "Metal Recycling" ? ( <a class="hover:opacity-60" href="/metal recycling">{industry}</a> ) : industry }
+                            { industry === "Metal Recycling" ? ( <a class="hover:opacity-60" href="/metal-recycling">{industry}</a> ) : industry }
                         </span>           
                     </div>
                     <!-- End Title -->

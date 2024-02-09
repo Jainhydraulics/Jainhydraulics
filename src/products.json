@@ -292,7 +292,7 @@
                 "Motor (HP)",
                 "Operation Type"
             ],
-            "description": "Introducing our Hydraulic Triple Action Baling Machine or a Baler Machine, a revolutionary waste processing solution. This baler combines compressing, baling, and ejecting actions for efficient waste management. With a high-capacity compression chamber, it handles diverse materials like cardboard, paper, and plastics. Reduce waste volume, optimize storage, and enhance operational efficiency with this user-friendly baler.",
+            "description": "Introducing our Hydraulic Triple Action Scrap Press/Baling Machine or a Baler Machine, a revolutionary waste processing solution. This baler combines compressing, baling, and ejecting actions for efficient waste management. With a high-capacity compression chamber, it handles diverse materials like cardboard, paper, and plastics. Reduce waste volume, optimize storage, and enhance operational efficiency with this user-friendly baler.",
             "industry": "Waste Recycling",
             "cards": [
                 {
@@ -345,7 +345,7 @@
                 "Motor HP",
                 "Machine Weight (Tons)"
             ],
-            "description": "Our Hydraulic Manual Mini Baler Machine or Baling Machine is a compact yet robust solution for small-scale metal scrap compaction.",
+            "description": "Our Hydraulic Manual Mini Baler Machine or Scrap Press/Baling Machine is a compact yet robust solution for small-scale metal scrap compaction.",
             "industry": "Metal Recycling",
             "cards": [
                 {
@@ -421,7 +421,7 @@
                 "Tank Size (L)",
                 "Operation Type"
             ],
-            "description": "Explore our Hydraulic Double Action Baler Machine or Baling Machine, available in three efficient models. The Front Door model has a two-direction control system, the Double Action Sliding Door features three-direction control, and the Top Ejection model ensures versatile scrap processing with hydraulic-operated lock cylinders. All models are designed to be used for metal scrap processing.",
+            "description": "Explore our Hydraulic Double Action Baler Machine or Scrap Press/Baling Machine, available in three efficient models. The Front Door model has a two-direction control system, the Double Action Sliding Door features three-direction control, and the Top Ejection model ensures versatile scrap processing with hydraulic-operated lock cylinders. All models are designed to be used for metal scrap processing.",
             "industry": "Metal Recycling",
             "cards": [
                 {
@@ -526,7 +526,7 @@
                 "Motor HP",
                 "Machine Weight (Tons)"
             ],
-            "description": "Compact yet powerful, the Mini PLC Baler Machine or Baling Machine offers automated control and efficient compaction for smaller-scale metal scrap processing needs, providing a reliable solution with a reduced footprint.",
+            "description": "Compact yet powerful, the Mini PLC Baler Machine or Scrap Press/Baling Machine offers automated control and efficient compaction for smaller-scale metal scrap processing needs, providing a reliable solution with a reduced footprint.",
             "industry": "Metal Recycling",
             "cards": [
                 {
@@ -626,7 +626,7 @@
                 "Motor HP",
                 "Machine Weight (Tons)"
             ],
-            "description": "The Manual Jumbo Baler Machine or Baling Machine is designed for high-capacity metal scrap processing in a manual format. With multiple levers for user control and no reliance on PLC technology, this machine delivers powerful compaction, making it an ideal choice for businesses seeking manual, yet efficient, waste management solutions for large volumes of recyclable materials.",
+            "description": "The Manual Jumbo Baler Machine or Scrap Press/Baling Machine is designed for high-capacity metal scrap processing in a manual format. With multiple levers for user control and no reliance on PLC technology, this machine delivers powerful compaction, making it an ideal choice for businesses seeking manual, yet efficient, waste management solutions for large volumes of recyclable materials.",
             "industry": "Metal Recycling",
             "cards": [
                 {
@@ -718,7 +718,7 @@
                 "Motor HP",
                 "Machine Weight (Tons)"
             ],
-            "description": "Engineered for maximum compaction force, the High Density Baler Machine or Baling Machine efficiently reduces the volume of recyclable materials, offering a robust and durable solution for industries focused on space optimization and resource conservation in metal scrap processing.",
+            "description": "Engineered for maximum compaction force, the High Density Baler Machine or Scrap Press/Baling Machine efficiently reduces the volume of recyclable materials, offering a robust and durable solution for industries focused on space optimization and resource conservation in metal scrap processing.",
             "industry": "Metal Recycling",
             "cards": [
                 {
@@ -800,7 +800,7 @@
             "tableHeaders": [
                 "Model No", "Bale Size", "Production (hr)(OCC)", "Strapping"
             ],
-            "description": "The Horizontal Baler Machine or Baling Machine provides a versatile and space-efficient waste, and metal scrap management solution, horizontally compressing various materials into compact bales, optimizing storage and transportation.",
+            "description": "The Horizontal Baler Machine or Scrap Press/Baling Machine provides a versatile and space-efficient waste, and metal scrap management solution, horizontally compressing various materials into compact bales, optimizing storage and transportation.",
             "industry": "Waste Recycling",
             "cards": [
                 {
@@ -883,7 +883,7 @@
                 "Tank Size (Ltr)",
                 "Operation Type"
             ],
-            "description": "The Vertical Baler Machine or Baling Machine offers a space-saving and user-friendly solution for baling recyclable materials in an upright position, making it an ideal choice for businesses seeking efficiency in vertical waste compaction.",
+            "description": "The Vertical Baler Machine or Scrap Press/Baling Machine offers a space-saving and user-friendly solution for baling recyclable materials in an upright position, making it an ideal choice for businesses seeking efficiency in vertical waste compaction.",
             "industry": "Waste Recycling",
             "cards": [
                 {
@@ -969,7 +969,7 @@
                 "Cycle Time (Sec)",
                 "Machine Weight (Tons)"
             ],
-            "description": "A state-of-the-art solution for uninterrupted metal scrap processing, the Continuous Baler Machine or Baling Machine ensures seamless operation, effectively compacting materials for sustained efficiency in metal management systems.",
+            "description": "A state-of-the-art solution for uninterrupted metal scrap processing, the Continuous Baler Machine or Scrap Press/Baling Machine ensures seamless operation, effectively compacting materials for sustained efficiency in metal management systems.",
             "industry": "Metal Recycling",
             "cards": [
                 {
@@ -1071,7 +1071,7 @@
                 "Motor HP",
                 "Machine Weight (Tons)"
             ],
-            "description": "The Jumbo PLC Baler Machine or Baling Machine combines cutting-edge technology with a large processing capacity, featuring programmable logic control for precision and efficiency in handling and baling recyclable materials. Designed to be used in metal scrap processing, and waste processing.",
+            "description": "The Jumbo PLC Baler Machine or Scrap Press/Baling Machine combines cutting-edge technology with a large processing capacity, featuring programmable logic control for precision and efficiency in handling and baling recyclable materials. Designed to be used in metal scrap processing, and waste processing.",
             "industry": "Metal Recycling | Waste Recycling",
             "cards": [
                 {
@@ -1168,7 +1168,7 @@
                 "Motor HP",
                 "Machine Weight (Tons)"
             ],
-            "description": "India's fastest PLC-controlled Baler Machine or Baling Machine, crafting bales in under 75 seconds, with a production capability of 2 to 10 tons per hour, versatile shearing abilities, and a powerful cylinder force of up to 300 tons for efficient, cost-effective metal recycling.",
+            "description": "India's fastest PLC-controlled Baler Machine or Scrap Press/Baling Machine, crafting bales in under 75 seconds, with a production capability of 2 to 10 tons per hour, versatile shearing abilities, and a powerful cylinder force of up to 300 tons for efficient, cost-effective metal recycling.",
             "industry": "Metal Recycling",
             "cards": [
                 {

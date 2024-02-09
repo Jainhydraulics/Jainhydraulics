@@ -9,10 +9,11 @@ import productData from "../../../products.json";
 const balerNames = productData.balers.types;
 
 const balers = await Astro.glob("../../../images/Products/Balers/*");
-
+const realPhotos = await Astro.glob("../../../images/Real Photos/Mini Manual/*");
 ---
 
-<Layout title="Jumbo Manual Hydraulic Baler Machine: Scrap Metal Baling Machine by Jain Hydraulics Recycling" description={productData.balers["jumbo_manual"].description}>
+<Layout title="Manual Mini Hydraulic Baler Machine: Scrap Metal Press Baling Machine " description={productData.balers["manual_mini"].description}>
 	
-	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["jumbo_manual"]} image={[balers[3], balerNames[3]]} />
+	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["manual_mini"]} image={[balers[5], balerNames[5]]}
+	realPhotos={realPhotos} />
 </Layout>

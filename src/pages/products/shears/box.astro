@@ -11,6 +11,6 @@ const shears = await Astro.glob("../../../images/Products/Shears/*");
 
 ---
 
-<Layout title="Hydraulic Box Shear Machine: Scrap Metal Shearing Machine, and Waste Processing by Jain Hydraulics Recycling" description={productData.shears["box"].description}>
+<Layout title="Hydraulic Box Shear Machine: Scrap Metal Cutting/Shearing Machine" description={productData.shears["box"].description}>
     <Product faq={productData.shears.faq} type="Shear" productData={  productData.shears["box"] } image={ [ shears[1], shearNames[1] ] } />
 </Layout>

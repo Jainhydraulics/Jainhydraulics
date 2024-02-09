@@ -17,7 +17,7 @@ balerNames.forEach((element) => {
 const shearImages = await Astro.glob("../../images/Products/Shears/*");
 ---
 
-<Layout title="Manufacturer of Scrap Metal Shearing Machine, Shear Machine, by Jain Hydraulics Recycling Hydrarulic Shears" description="Unlock the power of precision with Jain Hydraulics Recycling's hydraulic shears machine. Precision-crafted for optimal cutting efficiency, our hydraulic shears excel in handling diverse materials, ensuring streamlined recycling operations.  Explore our user-friendly catalog showcasing a range of shears designed for seamless metal scrap processing and waste recycling, combining efficiency and sustainability.">
+<Layout title="Manufacturer of Scrap Cutting Shearing Machine, Shear Machine, Hydrarulic Shears" description="Unlock the power of precision with Jain Hydraulics Recycling's hydraulic shears machine. Precision-crafted for optimal cutting efficiency, our hydraulic shears excel in handling diverse materials, ensuring streamlined recycling operations.  Explore our user-friendly catalog showcasing a range of shears designed for seamless metal scrap processing and waste recycling, combining efficiency and sustainability.">
 	<SecondaryNav product="shears" images={shearImages} names={balerNames} />
 
 	<!-- Card Blog -->
@@ -48,7 +48,7 @@ const shearImages = await Astro.glob("../../images/Products/Shears/*");
 						<div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
 							<a
 								class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-								href={`/products/shears/${item.toLowerCase()}`}
+								href={`/products/shears/${item.toLowerCase().replace(/ /g, "-")}`}
 							>
 								Learn More
 							</a>

@@ -16,7 +16,7 @@ import { Image } from 'astro:assets';
             {
                 images.map((item, index) => (
                     <div class="flex items-center h-32 mx-auto">            
-                        <a class="hover:underline hover:opacity-90 text-center" href={`/products/${product}/${names[index].toLowerCase()}`} id={`/products/${product}/${names[index]}`} >
+                        <a class="hover:underline hover:opacity-90 text-center" href={`/products/${product}/${names[index].toLowerCase().replace(/ /g, "-")}`} id={`/products/${product}/${names[index]}`} >
                             <Image class="max-w-[200px] h-auto w-auto mx-auto snap-proximity max-h-16" src={item.default} alt={names[index]} />
                             <p class="pt-1 text-sm"> {names[index]} </p>
                         </a>

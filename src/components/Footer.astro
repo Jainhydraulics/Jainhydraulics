@@ -37,7 +37,7 @@ const chipProcessingNames = productData.chipProcessing.types;
             <div class="grid grid-cols-12 gap-2 md:grid-cols-2 md:gap-4 text-sm text-center">
                 {
                     balerNames.map((item) => (
-                        <a class="col-span-4 md:col-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/balers/${item.toLowerCase()}`}>
+                        <a class="col-span-4 md:col-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/balers/${item.toLowerCase().replace(/ /g, "-")}`}>
                             {item}
                         </a>
                     ))
@@ -52,7 +52,7 @@ const chipProcessingNames = productData.chipProcessing.types;
             <div class="grid grid-cols-12 md:grid-cols-2 gap-2 md:gap-4 text-sm">
                 {
                     shearNames.map((item) => (
-                            <a class="col-span-6 md:col-span-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/shears/${item.toLowerCase()}`}>
+                            <a class="col-span-6 md:col-span-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/shears/${item.toLowerCase().replace(/ /g, "-")}`}>
                                 {item}
                             </a>
                     ))
@@ -67,7 +67,7 @@ const chipProcessingNames = productData.chipProcessing.types;
             <div class="grid gap-2 md:gap-4 text-sm">
                 {
                     shredderNames.map((item) => (
-                        <a class=" md:col-span-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/shredders/${item.toLowerCase()}`}>
+                        <a class=" md:col-span-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/shredders/${item.toLowerCase().replace(/ /g, "-")}`}>
                             {item}
                         </a>
                     
@@ -83,7 +83,7 @@ const chipProcessingNames = productData.chipProcessing.types;
             <div class="grid gap-2 md:gap-4 text-sm">
                 {
                     chipProcessingNames.map((item) => (
-                        <a class="md:col-span-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/cranes and chip processing/${item.toLowerCase()}`}>
+                        <a class="md:col-span-auto text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={`/products/cranes and chip processing/${item.toLowerCase().replace(/ /g, "-")}`}>
                             {item}
                         </a>
                     ))
