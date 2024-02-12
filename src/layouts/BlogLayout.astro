@@ -5,7 +5,7 @@ import { Image } from "astro:assets";
 
 const { frontmatter } = Astro.props;
 import Layout from "./Layout.astro";
-
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/blog/*.{jpeg,jpg,png,gif}')
 
@@ -13,7 +13,7 @@ if (!images[frontmatter.imagePath]) throw new Error(`"${frontmatter.imagePath}" 
 
 ---
 
-<Layout title={frontmatter.title} description='list of insights or blogs from jain hydraulics recycling'>
+<Layout title={frontmatter.title} description={frontmatter.description} canonical={canonicalURL}>
 
     <!-- Blog Article -->
     <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">

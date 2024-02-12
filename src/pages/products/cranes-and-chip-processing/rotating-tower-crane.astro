@@ -10,8 +10,9 @@ const craneNames = productData.chipProcessing.types;
 
 const crane = await Astro.glob("../../../images/Products/Cranes/*");
 //const realPhotos = await Astro.glob("../../../images/Real Photos/Cranes/*");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Revolving Tower Crane: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.chipProcessing["crane"].description}>
+<Layout canonical={canonicalURL}  title="Revolving Tower Crane: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.chipProcessing["crane"].description}>
 	<Product faq={productData.chipProcessing.faq} type="Cranes and Chip Processing" productData={productData.chipProcessing["crane"]} image={[crane[0], craneNames[1]]} />
 </Layout>

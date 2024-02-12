@@ -15,9 +15,10 @@ balerNames.forEach((element) => {
 });
 
 const shearImages = await Astro.glob("../../images/Products/Shears/*");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Manufacturer of Scrap Cutting Shearing Machine, Shear Machine, Hydrarulic Shears" description="Unlock the power of precision with Jain Hydraulics Recycling's hydraulic shears machine. Precision-crafted for optimal cutting efficiency, our hydraulic shears excel in handling diverse materials, ensuring streamlined recycling operations.  Explore our user-friendly catalog showcasing a range of shears designed for seamless metal scrap processing and waste recycling, combining efficiency and sustainability.">
+<Layout canonical={canonicalURL}  title="Manufacturer of Scrap Cutting Shearing Machine, Shear Machine, Hydrarulic Shears" description="Unlock the power of precision with Jain Hydraulics Recycling's hydraulic shears machine. Precision-crafted for optimal cutting efficiency, our hydraulic shears excel in handling diverse materials, ensuring streamlined recycling operations.  Explore our user-friendly catalog showcasing a range of shears designed for seamless metal scrap processing and waste recycling, combining efficiency and sustainability.">
 	<SecondaryNav product="shears" images={shearImages} names={balerNames} />
 
 	<!-- Card Blog -->

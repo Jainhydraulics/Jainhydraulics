@@ -15,9 +15,10 @@ const balerNames = productData.balers.types;
 const shearNames = productData.shears.types;
 const shredderNames = productData.shredders.types;
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Jain Hydraulics Recycling: Metal Recycling Processing Solutions" description="Dive into Metal Recycling Explained, your go-to guide for sustainable practices in handling and processing metal scrap. Discover eco-friendly solutions, industry insights, and key principles reshaping the landscape of responsible metal scrap recycling. Explore the journey towards environmental responsibility and resource conservation in the metal recycling domain.">
+<Layout canonical={canonicalURL}  title="Jain Hydraulics Recycling: Metal Recycling Processing Solutions" description="Dive into Metal Recycling Explained, your go-to guide for sustainable practices in handling and processing metal scrap. Discover eco-friendly solutions, industry insights, and key principles reshaping the landscape of responsible metal scrap recycling. Explore the journey towards environmental responsibility and resource conservation in the metal recycling domain.">
 
     
     <div class="max-w-[65rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16 prose prose-ul:list-none prose-ul:p-0 prose-h3:m-0 prose-h3:text-gray-700 prose-a:no-underline prose-h4:text-gray-700 ">

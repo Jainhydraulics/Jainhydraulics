@@ -1,5 +1,6 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 import { Image } from "astro:assets";
 import SecondaryNav from "../../../components/SecondaryNav.astro";
 import Product from "../../../components/Product.astro";
@@ -12,7 +13,7 @@ const balers = await Astro.glob("../../../images/Products/Balers/*");
 const realPhotos = await Astro.glob("../../../images/Real Photos/High Density/*");
 ---
 
-<Layout title="High Density Hydraulic Baler Machine: Scrap Metal Press Baling Machine" description={productData.balers["high_density"].description}>
+<Layout canonical={canonicalURL} title="High Density Hydraulic Baler Machine: Scrap Metal Press Baling Machine" description={productData.balers["high_density"].description}>
 	
 	<Product faq={productData.balers.faq} type="Baler" productData={productData.balers["high_density"]} image={[balers[1], balerNames[1]]}
 	realPhotos={realPhotos} />

@@ -13,8 +13,9 @@ const shearNames = productData.shredders.types;
 
 const shredders = await Astro.glob("../../../images/Products/Shredders/*");
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Hydraulic and Electric Twin Shaft Shredder Machine: Scrap Metal Shredding Machine" description={productData.shredders["twin_shaft"].description}>
+<Layout canonical={canonicalURL}  title="Hydraulic and Electric Twin Shaft Shredder Machine: Scrap Metal Shredding Machine" description={productData.shredders["twin_shaft"].description}>
     <Product faq={productData.shredders.faq} productData={ productData.shredders["twin_shaft"] } type="Shredder" image={ [ shredders[1], shearNames[1] ] } />
 </Layout>

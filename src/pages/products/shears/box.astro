@@ -9,8 +9,9 @@ const shearNames = productData.shears.types;
 
 const shears = await Astro.glob("../../../images/Products/Shears/*");
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Hydraulic Box Shear Machine: Scrap Metal Cutting/Shearing Machine" description={productData.shears["box"].description}>
+<Layout canonical={canonicalURL}  title="Hydraulic Box Shear Machine: Scrap Metal Cutting/Shearing Machine" description={productData.shears["box"].description}>
     <Product faq={productData.shears.faq} type="Shear" productData={  productData.shears["box"] } image={ [ shears[1], shearNames[1] ] } />
 </Layout>

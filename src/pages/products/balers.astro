@@ -15,9 +15,10 @@ balerNames.forEach(element => {
 });
 
 const balerImages = await Astro.glob("../../images/Products/Balers/*");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Manufacturer of Scrap Baling Machine, Baler Machine, and Waste Processing Hydraulic Balers" description="At Jain Hydraulics Recycling, our hydraulic baler machines redefine scrap metal and waste compression. Expertly designed, our hydraulic baling press creates dense blocks, enhancing the density of both ferrous and non-ferrous metals. As India's foremost hydraulic scrap baling machine manufacturer, we lead the industry, reducing storage and transportation costs while facilitating seamless handling and furnace charging.">
+<Layout canonical={canonicalURL}  title="Manufacturer of Scrap Baling Machine, Baler Machine, and Waste Processing Hydraulic Balers" description="At Jain Hydraulics Recycling, our hydraulic baler machines redefine scrap metal and waste compression. Expertly designed, our hydraulic baling press creates dense blocks, enhancing the density of both ferrous and non-ferrous metals. As India's foremost hydraulic scrap baling machine manufacturer, we lead the industry, reducing storage and transportation costs while facilitating seamless handling and furnace charging.">
 	<SecondaryNav product="balers" images={balerImages} names={balerNames} />
 
 	<!-- Card Blog -->

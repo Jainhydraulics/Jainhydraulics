@@ -16,12 +16,12 @@ export default {
 			animation: {
 				marquee: "marquee 25s linear infinite",
 				marqueeSlow: "marquee 100s linear infinite",
-			},
-			fontFamily: {
-				customHead: ["'Montserrat'"],
-			},
+			}
 		},
 	},
 	darkMode: "class",
-	plugins: [require("preline/plugin"), require("@tailwindcss/typography")],
+	plugins: [
+		require("preline/plugin"),
+		require("@tailwindcss/typography")
+	],
 };

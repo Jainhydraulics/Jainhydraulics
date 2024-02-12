@@ -10,9 +10,10 @@ const grabberNames = productData.chipProcessing.types;
 
 const grabber = await Astro.glob("../../../images/Products/Grabber/*");
 //const realPhotos = await Astro.glob("../../../images/Real Photos/Grabber/*");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Grabber: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.chipProcessing["grabber"].description}>
+<Layout canonical={canonicalURL}  title="Grabber: Scrap Metal, and Waste Processing by Jain Hydraulics Recycling" description={productData.chipProcessing["grabber"].description}>
 	
 	<Product faq={productData.chipProcessing.faq} type="Cranes and Chip Processing" productData={productData.chipProcessing["grabber"]} image={[grabber[0], grabberNames[2]]} />
 </Layout>

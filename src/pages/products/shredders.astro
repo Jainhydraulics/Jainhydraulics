@@ -15,9 +15,10 @@ shredderNames.forEach(element => {
 });
 
 const shredderImages = await Astro.glob("../../images/Products/Shredders/*");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
-<Layout title="Manufacturer of Hydraulic, and Electric Metal Shredding Machine, Shredder Machine" description="Transform waste into opportunity with Jain Hydraulics Recycling's Hydraulic and Electric shredder machines. Dive into our user-friendly catalog featuring a variety of precision-engineered shredder machines, each tailored for efficient metal scrap processing and waste recycling, setting a new standard for sustainability.">
+<Layout canonical={canonicalURL}  title="Manufacturer of Hydraulic, and Electric Metal Shredding Machine, Shredder Machine" description="Transform waste into opportunity with Jain Hydraulics Recycling's Hydraulic and Electric shredder machines. Dive into our user-friendly catalog featuring a variety of precision-engineered shredder machines, each tailored for efficient metal scrap processing and waste recycling, setting a new standard for sustainability.">
 	<SecondaryNav product="shredders" images={shredderImages} names={shredderNames} />
 
 	<!-- Card Blog -->
