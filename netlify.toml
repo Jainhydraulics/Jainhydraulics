@@ -94,7 +94,6 @@
   from = "/baling-press-triple-action*"
   to = "/products/balers/triple-action"
 
-
 [[redirects]]
   from = "/baling-press-jumbo-triple-action"
   to = "/products/balers/triple-action"
@@ -110,7 +109,68 @@
 [[redirects]]
   from = "/baling-press-jumbo-triple-action"
   to = "/products/balers/triple-action"
+  
+[[redirects]]
+  from = "/products/balers/high density"
+  to = "/products/balers/high-density"
 
+[[redirects]]
+  from = "/products/balers/jumbo manual"
+  to = "/products/balers/jumbo-manual"
 
+[[redirects]]
+  from = "/products/balers/jumbo plc"
+  to = "/products/balers/jumbo-plc"
 
+[[redirects]]
+  from = "/products/balers/manual mini"
+  to = "/products/balers/manual-mini"
+
+[[redirects]]
+  from = "/products/balers/mini plc"
+  to = "/products/balers/mini-plc"
+
+[[redirects]]
+  from = "/products/balers/super jumbo"
+  to = "/products/balers/super-jumbo"
+
+[[redirects]]
+  from = "/products/balers/triple action"
+  to = "/products/balers/triple-action"
+
+[[redirects]]
+  from = "/products/balers/vertical"
+  to = "/products/balers/vertical"
+
+[[redirects]]
+  from = "/products/balers/double action"
+  to = "/products/balers/double-action"
+
+[[redirects]]
+  from = "/products/shredders/hammer mill"
+  to = "/products/shredders/hammer-mill"
+  
+[[redirects]]
+  from = "/products/shredders/twin shaft"
+  to = "/products/shredders/twin-shaft"
+
+[[redirects]]
+  from = "/metal recycling"
+  to = "/metal-recycling"
+  
+[[redirects]]
+  from = "/waste recycling"
+  to = "/waste-recycling"
+
+[[redirects]]
+  from = "/products/cranes and chip processing/briquetting"
+  to = "/products/cranes-and-chip-processing/briquetting"
+  
+[[redirects]]
+  from = "/products/cranes and chip processing/rotating tower crane"
+  to = "/products/cranes-and-chip-processing/rotating-tower-crane"
+
+[[redirects]]
+  from = "/products/cranes and chip processing/grabber"
+  to = "/products/cranes-and-chip-processing/grabber"
 
