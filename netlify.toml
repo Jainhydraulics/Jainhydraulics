@@ -111,31 +111,31 @@
   to = "/products/balers/triple-action"
   
 [[redirects]]
-  from = "/products/balers/high density"
+  from = "/products/balers/high%20density"
   to = "/products/balers/high-density"
 
 [[redirects]]
-  from = "/products/balers/jumbo manual"
+  from = "/products/balers/jumbo%20manual"
   to = "/products/balers/jumbo-manual"
 
 [[redirects]]
-  from = "/products/balers/jumbo plc"
+  from = "/products/balers/jumbo%20plc"
   to = "/products/balers/jumbo-plc"
 
 [[redirects]]
-  from = "/products/balers/manual mini"
+  from = "/products/balers/manual%20mini"
   to = "/products/balers/manual-mini"
 
 [[redirects]]
-  from = "/products/balers/mini plc"
+  from = "/products/balers/mini%20plc"
   to = "/products/balers/mini-plc"
 
 [[redirects]]
-  from = "/products/balers/super jumbo"
+  from = "/products/balers/super%20jumbo"
   to = "/products/balers/super-jumbo"
 
 [[redirects]]
-  from = "/products/balers/triple action"
+  from = "/products/balers/triple%20action"
   to = "/products/balers/triple-action"
 
 [[redirects]]
@@ -143,34 +143,34 @@
   to = "/products/balers/vertical"
 
 [[redirects]]
-  from = "/products/balers/double action"
+  from = "/products/balers/double%20action"
   to = "/products/balers/double-action"
 
 [[redirects]]
-  from = "/products/shredders/hammer mill"
+  from = "/products/shredders/hammer%20mill"
   to = "/products/shredders/hammer-mill"
   
 [[redirects]]
-  from = "/products/shredders/twin shaft"
+  from = "/products/shredders/twin%20shaft"
   to = "/products/shredders/twin-shaft"
 
 [[redirects]]
-  from = "/metal recycling"
+  from = "/metal%20recycling"
   to = "/metal-recycling"
   
 [[redirects]]
-  from = "/waste recycling"
+  from = "/waste%20recycling"
   to = "/waste-recycling"
 
 [[redirects]]
-  from = "/products/cranes and chip processing/briquetting"
+  from = "/products/cranes%20and%20chip%20processing/briquetting"
   to = "/products/cranes-and-chip-processing/briquetting"
   
 [[redirects]]
-  from = "/products/cranes and chip processing/rotating tower crane"
+  from = "/products/cranes%20and%20chip%20processing/rotating%20tower%20crane"
   to = "/products/cranes-and-chip-processing/rotating-tower-crane"
 
 [[redirects]]
-  from = "/products/cranes and chip processing/grabber"
+  from = "/products/cranes%20and%20chip%20processing/grabber"
   to = "/products/cranes-and-chip-processing/grabber"
 
