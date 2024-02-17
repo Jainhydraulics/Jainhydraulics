@@ -36,6 +36,27 @@ const type = "Baler";
 
 <Layout canonical={canonicalURL} title="Double Action Hydraulic Baler Machine: Scrap Metal Press Baling Machine" description={productData.balers["double_action"].description} >
 
+    <div class=`${type === "Cranes and Chip Processing" ? "hidden " : ""}w-fit mx-auto mt-4 overflow-auto`>
+        
+        <ol class="flex items-center" aria-label="Breadcrumb">
+            <li class="inline-flex items-center">
+                <a class="flex items-center text-sm text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:focus:text-blue-500" href="/">
+                    Home
+                </a>
+                <svg class="flex-shrink-0 mx-2 h-4 w-4 text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </li>
+            <li class="inline-flex items-center">
+                <a class="flex items-center text-sm text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:focus:text-blue-500" href=`/products/${type.toLowerCase()}${type === "Cranes and Chip Processing" ? "" : "s"}`>
+                    {type}{ type === "Cranes and Chip Processing" ? "" : "s"}
+                    <svg class="flex-shrink-0 mx-2 h-4 w-4 text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+            </li>
+            <li class="inline-flex items-center text-sm font-semibold text-gray-800 truncate dark:text-gray-200" aria-current="page">
+                {title + " "} {type === "Cranes and Chip Processing" ? "" : type}
+            </li>
+        </ol>
+    </div>
+
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Grid -->
         <div class="text-center items-center gap-10">
@@ -45,7 +66,7 @@ const type = "Baler";
             <div class="hs-carousel relative overflow-hidden w-full min-h-[500px] bg-white rounded-lg">
                 <div class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
                     <div class="hs-carousel-slide">
-                        <div class="grid grid-rows-12 h-full p-6 gap-2 overflow-hidden">
+                        <div class="grid grid-rows-12 h-full p-2 pb-0 gap-2 overflow-hidden">
                             <div class="row-span-10 rounded-xl mx-auto max-w-fit">
                                 <Image class="h-full w-auto object-scale-down mx-auto" src={doubleActionImages[0].default} alt={title} />
                             </div>
@@ -53,7 +74,7 @@ const type = "Baler";
                         </div>
                     </div>
                     <div class="hs-carousel-slide">
-                        <div class="grid grid-rows-12 h-full p-6 gap-2 overflow-hidden">
+                        <div class="grid grid-rows-12 h-full p-2 pb-0 gap-2 overflow-hidden">
                             <div class="row-span-10 rounded-xl mx-auto max-w-fit max-h-fit">
                                 <Image class="w-auto h-full mx-auto object-scale-down" src={doubleActionImages[1].default} alt={title} />
                             </div>
@@ -61,7 +82,7 @@ const type = "Baler";
                         </div>
                     </div>
                     <div class="hs-carousel-slide">
-                        <div class="grid grid-rows-12 h-full p-6 gap-2 overflow-hidden">
+                        <div class="grid grid-rows-12 h-full p-2 pb-0 gap-2 overflow-hidden">
                             <div class="row-span-10 rounded-xl mx-auto max-w-fit">
                                 <Image class="h-full w-auto object-scale-down mx-auto" src={doubleActionImages[2].default} alt={title} />
                             </div>
@@ -155,7 +176,7 @@ const type = "Baler";
                 <div class="md:col-span-3">
                     
                     <div>
-                        <p class="text-gray-700 leading-relaxed font-serif text-xl"> { description }</p>
+                        <p class="text-gray-700 leading-relaxed font-serif md:text-xl"> { description }</p>
                     </div>
                     
                 </div>
