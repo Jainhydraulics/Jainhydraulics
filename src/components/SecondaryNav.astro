@@ -1,6 +1,26 @@
 ---
-const { names, wireframe, images, product } = Astro.props;
+const { productType } = Astro.props;
 import { Image } from 'astro:assets';
+
+import productsJSON from "../products.json";
+
+const productNames = productsJSON[`${productType.toLowerCase()}s`].types;
+
+const productKeys = [];
+const productImages = await (async () => {
+    if (productType === "Baler") {
+        return await Astro.glob("../images/Products/Balers/*");
+    } else if (productType === "Shear") {
+        return await Astro.glob("../images/Products/Shears/*");
+    } else if (productType === "Shredder") {
+        return await Astro.glob("../images/Products/Shredders/*");
+    }
+})();
+
+productNames.forEach(element => {
+	element = element.toLowerCase().replaceAll(" ", "_");
+	productKeys.push(element);
+});
 
 ---    
 <div class="relative bg-gray-100 h-32 px-12 touch-pan-x" >    
@@ -14,11 +34,11 @@ import { Image } from 'astro:assets';
         </svg>
         <div class="flex h-32 gap-x-20">          
             {
-                images.map((item, index) => (
+                productImages.map((item, index) => (
                     <div class="flex items-center h-32 mx-auto">            
-                        <a class="hover:underline hover:opacity-90 text-center" href={`/products/${product}/${names[index].toLowerCase().replace(/ /g, "-")}`} id={`/products/${product}/${names[index]}`} >
-                            <Image class="max-w-[200px] h-auto w-auto mx-auto snap-proximity max-h-16" src={item.default} alt={names[index]} />
-                            <p class="pt-1 text-sm"> {names[index]} </p>
+                        <a class="hover:underline hover:opacity-90 text-center" href={`/products/${productType.toLowerCase()}s/${productNames[index].toLowerCase().replace(/ /g, "-")}`} id={`/products/${productType.toLowerCase()}/${productNames[index]}`} >
+                            <Image class="max-w-[200px] h-auto w-auto mx-auto snap-proximity max-h-16" src={item.default} alt={productNames[index]} />
+                            <p class="pt-1 text-sm"> {productNames[index]} </p>
                         </a>
                     </div>
                 ))

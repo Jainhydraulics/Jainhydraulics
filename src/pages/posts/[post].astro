@@ -1,0 +1,20 @@
+---
+import BlogLayout from "../../layouts/BlogLayout.astro";
+
+export async function getStaticPaths() {
+	const allPosts = await Astro.glob("../../content/posts/*.mdx");
+
+	return allPosts.map(post => {
+		return {
+			params: { post: post.frontmatter.title.replaceAll(" ", "-") },
+			props: {
+				post
+			}
+		}
+	});
+}
+
+const { Content } = Astro.props.post;
+
+---
+<Content />

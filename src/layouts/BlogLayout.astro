@@ -18,7 +18,7 @@ if (!images[frontmatter.imagePath]) throw new Error(`"${frontmatter.imagePath}" 
     <!-- Blog Article -->
     <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
 
-        <a href="/blog/" class="group hover:text-gray-600 text-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-400 dark:hover:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+        <a href="/blog/" class="hover:text-gray-600 text-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-400 dark:hover:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
             <button type="button" class="mb-4 inline-flex items-center gap-x-2 text-md font-semibold rounded-lg">
                 <svg class="w-[8px] h-[8px]  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"/>
@@ -29,10 +29,10 @@ if (!images[frontmatter.imagePath]) throw new Error(`"${frontmatter.imagePath}" 
 
         <div class="max-w-2xl">
             <!-- Content -->
-            <div class="space-y-5 md:space-y-8 prose prose-slate prose-a:text-blue-600 prose-a:inline-flex fprose-a:ont-medium prose-a:hover:text-blue-400 prose-a:disabled:opacity-50 prose-a:disabled:pointer-events-none prose-a:no-underline">
+            <div class="space-y-5 md:space-y-8 prose prose-slate prose-a:text-blue-600 prose-a:inline-flex fprose-a:ont-medium prose-a:disabled:opacity-50 prose-a:disabled:pointer-events-none prose-a:no-underline hover:prose-a:text-blue-400">
                 <Image src={images[frontmatter.imagePath]()} alt="ai generated" />
-                    
-                <slot />
+                 <slot />
+                
                 <div>
                     {
                         
