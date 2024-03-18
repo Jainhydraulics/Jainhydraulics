@@ -171,6 +171,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".mdx"] };
+"post-6.mdx": {
+	id: "post-6.mdx";
+  slug: "post-6";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".mdx"] };
 };
 
 	};
