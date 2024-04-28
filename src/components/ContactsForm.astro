@@ -69,7 +69,7 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
                     </div>
                 </div> 
                 <div>
-                    <textarea aria-label="Details" placeholder="Details" id="details" name="details" rows="4" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`></textarea>
+                    <textarea aria-label="Details" required placeholder="Details" id="details" name="details" rows="4" class=`${labelColor ? labelColor : ""} border py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600`></textarea>
                 </div>
             </div>
             <!-- End Grid -->
@@ -97,7 +97,7 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
     <div class="hs-overlay-open:opacity-100 hs-overlay-open:duration-500 opacity-0 transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto">
         <div class="flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
             <div class="flex justify-between items-center py-3 px-4 border-b dark:border-gray-700">
-                <h3 class="font-bold text-gray-800 dark:text-white">
+                <h3 id="modal-title" class="font-bold text-gray-800 dark:text-white">
                     Thanks for your interest!
                 </h3>
                 <button type="button" class="flex justify-center items-center w-7 h-7 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" data-hs-overlay="#hs-basic-modal">
@@ -106,7 +106,7 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
                 </button>
             </div>
             <div class="p-4 overflow-y-auto">
-                <p class="mt-1 text-gray-800 dark:text-gray-400">
+                <p id="modal-content" class="mt-1 text-gray-800 dark:text-gray-400">
                     Our representative will be in touch with you.
                 </p>
             </div>
@@ -173,6 +173,7 @@ import { HSOverlay } from "preline";
     */}
     
     const form = document.getElementById("contact_new");
+    const formElements = form.elements;
 
     
     form.onsubmit = (event) => {
@@ -182,17 +183,46 @@ import { HSOverlay } from "preline";
         
         const myForm = event.target;
         const formData = new FormData(myForm);
-        
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData).toString(),
-        })
-        .then(() => {
+
+        const modalTitle = document.getElementById("modal-title");
+        const modalContent = document.getElementById("modal-content");
+
+        const fullName = formElements["Full Name"].value;
+        const details = formElements["details"].value;
+        const company = formElements["company name"].value;
+
+        if (!fullName) {
+            modalTitle.innerHTML = "Looks like you missed something"
+            modalContent.innerHTML = "Full Name can't be empty"
             HSOverlay.open("#hs-basic-modal")
             setTimeout(() => HSOverlay.close("#hs-basic-modal"), 4000);
-        })
-        .catch((error) => window.alert(error));    
+        } else if (!details) {
+            modalTitle.innerHTML = "Looks like you missed something"
+            modalContent.innerHTML = "Details can't be empty"
+            HSOverlay.open("#hs-basic-modal")
+            setTimeout(() => HSOverlay.close("#hs-basic-modal"), 4000);
+        } else if (!company) {
+            modalTitle.innerHTML = "Looks like you missed something"
+            modalContent.innerHTML = "Company can't be empty"
+            HSOverlay.open("#hs-basic-modal")
+            setTimeout(() => HSOverlay.close("#hs-basic-modal"), 4000);
+        }
+        else {
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString(),
+            })
+            .then(() => {
+                modalTitle.innerHTML = "Thanks for your interest!"
+                modalContent.innerHTML = "Our representative will be in touch with you."
+                HSOverlay.open("#hs-basic-modal")
+                setTimeout(() => HSOverlay.close("#hs-basic-modal"), 4000);
+            })
+            .catch((error) => window.alert(error));
+        }
+        
+
     };
 
 
