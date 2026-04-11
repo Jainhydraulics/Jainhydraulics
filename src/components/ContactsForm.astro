@@ -1,5 +1,4 @@
 ---
-//import 'intl-tel-input/build/css/intlTelInput.css';
 import { HSOverlay } from 'preline/preline'
 const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro.props;
 
@@ -115,63 +114,6 @@ const { text, innerText, textColor, innerTextColor, labelColor, border } = Astro
 </div>
 
 <script>
-    {/*
-import { HSOverlay } from "preline";
-import { HSOverlay } from "preline/dist/preline";
-import { HSOverlay } from "preline";
-    
-    
-        import intlTelInput from 'intl-tel-input';
-
-        const input = document.querySelector("#phone");
-        const alert = document.getElementById("alert");
-        const alertText = document.getElementById('alertText');
-
-        const iti = intlTelInput(input, {
-            nationalMode: true,
-            utilsScript: "./../node_modules/intl-tel-input/build/js/utils.js"
-        });
-
-        const reset = () => {
-            input.classList.remove("border-red-600");
-        };
-
-        const form = document.getElementById("contact");
-
-        input.addEventListener("focusin", () => {
-            input.classList.remove('border-red-600');
-        });
-
-        // on click button: validate
-        form.addEventListener("focusout", () => {
-            if (input.value) {
-                if (iti.isValidNumber()) {
-                    console.log("correct");
-                    input.classList.remove("border-red-600");
-                } else {
-                    input.classList.add("border-red-600");
-                }
-            }
-        });
-
-        if (!iti.isValidNumber()) {
-            alertText.innerHTML = "Invalid number. Please try again.";
-            alert.classList.remove("opacity-0");
-            alert.classList.remove("hidden");
-            alert.classList.add("opacity-100")
-            setTimeout(() => {
-                alert.classList.add('opacity-0');
-                alert.classList.add("hidden");
-                alert.classList.remove('opacity-100');
-            }, 2000);
-            return false;
-        } 
-    
-    
-    
-    
-    */}
-    
     const form = document.getElementById("contact_new");
     const formElements = form.elements;
 
@@ -228,18 +170,3 @@ import { HSOverlay } from "preline";
 
 
 </script>
-
-{/*
-
-<style>
-    .iti__flag {background-image: url("../../node_modules/intl-tel-input/build/img/flags.png");}
-    
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        .iti__flag {background-image: url("../../node_modules/intl-tel-input/build/img/flags@2x.png");}
-    }
-    
-</style>
-
-
-
-*/}
