@@ -7,6 +7,7 @@ interface Props {
 	description: string;
 	canonical?: string | URL;
 	ogImage?: string | URL;
+	ogType?: string;
 	noindex?: boolean;
 	structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -16,6 +17,7 @@ const {
 	description,
 	canonical,
 	ogImage = "/android-chrome-512x512.png",
+	ogType = "website",
 	noindex = false,
 	structuredData = [],
 } = Astro.props as Props;
@@ -85,14 +87,13 @@ const schemaNodes = [
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
+		{noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 		<link rel="manifest" href="/site.webmanifest" />
 		<link rel="canonical" href={canonicalUrl} />
-		<meta name="generator" content={Astro.generator} />
-		<meta property="og:type" content="website" />
+		<meta property="og:type" content={ogType} />
 		<meta property="og:site_name" content="Jain Hydraulics Recycling" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />

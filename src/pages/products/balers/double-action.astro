@@ -9,7 +9,6 @@ import Product from "../../../components/Product.astro";
 import productData from "../../../products.json";
 import ContactsForm from "../../../components/ContactsForm.astro";
 import Table from "../../../components/Table.astro";
-import { getProductVideos } from "../../../utils/videos";
 
 import Clients from '../../../components/Clients.astro';
 
@@ -31,7 +30,6 @@ const title = balerNames[10];
 const videos = productData.balers["double_action"].videos;
 const faq = productData.balers.faq;
 const type = "Baler";
-const productVideos = getProductVideos(title, type);
 
 ---
 
@@ -160,15 +158,6 @@ const productVideos = getProductVideos(title, type);
                     Enquire Now
                     <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </a>
-                {
-                    productVideos.length ? (
-                        <a class="max-w-fit mx-auto py-3 px-4 inline-flex items-center text-xs font-semibold rounded-lg border border-gray-200 bg-white text-gray-800 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={productVideos[0].url}>
-                            Watch machine video
-                            <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                        </a>
-                    ) : null
-                }
-                
             </div>
 
             <!-- Description -->

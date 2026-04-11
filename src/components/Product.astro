@@ -11,7 +11,7 @@ import ContactsForm from './ContactsForm.astro';
 import Clients from './Clients.astro';
 
 import SecondaryNav from './SecondaryNav.astro';
-import { getProductVideos } from "../utils/videos";
+import { toAbsoluteUrl } from "../utils/seo";
 
 const { image, productData, faq, type, realPhotos } = Astro.props;
 
@@ -26,12 +26,61 @@ const cards = productData.cards;
 const industry = productData.industry;
 const title = image[1];
 const videos = productData.videos;
-const productVideos = getProductVideos(title, type);
 const videoIds = Array.isArray(videos)
     ? videos.flatMap((item) => String(item).split(",").map((id) => id.trim()).filter(Boolean))
     : [];
+const siteUrl = Astro.site ?? new URL("https://www.jainhydraulics.com");
+const productUrl = toAbsoluteUrl(Astro.url.pathname, siteUrl);
+const productImageUrl = toAbsoluteUrl(image[0].default.src, siteUrl);
+const categoryPath = `/products/${type.toLowerCase().replaceAll(" ","-")}${type === "Cranes and Chip Processing" ? "" : "s"}/`;
+const categoryName = `${type}${type === "Cranes and Chip Processing" ? "" : "s"}`;
+const productName = `${title}${type === "Cranes and Chip Processing" ? "" : ` ${type}`}`;
+const plainDescription = String(description ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: productName,
+    description: plainDescription,
+    image: [productImageUrl],
+    category: categoryName,
+    brand: {
+        "@type": "Brand",
+        name: "Jain Hydraulics Recycling",
+    },
+    manufacturer: {
+        "@type": "Organization",
+        name: "Jain Hydraulics Recycling",
+    },
+    url: productUrl,
+};
+const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+        {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: toAbsoluteUrl("/", siteUrl),
+        },
+        {
+            "@type": "ListItem",
+            position: 2,
+            name: categoryName,
+            item: toAbsoluteUrl(categoryPath, siteUrl),
+        },
+        {
+            "@type": "ListItem",
+            position: 3,
+            name: productName,
+            item: productUrl,
+        },
+    ],
+};
 
 ---
+<script type="application/ld+json" set:html={JSON.stringify([productSchema, breadcrumbSchema])} />
+
 <div class=`${type === "Cranes and Chip Processing" ? "hidden " : ""}w-fit mx-auto mt-4 overflow-auto`>
     
     <ol class="flex items-center" aria-label="Breadcrumb">
@@ -123,15 +172,6 @@ const videoIds = Array.isArray(videos)
             Enquire Now
             <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         </a>
-        {
-            productVideos.length ? (
-                <a class="max-w-fit mx-auto py-3 px-4 inline-flex items-center text-xs font-semibold rounded-lg border border-gray-200 bg-white text-gray-800 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href={productVideos[0].url}>
-                    Watch machine video
-                    <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                </a>
-            ) : null
-        }
-
     </div>
 
     <!-- Description -->
