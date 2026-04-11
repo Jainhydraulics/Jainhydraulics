@@ -1,0 +1,40 @@
+---
+import BlogSectionParent from "../../components/BlogSectionParent.astro";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+	const pageSize = 4;
+	const allPosts = (await Astro.glob("../../content/posts/*.mdx")).sort(
+		(a, b) =>
+			new Date(b.frontmatter.pubDate ?? 0).getTime() -
+			new Date(a.frontmatter.pubDate ?? 0).getTime(),
+	);
+	const totalPages = Math.ceil(allPosts.length / pageSize);
+
+	return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, index) => {
+		const page = index + 2;
+
+		return {
+			params: { page: String(page) },
+			props: {
+				currentPage: page,
+				totalPages,
+				posts: allPosts.slice((page - 1) * pageSize, page * pageSize),
+			},
+		};
+	});
+}
+
+const { currentPage, totalPages, posts } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<Layout
+	canonical={canonicalURL}
+	title={`Insights Page ${currentPage} | Jain Hydraulics Recycling`}
+	description="Browse more Jain Hydraulics Recycling insights about metal recycling, waste processing, balers, shears, shredders, and sustainable scrap processing."
+>
+	<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+		<BlogSectionParent posts={posts} currentPage={currentPage} totalPages={totalPages} />
+	</div>
+</Layout>

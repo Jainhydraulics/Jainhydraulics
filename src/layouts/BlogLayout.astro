@@ -46,9 +46,11 @@ if (!images[frontmatter.imagePath]) throw new Error(`"${frontmatter.imagePath}" 
         </a>
 
         <div class="max-w-2xl">
+            <h1 class="mb-5 cursor-default select-none text-2xl font-bold tracking-tighter text-gray-800 md:text-3xl dark:text-gray-200">
+                {frontmatter.title}
+            </h1>
             <!-- Content -->
             <div class="space-y-5 md:space-y-8 prose prose-slate prose-a:text-blue-600 prose-a:inline-flex fprose-a:ont-medium prose-a:disabled:opacity-50 prose-a:disabled:pointer-events-none prose-a:no-underline hover:prose-a:text-blue-400">
-                <h1 class="sr-only">{frontmatter.title}</h1>
                 <Image src={images[frontmatter.imagePath]()} alt={frontmatter.title} />
                  <slot />
                 

@@ -19,6 +19,13 @@ const contactInfo = productsData.contact;
 import BlogSectionParent from "../components/BlogSectionParent.astro";
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const homepagePosts = (await Astro.glob("../content/posts/*.mdx"))
+	.sort(
+		(a, b) =>
+			new Date(b.frontmatter.pubDate ?? 0).getTime() -
+			new Date(a.frontmatter.pubDate ?? 0).getTime(),
+	)
+	.slice(0, 4);
 ---
 
 <Layout canonical={canonicalURL}  title="Manufacturer of Hydraulic Baler/Baling Press Machine, Scrap Shear/Cutting Machine, and Shredder Machine in India", description="India's Top Manufacturer of Scrap Metal Press/Baling, Shredding, and Shearing/Cutting Machines. Experience the difference with our superior balers, shears, and shredders – meticulously crafted to outshine and outperform competitors in every aspect.">
@@ -247,7 +254,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 	</div>
 
 	<div class="mt-2 mb-2 bg-slate-100 p-10">
-		<BlogSectionParent />
+		<BlogSectionParent posts={homepagePosts} showMore={true} />
 	</div>
 
 
