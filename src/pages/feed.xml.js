@@ -11,7 +11,7 @@ export async function GET(context) {
 		site: context.site,
 		// Array of `<item>`s in output xml
 		// See "Generating items" section for examples using content collections and glob imports
-		items: await pagesGlobToRssItems(import.meta.glob('./pages/posts/*.{md,mdx}')),
+		items: await pagesGlobToRssItems(import.meta.glob('./posts/*.{md,mdx}')),
 		// (optional) inject custom xml
 		customData: `<language>en-us</language>`,
 	});

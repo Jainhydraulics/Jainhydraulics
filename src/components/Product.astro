@@ -61,9 +61,15 @@ const videos = productData.videos;
                 <div class="space-y-6 sm:space-y-8">
                     <!-- Title -->
                     <div class="space-y-2">
-                        <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200 tracking-tighter ">{title + " "} { type === "Cranes and Chip Processing" ? "" : type }</h2>
+                        <h1 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200 tracking-tighter ">{title + " "} { type === "Cranes and Chip Processing" ? "" : type }</h1>
                         <span class="block text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
-                            { industry === "Metal Recycling" ? ( <a class="hover:opacity-60" href="/metal-recycling">{industry}</a> ) : industry }
+                            {
+                                industry === "Metal Recycling"
+                                    ? <a class="hover:opacity-60" href="/metal-recycling">{industry}</a>
+                                    : industry === "Waste Recycling"
+                                        ? <a class="hover:opacity-60" href="/waste-recycling">{industry}</a>
+                                        : industry
+                            }
                         </span>           
                     </div>
                     <!-- End Title -->
@@ -242,7 +248,7 @@ const videos = productData.videos;
                 realPhotos ?
                     realPhotos.map((item) => (
                         <div class="w-full h-full">
-                            <Image class="w-auto h-full object-cover mx-auto" src={item.default} alt="machinePhoto" />
+                            <Image class="w-auto h-full object-cover mx-auto" src={item.default} alt={`${title} ${type} machine photo`} />
                         </div>
                     ))
                 : null

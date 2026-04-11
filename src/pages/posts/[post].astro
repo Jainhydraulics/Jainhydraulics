@@ -6,7 +6,15 @@ export async function getStaticPaths() {
 
 	return allPosts.map(post => {
 		return {
-			params: { post: post.frontmatter.title.replaceAll(" ", "-") },
+			params: {
+				post: post.frontmatter.title
+					.normalize("NFKD")
+					.replace(/[\u0300-\u036f]/g, "")
+					.toLowerCase()
+					.replace(/[^a-z0-9]+/g, "-")
+					.replace(/^-+|-+$/g, "")
+					.replace(/-{2,}/g, "-"),
+			},
 			props: {
 				post
 			}
