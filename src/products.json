@@ -310,6 +310,9 @@
             ]
         },
         "manual_mini": {
+            "startingPriceInr": 899000,
+            "startingPriceLabel": "Rs 8.99 lakh",
+            "priceRegion": "India",
             "videos": ["btPmyA1YCgc", "ZJlV58YpluM"],
             "tableData": [
                 ["6x6", "42x24x20", "10-16 (MS) / 4-6 (Al)", 60, "1-2", "3.4", 20, 4.5],
@@ -403,6 +406,9 @@
             ]
         },
         "double_action": {
+            "startingPriceInr": 899000,
+            "startingPriceLabel": "Rs 8.99 lakh",
+            "priceRegion": "India",
             "videos": ["xh7DaDRg6OA,EeUJEmJQRwM"],
             "tableData": [
                 ["HEW-1073/1", "52x18x20", "18x12xT", "5", "3", "20", "60", "3.5", "400", "FRONT DOOR"],
@@ -492,6 +498,9 @@
             ]
         },
         "mini_plc": {
+            "startingPriceInr": 1799000,
+            "startingPriceLabel": "Rs 17.99 lakh",
+            "priceRegion": "India",
             "videos": ["WuCLOQC_Sis", "2AE6gI3q2_Y"],
             "tableData": [
                 ["6x6", "42x24x20", "10-16 (MS) / 4-6 (Al)", "36-42", "2-3", "4-6", 20, 5.5],
@@ -591,6 +600,9 @@
             ]
         },
         "jumbo_manual": {
+            "startingPriceInr": 1599000,
+            "startingPriceLabel": "Rs 15.99 lakh",
+            "priceRegion": "India",
             "videos": ["pgHV177zd-A"],
             "tableData": [
                 ["12x12", "60x36x24", "50-60 (MS) / 20-25 (Al)", 60, "7-8", "12-14", "30/40", "9-9.5"],
@@ -698,6 +710,9 @@
             ]
         },
         "high_density": {
+            "startingPriceInr": 2699000,
+            "startingPriceLabel": "Rs 26.99 lakh",
+            "priceRegion": "India",
             "videos": ["LRHLnlj-K-k", "yPdiXwVC9QA", "hp9a1JbKw1U"],
             "tableData": [
                 ["8x8", "55x30x18", "30-35 (MS) / 13-15 (Al)", "45-55", "1-2", "0.5-1","30/40/50", "12-12.5"],
@@ -866,6 +881,9 @@
             ]
         },
         "vertical": {
+            "startingPriceInr": 399000,
+            "startingPriceLabel": "Rs 3.99 lakh",
+            "priceRegion": "India",
             "videos": [],
             "tableData": [
                 ["72x45x42", "42x42x42", "20-30", "8.5", "25", "70-80", "14-16", "400", "Electrical control"],
@@ -1036,6 +1054,9 @@
             ]
         },       
         "jumbo_plc": {
+            "startingPriceInr": 2399000,
+            "startingPriceLabel": "Rs 23.99 lakh",
+            "priceRegion": "India",
             "videos": ["BQjhgYiP0s0", "kB5g_XI4hcg", "gWv-l8aOSvg"],
             "tableData": [
                 ["12x12", "60x36x24", "50-60 (MS) / 20-25 (Al)", "50-55", "15-18", "6-7", "40", "12-12.5"],
@@ -1149,6 +1170,9 @@
             ]
         },
         "super_jumbo": {
+            "startingPriceInr": 4599000,
+            "startingPriceLabel": "Rs 45.99 lakh",
+            "priceRegion": "India",
             "videos": ["FurQZQOu-ME", "ZEW22xOKfnQ", "8qx5f8JQ8P0", "HtoAp4uU9jo"],
             "tableData": [
                 ["20x20", "84x44x38", "200-250 (MS)", "80-85", "24-30", "80/100", "22-24"],
@@ -1252,6 +1276,9 @@
         ],
         "types": ["Hammer Mill", "Twin Shaft"],
         "hammer_mill": {
+            "startingPriceInr": 5599000,
+            "startingPriceLabel": "Rs 55.99 lakh",
+            "priceRegion": "India",
             "videos": ["QRfWCHsqj3I"],
             "tableData": [
                 ["Housing (Inch)", 30, 36, 42, 60],
@@ -1328,6 +1355,9 @@
             ]
         },
         "twin_shaft": {
+            "startingPriceInr": 3599000,
+            "startingPriceLabel": "Rs 35.99 lakh",
+            "priceRegion": "India",
             "videos": ["eDIeRWw67Ek", "LcV6XArJpGk", "4O8U83-cBtk"],
             "tableData": [
                 ["1200 x 810", "40x2", "58 - 60", "Hydraulic", "Aluminium Casting"],
@@ -1418,6 +1448,9 @@
             }
         ],
         "briquetting": {
+            "startingPriceInr": 2599000,
+            "startingPriceLabel": "Rs 25.99 lakh",
+            "priceRegion": "India",
             "videos": [],
             "tableData": [
                 ["90mm", "40", "3-5", "0.54-1.2"],
@@ -1503,5 +1536,4 @@
         }
 		}
 }
-
 
