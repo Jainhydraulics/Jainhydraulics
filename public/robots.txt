@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.jainhydraulics.com/sitemap-index.xml
+# Merchant feed: https://www.jainhydraulics.com/google-merchant.tsv
