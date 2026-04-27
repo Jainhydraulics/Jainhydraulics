@@ -80,6 +80,38 @@ function splitVideoIds(ids: unknown) {
 	);
 }
 
+const videoUploadDates: Record<string, string> = {
+	btPmyA1YCgc: "2024-01-19T02:03:06-08:00",
+	ZJlV58YpluM: "2024-01-18T23:24:15-08:00",
+	xh7DaDRg6OA: "2024-01-18T23:55:52-08:00",
+	EeUJEmJQRwM: "2022-08-06T05:01:17-07:00",
+	WuCLOQC_Sis: "2024-01-20T09:47:31-08:00",
+	"2AE6gI3q2_Y": "2024-01-20T08:39:36-08:00",
+	"pgHV177zd-A": "2024-01-19T03:20:09-08:00",
+	"LRHLnlj-K-k": "2024-01-19T01:53:42-08:00",
+	yPdiXwVC9QA: "2024-01-19T03:12:03-08:00",
+	hp9a1JbKw1U: "2023-07-08T04:31:32-07:00",
+	"8CEVW4wntqU": "2024-01-19T06:22:59-08:00",
+	gImL6tR1Sfc: "2024-01-19T18:57:38-08:00",
+	BQjhgYiP0s0: "2022-04-14T20:16:04-07:00",
+	kB5g_XI4hcg: "2024-01-20T09:32:01-08:00",
+	"gWv-l8aOSvg": "2022-08-19T02:40:41-07:00",
+	"FurQZQOu-ME": "2024-01-19T00:15:19-08:00",
+	ZEW22xOKfnQ: "2024-01-19T09:36:46-08:00",
+	"8qx5f8JQ8P0": "2024-01-19T09:10:36-08:00",
+	HtoAp4uU9jo: "2024-01-19T02:14:10-08:00",
+	nNMRc6S8wOc: "2024-01-19T03:40:42-08:00",
+	sYBF9kNM1ag: "2024-01-19T00:44:36-08:00",
+	"45b6Q8uSwfg": "2024-01-20T10:16:19-08:00",
+	vT804ilERQY: "2024-01-19T19:32:22-08:00",
+	BX9g4m6aqdo: "2024-01-20T10:25:10-08:00",
+	bNGufBRwtpc: "2024-01-19T18:20:49-08:00",
+	QRfWCHsqj3I: "2024-01-19T10:15:09-08:00",
+	eDIeRWw67Ek: "2024-01-19T08:51:57-08:00",
+	LcV6XArJpGk: "2023-04-14T06:39:19-07:00",
+	"4O8U83-cBtk": "2024-01-19T04:18:55-08:00",
+};
+
 const productGroups: ProductGroup[] = [
 	{
 		label: "Baler",
@@ -163,6 +195,7 @@ export function getVideos(): VideoEntry[] {
 					url: `/videos/${slug}`,
 					embedUrl: `https://www.youtube.com/embed/${id}`,
 					thumbnailUrl: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+					uploadDate: videoUploadDates[id] ?? "2026-04-11T00:00:00+05:30",
 				};
 			});
 		}),
