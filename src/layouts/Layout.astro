@@ -115,19 +115,14 @@ const schemaNodes = [
 		<Navbar />
 		<slot />
 		<Footer />
-		<script>
-			import "preline/dist/preline.js";
-		</script>
-
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YFDZ2P3BKB"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-
-			gtag("config", "G-YFDZ2P3BKB");
+		<script is:inline>
+			window.addEventListener(
+				"load",
+				() => {
+					void import("preline/dist/preline.js");
+				},
+				{ once: true },
+			);
 		</script>
 	</body>
 </html>
