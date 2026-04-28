@@ -115,14 +115,8 @@ const schemaNodes = [
 		<Navbar />
 		<slot />
 		<Footer />
-		<script is:inline>
-			window.addEventListener(
-				"load",
-				() => {
-					void import("preline/dist/preline.js");
-				},
-				{ once: true },
-			);
+		<script>
+			import "preline/dist/preline.js";
 		</script>
 	</body>
 </html>
