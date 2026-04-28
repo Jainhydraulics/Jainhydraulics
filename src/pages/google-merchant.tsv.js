@@ -1,5 +1,6 @@
 import productJSON from "../products.json";
 import { toAbsoluteUrl } from "../utils/seo";
+import { getImage } from "astro:assets";
 
 import manualMiniImage from "../images/Products/Balers/Mini Automatic.png";
 import doubleActionImage from "../images/Products/Balers/Z_Double Action Front Door.png";
@@ -134,7 +135,7 @@ function buildRows(site) {
 		...item,
 		description: normalizeFeedText(item.description),
 		link: toAbsoluteUrl(item.link, siteUrl),
-		imageLink: toAbsoluteUrl(item.image.src, siteUrl),
+		imageLink: "",
 		price: formatPrice(item.price),
 	}));
 }
@@ -175,7 +176,21 @@ function toTsv(rows) {
 }
 
 export async function GET(context) {
-	const rows = buildRows(context.site);
+	const rows = await Promise.all(
+		buildRows(context.site).map(async (item) => {
+			const optimizedImage = await getImage({
+				src: item.image,
+				width: 800,
+				quality: 80,
+				format: "webp",
+			});
+
+			return {
+				...item,
+				imageLink: toAbsoluteUrl(optimizedImage.src, context.site ?? FALLBACK_SITE),
+			};
+		}),
+	);
 	const body = `${toTsv(rows)}\n`;
 
 	return new Response(body, {
