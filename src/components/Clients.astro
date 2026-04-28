@@ -12,7 +12,7 @@ const { text, titleColor } = Astro.props;
     <div class="animate-marquee flex justify-around md:min-w-[400%] xl:min-w-[250%] min-w-[790%] h-fit">
         {
             clients.map((item, index) => (
-                index < 100 ? <Image class="w-auto h-8 md:h-10 mx-6" src={item.default} alt={(item.default.src.match(/\/([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)/) || [])[1]} /> : null
+                index < 100 ? <Image class="w-auto h-8 md:h-10 mx-6" height={40} src={item.default} alt={(item.default.src.match(/\/([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)/) || [])[1]} /> : null
             ))
         }
     </div>
@@ -20,7 +20,7 @@ const { text, titleColor } = Astro.props;
     <div class="animate-marquee flex justify-around md:min-w-[400%] xl:min-w-[250%] min-w-[790%]">
         {
             clients.map((item, index) => (
-                index < 100 ? <Image class="w-auto h-8 md:h-10 mx-6" src={item.default} alt={(item.default.src.match(/\/([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)/) || [])[1]} /> : null
+                index < 100 ? <Image class="w-auto h-8 md:h-10 mx-6" height={40} src={item.default} alt={(item.default.src.match(/\/([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)/) || [])[1]} /> : null
             ))
         }
     </div>
@@ -50,4 +50,3 @@ const { text, titleColor } = Astro.props;
  
 
  */}
-
